@@ -5,3 +5,5 @@ Stages:
 ASP NET core
 
 React (for mobile application) 
+
+test
