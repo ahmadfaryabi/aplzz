@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Aplzz.Models;
 using Aplzz.ViewModels;
 using System.Globalization;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace Aplzz.Controllers
 {
@@ -38,16 +40,27 @@ namespace Aplzz.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Post post)
+        public async Task<IActionResult> Create(Post post, IFormFile imageFile)
         {
-        if (ModelState.IsValid)
-        {
-            post.CreatedAt = DateTime.Now;
-            _context.Posts.Add(post);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-        }
-        return View(post);
+            if (ModelState.IsValid)
+            {
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    // Lagre bildet på serveren
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+                }
+
+                post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
+                _context.Posts.Add(post);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(post);
         }    
     }
 }
