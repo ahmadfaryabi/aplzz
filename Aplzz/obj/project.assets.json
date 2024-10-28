@@ -626,6 +626,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -638,6 +639,8 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+=======
+>>>>>>> 37ea866 (Intializing  logging)
       "Serilog/4.0.0": {
         "type": "package",
         "compile": {
@@ -2079,6 +2082,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2092,6 +2096,8 @@
         "mono.texttemplating.nuspec"
       ]
     },
+=======
+>>>>>>> 37ea866 (Intializing  logging)
     "Serilog/4.0.0": {
       "sha512": "2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
       "type": "package",
@@ -2622,8 +2628,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.10",
+=======
+>>>>>>> 37ea866 (Intializing  logging)
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Serilog.Extensions.Logging >= 8.0.0",
       "Serilog.Sinks.File >= 6.0.0"
@@ -2631,22 +2640,31 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/.nuget/packages/": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
+=======
+    "C:\\Users\\vansa\\.nuget\\packages\\": {}
+>>>>>>> 37ea866 (Intializing  logging)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
+>>>>>>> 37ea866 (Intializing  logging)
       "projectName": "Aplzz",
-      "projectPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
-      "packagesPath": "/Users/libansulub/.nuget/packages/",
-      "outputPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/",
+      "projectPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
+      "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/libansulub/.nuget/NuGet/NuGet.Config"
 =======
       "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
@@ -2658,6 +2676,9 @@
       "configFilePaths": [
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
+=======
+        "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 37ea866 (Intializing  logging)
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2728,7 +2749,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
