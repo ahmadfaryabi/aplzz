@@ -1,0 +1,24 @@
+@model IEnumerable<Post>
+
+<div class="container">
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a asp-controller="Item" asp-action="Details" asp-route-id="@post.Id">@post.Content</a>
+                        </h5>
+                        <p class="card-text">@post.ImageUrl</p>
+                        <p class="card-text">@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</p>
+                        <p class="card-text">Likes: @post.Likes</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <p>
+        <a class="btn btn-secondary" asp-controller="Post" asp-action="Create">Post content</a>
+    </p>    
+</div>

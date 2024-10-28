@@ -29,5 +29,25 @@ namespace Aplzz.Controllers
             var viewModel = new PostViewModel(posts, "Aplzz Feed");
             return View(viewModel);
         }
+
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+        return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Post post)
+        {
+        if (ModelState.IsValid)
+        {
+            post.CreatedAt = DateTime.Now;
+            _context.Posts.Add(post);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+        return View(post);
+        }    
     }
 }

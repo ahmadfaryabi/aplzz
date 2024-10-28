@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gTzkoXYQ74E=",
+  "dgSpecHash": "Y5ntOC+l618=",
   "success": true,
-  "projectFilePath": "/Users/libansulub/Desktop/Aplzz/Aplzz.csproj",
+  "projectFilePath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
   "expectedPackageFiles": [
     "/Users/libansulub/.nuget/packages/microsoft.data.sqlite.core/8.0.10/microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/libansulub/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

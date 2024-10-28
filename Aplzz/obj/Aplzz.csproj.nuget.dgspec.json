@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/libansulub/Desktop/Aplzz/Aplzz.csproj": {}
+    "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
   },
   "projects": {
-    "/Users/libansulub/Desktop/Aplzz/Aplzz.csproj": {
+    "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/libansulub/Desktop/Aplzz/Aplzz.csproj",
+        "projectUniqueName": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "/Users/libansulub/Desktop/Aplzz/Aplzz.csproj",
+        "projectPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
         "packagesPath": "/Users/libansulub/.nuget/packages/",
-        "outputPath": "/Users/libansulub/Desktop/Aplzz/obj/",
+        "outputPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/libansulub/.nuget/NuGet/NuGet.Config"
