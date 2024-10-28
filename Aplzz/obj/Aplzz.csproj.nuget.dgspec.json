@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
+    "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
   },
   "projects": {
-    "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {
+    "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
+        "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
-        "packagesPath": "/Users/libansulub/.nuget/packages/",
-        "outputPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/",
+        "projectPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
+        "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/libansulub/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,6 +46,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -67,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
