@@ -1,0 +1,27 @@
+@model Aplzz.Models.Post
+
+<h2>Slett Innlegg</h2>
+
+<h3>Er du sikker på at du vil slette dette innlegget?</h3>
+<div>
+    <h4>Innlegg</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Innlegg Id</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Innhold</dt>
+        <dd class="col-sm-10">@Model.Content</dd>
+
+        <dt class="col-sm-2">Opprettet</dt>
+        <dd class="col-sm-10">@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</dd>
+
+        <dt class="col-sm-2">Bilde URL</dt>
+        <dd class="col-sm-10">@Model.ImageUrl</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+        <button type="submit" class="btn btn-danger">Slett</button>
+        <a asp-action="Index" class="btn btn-secondary">Avbryt</a>
+    </form>
+</div>

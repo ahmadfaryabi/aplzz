@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z8jh3CXqn/itfAABxi+aTdtLRpLicCFuc2yos/DxigI=",
+  "Hash": "iejHWrjk0/HtCRMOq7HynRWvX+jguDTQFfmkCj3F9eo=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/chickenleg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/chickenleg.jpg"
+    },
+    {
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/cider.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -131,12 +150,12 @@
       "OriginalItemSpec": "wwwroot/images/coke.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/frenchfries.jpg",
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
       "BasePath": "_content/Aplzz",
-      "RelativePath": "images/frenchfries.jpg",
+      "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +166,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/frenchfries.jpg"
+      "OriginalItemSpec": "wwwroot/images/pizza.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/tacos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/tacos.jpg"
     },
     {
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/bootstrap.js",

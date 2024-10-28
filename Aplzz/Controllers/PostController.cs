@@ -62,5 +62,83 @@ namespace Aplzz.Controllers
             }
             return View(post);
         }    
+
+        [HttpPost]
+        public async Task<IActionResult> AddComment(int postId, string commentText)
+        {
+            if (!string.IsNullOrEmpty(commentText))
+            {
+                var comment = new Comment
+                {
+                    Text = commentText,
+                    CommentedAt = DateTime.Now,
+                    PostId = postId
+                };
+
+                _context.Comments.Add(comment);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var post = _context.Posts.Find(id); 
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return View(post); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
+        {
+            if (ModelState.IsValid)
+            {
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    // Lagre bildet på serveren
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+                }
+
+                post.CreatedAt = DateTime.Now;
+                _context.Posts.Update(post); 
+                await _context.SaveChangesAsync(); 
+                return RedirectToAction(nameof(Index)); 
+            }
+            return View(post); 
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var post = _context.Posts.Find(id);
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return View(post); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmed(int id) 
+        {
+            var post = _context.Posts.Find(id); 
+            if (post == null)
+            {
+                return NotFound();
+            }
+            _context.Posts.Remove(post);
+            await _context.SaveChangesAsync(); 
+            return RedirectToAction(nameof(Index)); 
+        }
     }
 }

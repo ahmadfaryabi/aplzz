@@ -22,8 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/Error.cshtml]

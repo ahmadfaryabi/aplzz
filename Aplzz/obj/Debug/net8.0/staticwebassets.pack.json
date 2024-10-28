@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
+      "PackagePath": "staticwebassets/images/chickenleg.jpg"
+    },
+    {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/cider.jpg",
       "PackagePath": "staticwebassets/images/cider.jpg"
     },
@@ -21,8 +25,12 @@
       "PackagePath": "staticwebassets/images/coke.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/frenchfries.jpg",
-      "PackagePath": "staticwebassets/images/frenchfries.jpg"
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
+      "PackagePath": "staticwebassets/images/pizza.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",
+      "PackagePath": "staticwebassets/images/tacos.jpg"
     },
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/bootstrap.js",

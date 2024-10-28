@@ -1,9 +1,9 @@
 @model Aplzz.Models.Post
 
-<h2>Opprett nytt innlegg</h2>
+<h2>Oppdater Innlegg</h2>
 
-<form asp-action="Create" enctype="multipart/form-data">
-    <div class="form-group">
+<form asp-action="Update" enctype="multipart/form-data">
+   <div class="form-group">
         <label asp-for="Content"></label><span class="text-danger">*</span>
         <input asp-for="Content" class="form-control" />
         <span asp-validation-for="Content" class="text-danger"></span>
@@ -16,8 +16,8 @@
     <div class="form-group">
         <img id="imagePreview" src="" alt="Image Preview" class="img-fluid" style="display: none;" />
     </div>
-    <button type="submit" class="btn btn-secondary">Opprett</button>
-    <a asp-action="Index" class="btn btn-secondary">Tilbake til oversikt</a>
+    <button type="submit" class="btn btn-primary">Lagre Endringer</button>
+    <a asp-action="Index" class="btn btn-secondary">Avbryt</a>
 </form>
 
 <script>
