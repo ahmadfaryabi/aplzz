@@ -10,6 +10,9 @@ builder.Services.AddDbContext<PostDbContext>(options => {
         builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
 });
 
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

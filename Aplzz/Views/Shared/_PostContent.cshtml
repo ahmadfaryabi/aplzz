@@ -8,7 +8,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <a asp-controller="Item" asp-action="Details" asp-route-id="@post.Id">@post.Content</a>
+                            <a asp-controller="Item" asp-action="Details" asp-route-id="@post.PostId">@post.Content</a>
                         </h5>
                         <p class="card-text">@post.ImageUrl</p>
                         <p class="card-text">@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</p>

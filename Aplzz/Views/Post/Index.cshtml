@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aplzz - Sosial Media</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container mt-4">
@@ -14,7 +15,7 @@
             <a asp-controller="Post" asp-action="Create" class="btn btn-primary">Opprett nytt innlegg</a>
         </div>
         <h1 class="mb-4 text-center">@Model.CurrentViewName</h1>
-        
+
         @if (Model.Posts != null && Model.Posts.Any())
         {
             <div class="d-flex flex-column align-items-center">
@@ -29,12 +30,31 @@
                             <div class="card-body">
                                 <h5 class="card-title">@post.Content</h5>
                                 <p class="text-muted">Postet: @post.CreatedAt.ToString("dd.MM.yyyy HH:mm")</p>
-                                <button class="btn btn-primary btn-sm like-button" data-post-id="@post.Id" data-liked="false">Lik (<span class="like-count">@post.Likes</span>)</button>
-                                <button class="btn btn-secondary btn-sm" data-bs-toggle="collapse" data-bs-target="#commentForm-@post.Id">Kommenter</button>
 
-                                <div class="collapse" id="commentForm-@post.Id">
+                                <!-- Like Button with AJAX -->
+                                @{
+                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == 1);
+                                }
+                                <button 
+                                    class="btn btn-primary btn-sm like-button" 
+                                    data-post-id="@post.PostId" 
+                                    data-liked="@isLiked">
+                                    @if (isLiked)
+                                    {
+                                        <span>Fjern Like</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Lik</span>
+                                    }
+                                    (<span class="like-count">@post.Likes?.Count ?? 0</span>)
+                                </button>
+
+                                <button class="btn btn-secondary btn-sm" data-bs-toggle="collapse" data-bs-target="#commentForm-@post.PostId">Kommenter</button>
+
+                                <div class="collapse" id="commentForm-@post.PostId">
                                     <form asp-action="AddComment" method="post">
-                                        <input type="hidden" name="postId" value="@post.Id" />
+                                        <input type="hidden" name="postId" value="@post.PostId" />
                                         <div class="mb-2">
                                             <input type="text" name="commentText" class="form-control" placeholder="Skriv en kommentar..." required />
                                         </div>
@@ -57,8 +77,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <a asp-action="Update" asp-route-id="@post.Id" class="btn btn-info btn-sm">Rediger</a>
-                                <a asp-action="Delete" asp-route-id="@post.Id" class="btn btn-danger btn-sm ms-1">Slett</a>
+                                <a asp-action="Update" asp-route-id="@post.PostId" class="btn btn-info btn-sm">Rediger</a>
+                                <a asp-action="Delete" asp-route-id="@post.PostId" class="btn btn-danger btn-sm ms-1">Slett</a>
                             </div>
                         </div>
                     </div>
@@ -71,26 +91,37 @@
         }
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        document.querySelectorAll('.like-button').forEach(button => {
-            button.addEventListener('click', function() {
-                const postId = this.getAttribute('data-post-id');
-                const liked = this.getAttribute('data-liked') === 'true';
-                const likeCountElement = this.querySelector('.like-count');
-                let likeCount = parseInt(likeCountElement.textContent);
+        $(document).ready(function() {
+            // Like button click event
+            $(".like-button").click(function(e) {
+                e.preventDefault();
 
-                if (liked) {
-                    // Hvis allerede likt, fjern liken
-                    likeCount--;
-                    this.setAttribute('data-liked', 'false');
-                } else {
-                    // Hvis ikke likt, legg til liken
-                    likeCount++;
-                    this.setAttribute('data-liked', 'true');
-                }
+                var button = $(this);
+                var postId = button.data("post-id");
+                var isLiked = button.attr("data-liked") === "true";
 
-                likeCountElement.textContent = likeCount;
+                // Send AJAX POST request
+                $.ajax({
+                    url: "/Post/LikePost",
+                    method: "POST",
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    data: { postId: postId },
+                    success: function(response) {
+                        // Update like count and button state
+                        button.find(".like-count").text(response.likesCount);
+                        button.attr("data-liked", !isLiked); // Toggle like state
+
+                        // Update button text based on like state
+                        if (!isLiked) {
+                            button.html(`Fjern Like (<span class="like-count">${response.likesCount}</span>)`);
+                        } else {
+                            button.html(`Lik (<span class="like-count">${response.likesCount}</span>)`);
+                        }
+                    }
+                });
             });
         });
     </script>
