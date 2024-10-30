@@ -30,6 +30,7 @@ builder.Services.AddDbContext<DbContexts>(options => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 builder.Services.AddSession(options => {
@@ -57,6 +58,8 @@ builder.Services.AddSession(options =>
 =======
 =======
 >>>>>>> 86d362f (login system endring)
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information() // levels: Trace< Information < Warning < Erorr < Fatal
     .WriteTo.File($"Logs/app_{DateTime.Now:yyyyMMdd_HHmmss}.log");
@@ -73,7 +76,14 @@ builder.Services.AddSession(options => {
     options.Cookie.IsEssential = true;
 });
 >>>>>>> f4ab8f9 (login system endring)
+<<<<<<< HEAD
 >>>>>>> 86d362f (login system endring)
+=======
+=======
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 
 var app = builder.Build();
 

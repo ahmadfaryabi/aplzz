@@ -9,7 +9,10 @@ using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+<<<<<<< HEAD
 using Aplzz.DAL;
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 
 namespace Aplzz.Controllers
 {
@@ -30,6 +33,7 @@ namespace Aplzz.Controllers
 =======
 >>>>>>> 86d362f (login system endring)
         private readonly PostDbContext _context; // Legg til en privat felt for konteksten
+<<<<<<< HEAD
         private readonly ILogger<PostController>_logger;
 
         // Injiser PostDbContext via konstruktøren
@@ -43,6 +47,15 @@ namespace Aplzz.Controllers
         {
             _context = context;
             _logger = logger;
+=======
+        private readonly ILogger<PostController> _logger; // Legg til logger
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(PostDbContext context, ILogger<PostController> logger)
+        {
+            _context = context;
+            _logger = logger; // Initialiser logger
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
         }
 
         // Handling to display the list of posts
@@ -172,6 +185,7 @@ namespace Aplzz.Controllers
                 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 try 
                 {
                     await _postRepository.AddComment(comment);
@@ -192,6 +206,8 @@ namespace Aplzz.Controllers
             _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
             return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
 =======
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
                 try{
                  _context.Comments.Add(comment);
                   await _context.SaveChangesAsync();
@@ -203,6 +219,17 @@ namespace Aplzz.Controllers
                     }
           }
             
+=======
+                _context.Comments.Add(comment);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
+            }
+            else
+            {
+                _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
+            }
+
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
             return RedirectToAction(nameof(Index));
 >>>>>>> c954901 (Errohandling og logging)
         }
@@ -227,6 +254,7 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
         {
+<<<<<<< HEAD
             var existingPost = await _postRepository.GetPostById(post.PostId); // Hent eksisterende innlegg
             if (existingPost == null)
             {
@@ -266,6 +294,12 @@ namespace Aplzz.Controllers
         {
             _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
 =======
+=======
+            var existingPost = await _context.Posts.FindAsync(post.PostId); // Hent eksisterende innlegg
+            if (existingPost == null)
+            {
+<<<<<<< HEAD
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     try{
@@ -298,7 +332,33 @@ namespace Aplzz.Controllers
             }
             _logger.LogError("");
             return View(post); 
+<<<<<<< HEAD
 >>>>>>> c954901 (Errohandling og logging)
+=======
+=======
+                return NotFound(); // Returner 404 hvis innlegget ikke finnes
+            }
+
+            // Oppdater feltene i eksisterende innlegg
+            existingPost.Content = post.Content; // Oppdater innhold
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                // Lagre bildet på serveren
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                existingPost.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+            }
+
+            existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt
+            _context.Posts.Update(existingPost); 
+            await _context.SaveChangesAsync(); 
+            return RedirectToAction(nameof(Index)); 
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
         }
             return View(post);
         }
@@ -324,6 +384,7 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             var post = await _postRepository.GetPostById(id);
             if (post == null)
@@ -379,8 +440,13 @@ namespace Aplzz.Controllers
 
 
 =======
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
             try{
                 var post = _context.Posts.Find(id); 
+=======
+            var post = await _context.Posts.FindAsync(id); 
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
             if (post == null)
             {
               _logger.LogError("[PostController] post not found for the PostId {PostId:0000}",id); 
@@ -395,6 +461,71 @@ namespace Aplzz.Controllers
            
             return RedirectToAction(nameof(Index)); 
         }
+
+        [HttpPost]
+public async Task<IActionResult> LikePost(int postId)
+{
+    int userId = 1; // Hardkode userId for testbrukeren "testuser"
+    _logger.LogInformation("Bruker {UserId} liker postId: {PostId}", userId, postId);
+
+    var postExists = await _context.Posts.AnyAsync(p => p.PostId == postId);
+    if (!postExists)
+    {
+        _logger.LogWarning("Post med postId: {PostId} eksisterer ikke.", postId);
+        return NotFound();
     }
+<<<<<<< HEAD
 }  
 >>>>>>> c954901 (Errohandling og logging)
+=======
+<<<<<<< HEAD
+}  
+=======
+
+    var existingLike = await _context.Likes
+        .FirstOrDefaultAsync(l => l.PostId == postId && l.UserId == userId);
+
+    if (existingLike != null)
+    {
+        // Hvis det allerede finnes en like fra denne brukeren, fjern den
+        _context.Likes.Remove(existingLike);
+        _logger.LogInformation("Fjerner like for postId: {PostId} av bruker {UserId}", postId, userId);
+    }
+    else
+    {
+        // Hvis ingen like finnes, legg til en ny
+        var like = new Like
+        {
+            PostId = postId,
+            UserId = userId
+        };
+        _context.Likes.Add(like);
+        _logger.LogInformation("Legger til like for postId: {PostId} av bruker {UserId}", postId, userId);
+    }
+
+    await _context.SaveChangesAsync();
+
+    // Returner oppdatert like-telling
+    var likeCount = await _context.Likes.CountAsync(l => l.PostId == postId);
+    return Json(new { likesCount = likeCount });
+}
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateTestUser()
+        {
+            var testUser = new User
+            {
+                Username = "testuser",
+                Email = "testuser@example.com"
+            };
+
+            _context.Users.Add(testUser);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)

@@ -109,10 +109,13 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"

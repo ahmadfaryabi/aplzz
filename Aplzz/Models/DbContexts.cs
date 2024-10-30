@@ -13,7 +13,7 @@ namespace Aplzz.DAL
     {
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
         public DbSet<User> Users { get; set; } 
 <<<<<<< HEAD
@@ -21,6 +21,8 @@ namespace Aplzz.DAL
         // needed tables for soocial media managements
         public DbSet<Post> Posts { get; set; } 
         public DbSet<Comment> Comments { get; set; } 
+        public DbSet<Like> Likes { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
 =======

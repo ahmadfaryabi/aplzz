@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "PackagePath": "staticwebassets/images/data1100.jpeg"
     },
@@ -99,12 +100,34 @@
 >>>>>>> 5504f1b (database endringer)
       "PackagePath": "staticwebassets/images/tacos.jpg"
 =======
+=======
+>>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
       "PackagePath": "staticwebassets\\images\\data1100.jpeg"
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
       "PackagePath": "staticwebassets\\images\\pizza.jpg"
+=======
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
+      "PackagePath": "staticwebassets/images/fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/frenchfries.jpg",
+      "PackagePath": "staticwebassets/images/frenchfries.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
+      "PackagePath": "staticwebassets/images/pizza.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
+      "PackagePath": "staticwebassets/images/ribs.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",
+      "PackagePath": "staticwebassets/images/tacos.jpg"
+>>>>>>> ff3fccc (La til test user for å teste like funksjonen)
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
