@@ -16,6 +16,7 @@ namespace Aplzz.Controllers
     
     public class PostController : Controller
     {
+<<<<<<< HEAD
         private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger; // Legg til logger
 
@@ -24,6 +25,32 @@ namespace Aplzz.Controllers
         {
             _postRepository = postRepository;
             _logger = logger; // Initialiser logger
+=======
+        private readonly PostDbContext _context; // Legg til en privat felt for konteksten
+        private readonly ILogger<PostController>_logger;
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(PostDbContext context,ILogger<PostController>logger)
+        {
+            _context = context;
+            _logger = logger;
+        }
+
+        // Handling to display the list of posts
+        public IActionResult Index()
+        {
+           
+            var posts = _context.Posts
+                .Include(p => p.Comments) // Inkluder kommentarer
+                .ToList(); // Hent innleggene som en liste
+            if(posts.Count == 0) {
+               _logger.LogError("[PostController] Post List not found while executing _context.Posts");
+               
+            }
+            
+            var viewModel = new PostViewModel(posts, "Aplzz Feed");
+            return View(viewModel);
+>>>>>>> c954901 (Errohandling og logging)
         }
 
        // Handling to display the list of posts
@@ -53,6 +80,7 @@ namespace Aplzz.Controllers
             {
                 if (imageFile != null && imageFile.Length > 0)
                 {
+<<<<<<< HEAD
                     try
                     {
                         // Lagre bildet på serveren
@@ -80,7 +108,40 @@ namespace Aplzz.Controllers
                     _logger.LogError("[PostController] Failed to create post: {e}", e.Message);
                 }
                 _logger.LogWarning("[PostController] post creation has failed {@post}",post);
+=======
+                    try {
+                        // Lagre bildet på serveren
+                       var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                       using (var stream = new FileStream(filePath, FileMode.Create))
+                      {
+                        await imageFile.CopyToAsync(stream);
+                       }
+                      post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+                      
+                    }
+                    catch(Exception e)
+                    {
+                        _logger.LogError("[PostController] image upload failed for image{@imageFile},error message :{e}",imageFile,e.Message);
+                        
+                    }
+                    
+                   
+                }
+
+                post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
+                try{
+                  _context.Posts.Add(post);
+                   await _context.SaveChangesAsync();
+                   return RedirectToAction(nameof(Index));
+                } catch(Exception e)
+                    {
+                        _logger.LogError("[PostController] post creation  failed for post {@post},error message :{e}",post,e.Message);
+                        
+                    }
+                
+>>>>>>> c954901 (Errohandling og logging)
             }
+            _logger.LogWarning("[PostController] Post creation failed{@post}",post);
             return View(post);
         }
             
@@ -101,6 +162,7 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
+<<<<<<< HEAD
                 try 
                 {
                     await _postRepository.AddComment(comment);
@@ -120,6 +182,20 @@ namespace Aplzz.Controllers
             
             _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
             return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
+=======
+                try{
+                 _context.Comments.Add(comment);
+                  await _context.SaveChangesAsync();
+                } 
+                catch{
+                    _logger.LogError("[PostController] Failed to add comment for post {PostId}", postId);
+                     return BadRequest("Comment creation failed.");
+                    
+                    }
+          }
+            
+            return RedirectToAction(nameof(Index));
+>>>>>>> c954901 (Errohandling og logging)
         }
 
         [HttpGet]
@@ -128,8 +204,13 @@ namespace Aplzz.Controllers
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
+<<<<<<< HEAD
                 _logger.LogError("[PostController] Post not found when updating the postId{postId:0000}", id);
                 return NotFound("Post not found for the postId");
+=======
+              _logger.LogError("[PostController] Post not found to update the PostId{PostId:0000}",id);
+              return BadRequest("Post not found for the PostId");
+>>>>>>> c954901 (Errohandling og logging)
             }
             return View(post);
         }
@@ -140,6 +221,7 @@ namespace Aplzz.Controllers
             var existingPost = await _postRepository.GetPostById(post.PostId); // Hent eksisterende innlegg
             if (existingPost == null)
             {
+<<<<<<< HEAD
                 _logger.LogError("[PostController] Post List not found while executing _postRepository.GetAll()");
                 return NotFound(); // Returner 404 hvis innlegget ikke finnes
             }
@@ -174,6 +256,40 @@ namespace Aplzz.Controllers
             }  catch (Exception e)
         {
             _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
+=======
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    try{
+                        // Lagre bildet på serveren
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen 
+                    } catch(Exception e){
+                        _logger.LogError("[PostController] image upload failed for image{@imageFile},error message :{e}",imageFile,e.Message);
+                        
+
+                }
+                   
+                }
+
+                post.CreatedAt = DateTime.Now;
+                try{
+                _context.Posts.Update(post); 
+                await _context.SaveChangesAsync(); 
+                return RedirectToAction(nameof(Index)); 
+                 }
+                  catch (Exception e)
+                  {
+                    _logger.LogError("[PostController] image upload failed for image{@imageFile},error message :{e}",imageFile,e.Message);
+                  }
+                
+            }
+            _logger.LogError("");
+            return View(post); 
+>>>>>>> c954901 (Errohandling og logging)
         }
             return View(post);
         }
@@ -185,8 +301,13 @@ namespace Aplzz.Controllers
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
+<<<<<<< HEAD
                 _logger.LogError("[PostController] Post not found for PostId{PostId:0000}", id);
                 return NotFound("Post not found for the PostId");
+=======
+                _logger.LogError("[PostController] Post not found for the PostId {PostId:0000}",id);
+                return BadRequest("Post not found for the PostId");
+>>>>>>> c954901 (Errohandling og logging)
             }
             return View(post);
         }
@@ -194,6 +315,7 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+<<<<<<< HEAD
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
@@ -247,3 +369,23 @@ namespace Aplzz.Controllers
     
 
 
+=======
+            try{
+                var post = _context.Posts.Find(id); 
+            if (post == null)
+            {
+              _logger.LogError("[PostController] post not found for the PostId {PostId:0000}",id); 
+              return BadRequest("post not found for the PostId");     
+            }
+            _context.Posts.Remove(post);
+            await _context.SaveChangesAsync();  
+            } catch(Exception e){
+                _logger.LogError(e, "[PostController] Error deleting post with ID {PostId}", id);
+
+            }
+           
+            return RedirectToAction(nameof(Index)); 
+        }
+    }
+}  
+>>>>>>> c954901 (Errohandling og logging)
