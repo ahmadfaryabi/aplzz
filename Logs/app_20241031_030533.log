@@ -1,0 +1,257 @@
+2024-10-31 03:05:33.669 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-31 03:05:33.785 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-31 03:05:33.791 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-31 03:05:33.792 +01:00 [INF] Hosting environment: Development
+2024-10-31 03:05:33.792 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Aplzz
+2024-10-31 03:05:33.885 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:05:33.894 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-31 03:05:33.935 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:33.967 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:05:33.975 +01:00 [INF] Accessing expired session, Key:ebc2c8dc-9747-82a1-908f-6f16dc9a6215
+2024-10-31 03:05:34.020 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:05:34.200 +01:00 [INF] Executed ViewResult - view Index executed in 181.6865ms.
+2024-10-31 03:05:34.210 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 242.0639ms
+2024-10-31 03:05:34.210 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:34.217 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 333.9603ms
+2024-10-31 03:05:44.545 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-31 03:05:44.549 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:44.551 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:05:45.308 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:05:45.314 +01:00 [INF] Accessing expired session, Key:ebc2c8dc-9747-82a1-908f-6f16dc9a6215
+2024-10-31 03:05:45.315 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:05:45.357 +01:00 [INF] Executed ViewResult - view Index executed in 42.5988ms.
+2024-10-31 03:05:45.357 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 805.2465ms
+2024-10-31 03:05:45.357 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:45.365 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 819.6627ms
+2024-10-31 03:05:47.076 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 233
+2024-10-31 03:05:47.081 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:47.093 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.LoginModel) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:05:47.119 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:05:47.436 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__Email_0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-31 03:05:47.451 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Password_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Password" = @__Password_0)
+2024-10-31 03:05:47.501 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__loginModel_Email_0='?' (Size = 24), @__loginModel_Password_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__loginModel_Email_0 AND "u"."Password" = @__loginModel_Password_1
+2024-10-31 03:05:47.584 +01:00 [INF] Accessing expired session, Key:ebc2c8dc-9747-82a1-908f-6f16dc9a6215
+2024-10-31 03:05:47.585 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-31 03:05:47.585 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 489.8889ms
+2024-10-31 03:05:47.585 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:47.590 +01:00 [INF] Session started; Key:ebc2c8dc-9747-82a1-908f-6f16dc9a6215, Id:71e3d240-7b3d-4a9b-a458-692bc7643f63
+2024-10-31 03:05:47.591 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 302 0 null 515.2721ms
+2024-10-31 03:05:47.593 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:05:47.594 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:47.594 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:05:47.601 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:05:47.613 +01:00 [INF] Executed ViewResult - view Index executed in 12.6187ms.
+2024-10-31 03:05:47.614 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 19.5033ms
+2024-10-31 03:05:47.614 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:47.614 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 20.7916ms
+2024-10-31 03:05:56.642 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-31 03:05:56.643 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:56.643 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:05:56.734 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:05:56.735 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:05:56.738 +01:00 [INF] Executed ViewResult - view Index executed in 3.2854ms.
+2024-10-31 03:05:56.738 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 95.1229ms
+2024-10-31 03:05:56.738 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:56.738 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 95.9945ms
+2024-10-31 03:05:59.483 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 221
+2024-10-31 03:05:59.484 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:59.484 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.LoginModel) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:05:59.487 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:05:59.494 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-31 03:05:59.495 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Password_0='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Password" = @__Password_0)
+2024-10-31 03:05:59.496 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__loginModel_Email_0='?' (Size = 15), @__loginModel_Password_1='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__loginModel_Email_0 AND "u"."Password" = @__loginModel_Password_1
+2024-10-31 03:05:59.497 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-31 03:05:59.497 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 12.4295ms
+2024-10-31 03:05:59.497 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:05:59.498 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 302 0 null 14.7131ms
+2024-10-31 03:05:59.500 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:05:59.501 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:59.501 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:05:59.501 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:05:59.502 +01:00 [INF] Executed ViewResult - view Index executed in 0.7361ms.
+2024-10-31 03:05:59.502 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.8968ms
+2024-10-31 03:05:59.502 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:05:59.502 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.6624ms
+2024-10-31 03:06:03.325 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-31 03:06:03.326 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:03.326 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:06:03.329 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:06:03.330 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:03.333 +01:00 [INF] Executed ViewResult - view Index executed in 3.8663ms.
+2024-10-31 03:06:03.334 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 7.5609ms
+2024-10-31 03:06:03.334 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:03.334 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 8.9188ms
+2024-10-31 03:06:04.887 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 233
+2024-10-31 03:06:04.887 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:04.888 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.LoginModel) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:06:04.889 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:06:04.892 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-31 03:06:04.893 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Password_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Password" = @__Password_0)
+2024-10-31 03:06:04.893 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__loginModel_Email_0='?' (Size = 24), @__loginModel_Password_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__loginModel_Email_0 AND "u"."Password" = @__loginModel_Password_1
+2024-10-31 03:06:04.894 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-31 03:06:04.894 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 6.2528ms
+2024-10-31 03:06:04.894 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:04.894 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 302 0 null 7.0704ms
+2024-10-31 03:06:04.897 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:04.897 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:04.897 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:04.898 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:04.898 +01:00 [INF] Executed ViewResult - view Index executed in 0.5534ms.
+2024-10-31 03:06:04.898 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.7255ms
+2024-10-31 03:06:04.898 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:04.898 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.4246ms
+2024-10-31 03:06:07.691 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/About - null null
+2024-10-31 03:06:07.692 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-31 03:06:07.694 +01:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult About() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:07.696 +01:00 [INF] Executing ViewResult, running view About.
+2024-10-31 03:06:07.700 +01:00 [INF] Executed ViewResult - view About executed in 5.1538ms.
+2024-10-31 03:06:07.700 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.About (Ahmadside) in 5.6638ms
+2024-10-31 03:06:07.700 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-31 03:06:07.700 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/About - 200 null text/html; charset=utf-8 8.5896ms
+2024-10-31 03:06:08.425 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-31 03:06:08.427 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-31 03:06:08.428 +01:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:08.430 +01:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-31 03:06:08.434 +01:00 [INF] Executed ViewResult - view Privacy executed in 5.1123ms.
+2024-10-31 03:06:08.434 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 5.5519ms
+2024-10-31 03:06:08.434 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-31 03:06:08.434 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 9.2549ms
+2024-10-31 03:06:09.142 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-31 03:06:09.142 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:09.142 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:06:09.144 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:06:09.144 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:09.147 +01:00 [INF] Executed ViewResult - view Index executed in 3.2106ms.
+2024-10-31 03:06:09.147 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 5.3346ms
+2024-10-31 03:06:09.148 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:09.148 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 6.1359ms
+2024-10-31 03:06:11.435 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 221
+2024-10-31 03:06:11.435 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:11.435 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.LoginModel) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:06:11.437 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:06:11.438 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-31 03:06:11.439 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Password_0='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Password" = @__Password_0)
+2024-10-31 03:06:11.440 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__loginModel_Email_0='?' (Size = 15), @__loginModel_Password_1='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__loginModel_Email_0 AND "u"."Password" = @__loginModel_Password_1
+2024-10-31 03:06:11.441 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-31 03:06:11.441 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 5.5454ms
+2024-10-31 03:06:11.441 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:11.441 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 302 0 null 6.6668ms
+2024-10-31 03:06:11.444 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:11.444 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:11.445 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:11.445 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:11.446 +01:00 [INF] Executed ViewResult - view Index executed in 0.8099ms.
+2024-10-31 03:06:11.446 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.0967ms
+2024-10-31 03:06:11.446 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:11.446 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 2.0994ms
+2024-10-31 03:06:30.357 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:30.359 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:30.359 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:30.359 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:30.360 +01:00 [INF] Executed ViewResult - view Index executed in 1.0378ms.
+2024-10-31 03:06:30.360 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.4742ms
+2024-10-31 03:06:30.360 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:30.361 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 4.0934ms
+2024-10-31 03:06:30.941 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:30.941 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:30.941 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:30.942 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:30.942 +01:00 [INF] Executed ViewResult - view Index executed in 0.7601ms.
+2024-10-31 03:06:30.942 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.0119ms
+2024-10-31 03:06:30.943 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:30.943 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.7268ms
+2024-10-31 03:06:31.857 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:31.857 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:31.857 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:31.857 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:31.859 +01:00 [INF] Executed ViewResult - view Index executed in 1.4861ms.
+2024-10-31 03:06:31.859 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.7665ms
+2024-10-31 03:06:31.859 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:31.859 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 2.5336ms
+2024-10-31 03:06:32.455 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-31 03:06:32.456 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:32.456 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:32.456 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:32.457 +01:00 [INF] Executed ViewResult - view Index executed in 0.5104ms.
+2024-10-31 03:06:32.457 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.7318ms
+2024-10-31 03:06:32.457 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-31 03:06:32.457 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.4297ms
+2024-10-31 03:06:33.441 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-31 03:06:33.441 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-31 03:06:33.442 +01:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:33.442 +01:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-31 03:06:33.443 +01:00 [INF] Executed ViewResult - view Privacy executed in 1.012ms.
+2024-10-31 03:06:33.443 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 1.2127ms
+2024-10-31 03:06:33.443 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-31 03:06:33.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 1.8847ms
+2024-10-31 03:06:33.876 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/About - null null
+2024-10-31 03:06:33.876 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-31 03:06:33.876 +01:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult About() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-31 03:06:33.877 +01:00 [INF] Executing ViewResult, running view About.
+2024-10-31 03:06:33.878 +01:00 [INF] Executed ViewResult - view About executed in 1.2491ms.
+2024-10-31 03:06:33.878 +01:00 [INF] Executed action Ahmadside.Controllers.HomeController.About (Ahmadside) in 1.511ms
+2024-10-31 03:06:33.878 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-31 03:06:33.878 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/About - 200 null text/html; charset=utf-8 2.312ms
+2024-10-31 03:06:34.559 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-31 03:06:34.559 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:34.559 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-31 03:06:34.561 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-31 03:06:34.561 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-31 03:06:34.564 +01:00 [INF] Executed ViewResult - view Index executed in 2.7018ms.
+2024-10-31 03:06:34.564 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 4.8809ms
+2024-10-31 03:06:34.564 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-31 03:06:34.564 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 5.6674ms
+2024-10-31 03:06:57.337 +01:00 [INF] Application is shutting down...

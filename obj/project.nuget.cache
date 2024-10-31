@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gUHVKOBtgpA=",
+  "dgSpecHash": "sAIvMS66wGQ=",
   "success": true,
-  "projectFilePath": "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Ahmadside.csproj",
+  "projectFilePath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Ahmadside.csproj",
   "expectedPackageFiles": [
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.10/microsoft.aspnetcore.cryptography.internal.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.10/microsoft.aspnetcore.cryptography.keyderivation.8.0.10.nupkg.sha512",

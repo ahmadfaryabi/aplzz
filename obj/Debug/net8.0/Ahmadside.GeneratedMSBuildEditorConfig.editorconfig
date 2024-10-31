@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ahmadside
 build_property.RootNamespace = Ahmadside
-build_property.ProjectDir = /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/
+build_property.ProjectDir = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Home/About.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Home/Index.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Home/Privacy.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Login/index.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Login/Register.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Shared/Error.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/User/List.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/User/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/_ViewImports.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/_ViewStart.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/Shared/_Layout.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pwfwcmcbxk

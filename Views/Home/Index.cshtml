@@ -5,8 +5,14 @@
 
 <div class="postsDiv">
     @if(ViewBag.userN == null) {
-        <h2>Logg inn veggløper</h2>
+        <h2>Logg inn venn</h2>
+        <a asp-controller="Login" asp-action="Index">Logg inn</a>
     } else {
         <h2><img src="@ViewBag.pp" width="50px" height="50px"> Velkommen @ViewBag.fN @ViewBag.aN</h2>
+        <p>Du kan:</p>
+        <ul>
+            <li><a asp-controller="Login" asp-action="Logout">Logge av</a></li>
+            <li><a asp-controller="User" asp-action="Profile">Redigere profil</a></li>
+        </ul>
     }
 </div>

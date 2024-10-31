@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Ahmadside.csproj": {}
+    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Ahmadside.csproj": {}
   },
   "projects": {
-    "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Ahmadside.csproj": {
+    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Ahmadside.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Ahmadside.csproj",
+        "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Ahmadside.csproj",
         "projectName": "Ahmadside",
-        "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Ahmadside.csproj",
+        "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Ahmadside.csproj",
         "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
-        "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/obj/",
+        "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"

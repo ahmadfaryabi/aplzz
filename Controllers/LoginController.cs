@@ -19,10 +19,11 @@ public class LoginController : Controller
 
   public IActionResult Index() 
   {
-    if(HttpContext.Session.GetString("userName") != null) {
+    if(HttpContext.Session.GetString("username") != null) {
       return RedirectToAction("Index", "Home");
+    } else {
+      return View();
     }
-    return View();
   }
 
  [HttpPost]
