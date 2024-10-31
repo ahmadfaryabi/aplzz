@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Aplzz.Models;
 
-namespace Aplzz.Models 
+namespace Aplzz.DAL 
 {
     public class PostDbContext : DbContext 
     {
@@ -13,6 +14,11 @@ namespace Aplzz.Models
         public DbSet<Comment> Comments { get; set; } 
         public DbSet<Like> Likes { get; set; }
         public DbSet<User> Users { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
+        }
     }
 }
 

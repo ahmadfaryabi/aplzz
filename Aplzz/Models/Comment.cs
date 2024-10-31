@@ -8,6 +8,5 @@ public class Comment
     public string? Text { get; set; }
     public DateTime CommentedAt { get; set; }
     public int PostId { get; set; }
-    [Required]
-    public Post? Post { get; set; }
+    public virtual Post? Post { get; set; }
 }
