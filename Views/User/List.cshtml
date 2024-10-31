@@ -1,0 +1,25 @@
+@model IEnumerable<Ahmadside.Models.User>
+<table class="tableAhmad">
+    <tr>
+        <th>ID</th>
+        <th>Navn</th>
+        <th>Brukernavn</th>
+        <th>Epost</th>
+        <th>Passord</th>
+        <th>Telefon</th>
+        <th>Registrert</th>
+        <th>Bilder</th>
+    </tr>
+    @foreach(var users in Model) {
+        <tr>
+            <td>@users.IdUser</td>
+            <td>@users.Firstname @users.Aftername</td>
+            <td>@users.Username</td>
+            <td>@users.Email</td>
+            <td>@users.Password</td>
+            <td>@users.Phone</td>
+            <td>@users.Date_Started</td>
+            <td> <img src="@users.ProfilePicture" width="50px" height="50px" alt="Profilbildet"></td>
+        </tr>
+    }
+</table>

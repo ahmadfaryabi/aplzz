@@ -1,0 +1,125 @@
+2024-10-23 12:57:25.271 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-23 12:57:25.394 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-23 12:57:25.399 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 12:57:25.400 +02:00 [INF] Hosting environment: Development
+2024-10-23 12:57:25.400 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-23 12:57:28.184 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 12:57:28.202 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 12:57:28.226 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:57:28.268 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:57:28.289 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 12:57:28.606 +02:00 [INF] Executed ViewResult - view Index executed in 322.529ms.
+2024-10-23 12:57:28.612 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 342.7352ms
+2024-10-23 12:57:28.612 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:57:28.616 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 436.4547ms
+2024-10-23 12:57:28.657 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-23 12:57:28.660 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - null null
+2024-10-23 12:57:28.662 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - null null
+2024-10-23 12:57:28.692 +02:00 [INF] Sending file. Request path: '/Ahmadside.styles.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/obj/Debug/net8.0/scopedcss/bundle/Ahmadside.styles.css'
+2024-10-23 12:57:28.692 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-23 12:57:28.693 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-10-23 12:57:28.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - 200 445 text/css 34.8652ms
+2024-10-23 12:57:28.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 39.7472ms
+2024-10-23 12:57:28.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - 200 537 text/css 37.7746ms
+2024-10-23 12:57:28.699 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-10-23 12:57:28.699 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - null null
+2024-10-23 12:57:28.700 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-23 12:57:28.700 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/js/site.js'
+2024-10-23 12:57:28.701 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 1.1861ms
+2024-10-23 12:57:28.708 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-10-23 12:57:28.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 10.0391ms
+2024-10-23 12:57:28.710 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-10-23 12:57:28.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 10.6803ms
+2024-10-23 12:57:29.599 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 12:57:29.599 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:57:29.600 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:57:29.601 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 12:57:29.609 +02:00 [INF] Executed ViewResult - view Index executed in 9.0727ms.
+2024-10-23 12:57:29.610 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 9.695ms
+2024-10-23 12:57:29.610 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:57:29.610 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 10.9072ms
+2024-10-23 12:57:30.140 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico - null null
+2024-10-23 12:57:30.142 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/favicon.ico'
+2024-10-23 12:57:30.143 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/favicon.ico - 200 5430 image/x-icon 3.214ms
+2024-10-23 12:57:34.799 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-23 12:57:34.801 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:57:34.804 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-23 12:57:34.809 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-23 12:57:34.863 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 58.1302ms
+2024-10-23 12:57:34.863 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:57:34.885 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Ahmadside.Models.User>' does not contain a definition for 'User'
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at AspNetCoreGeneratedDocument.Views_User_List.ExecuteAsync() in /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/User/List.cshtml:line 2
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-23 12:57:34.888 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:57:34.890 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:57:34.892 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-23 12:57:34.897 +02:00 [INF] Executed ViewResult - view Error executed in 5.8973ms.
+2024-10-23 12:57:34.897 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 7.0395ms
+2024-10-23 12:57:34.897 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:57:34.898 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 98.6903ms
+2024-10-23 12:58:55.796 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-23 12:58:55.797 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:58:55.797 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-23 12:58:55.798 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-23 12:58:55.799 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 1.6423ms
+2024-10-23 12:58:55.799 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:58:55.801 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Ahmadside.Models.User>' does not contain a definition for 'User'
+   at CallSite.Target(Closure, CallSite, Object)
+   at AspNetCoreGeneratedDocument.Views_User_List.ExecuteAsync() in /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/User/List.cshtml:line 2
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-23 12:58:55.803 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:58:55.803 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:58:55.803 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-23 12:58:55.805 +02:00 [INF] Executed ViewResult - view Error executed in 1.808ms.
+2024-10-23 12:58:55.805 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 2.1972ms
+2024-10-23 12:58:55.805 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:58:55.806 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 9.6623ms
+2024-10-23 12:59:07.549 +02:00 [INF] Application is shutting down...

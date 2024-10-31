@@ -1,0 +1,33 @@
+2024-10-29 13:56:59.847 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 13:56:59.968 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 13:56:59.974 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 13:56:59.976 +01:00 [INF] Hosting environment: Development
+2024-10-29 13:56:59.976 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 13:57:04.451 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 13:57:04.464 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 13:57:04.488 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:04.517 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:57:05.115 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:57:05.127 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:57:05.358 +01:00 [INF] Executed ViewResult - view Register executed in 230.3465ms.
+2024-10-29 13:57:05.361 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 844.3429ms
+2024-10-29 13:57:05.362 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:05.373 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 923.9445ms
+2024-10-29 13:57:05.374 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=YSksTGpAFV8_hLPNV39qCDRQCxPgAsDtVbdvDuRmf-Y - null null
+2024-10-29 13:57:05.388 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-29 13:57:05.389 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=YSksTGpAFV8_hLPNV39qCDRQCxPgAsDtVbdvDuRmf-Y - 200 577 text/css 14.7506ms
+2024-10-29 13:57:06.230 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 13:57:06.234 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:06.234 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:57:06.255 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:57:06.255 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:57:06.264 +01:00 [INF] Executed ViewResult - view Register executed in 8.8214ms.
+2024-10-29 13:57:06.264 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 30.2098ms
+2024-10-29 13:57:06.264 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:06.264 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 34.9367ms
+2024-10-29 13:57:09.177 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=YSksTGpAFV8_hLPNV39qCDRQCxPgAsDtVbdvDuRmf-Y - null null
+2024-10-29 13:57:09.180 +01:00 [INF] The file /css/site.css was not modified
+2024-10-29 13:57:09.182 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=YSksTGpAFV8_hLPNV39qCDRQCxPgAsDtVbdvDuRmf-Y - 304 null text/css 4.3345ms
+2024-10-29 13:57:31.165 +01:00 [INF] Application is shutting down...

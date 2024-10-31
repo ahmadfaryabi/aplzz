@@ -1,0 +1,256 @@
+2024-10-14 15:44:05.365 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-14 15:44:05.536 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-14 15:44:05.543 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-14 15:44:05.544 +02:00 [INF] Hosting environment: Development
+2024-10-14 15:44:05.544 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-14 15:44:11.303 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-14 15:44:11.319 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-14 15:44:11.349 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-14 15:44:11.373 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-14 15:44:11.387 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-14 15:44:11.572 +02:00 [INF] Executed ViewResult - view Index executed in 185.2246ms.
+2024-10-14 15:44:11.577 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - null null
+2024-10-14 15:44:11.578 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 204.157ms
+2024-10-14 15:44:11.578 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-14 15:44:11.578 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-14 15:44:11.578 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - null null
+2024-10-14 15:44:11.582 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 280.4712ms
+2024-10-14 15:44:11.591 +02:00 [INF] Sending file. Request path: '/Ahmadside.styles.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/obj/Debug/net8.0/scopedcss/bundle/Ahmadside.styles.css'
+2024-10-14 15:44:11.591 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-14 15:44:11.591 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - 200 445 text/css 13.5356ms
+2024-10-14 15:44:11.591 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - 200 537 text/css 12.4012ms
+2024-10-14 15:44:11.592 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-14 15:44:11.592 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - null null
+2024-10-14 15:44:11.599 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-10-14 15:44:11.599 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-10-14 15:44:11.599 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-10-14 15:44:11.601 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 22.1634ms
+2024-10-14 15:44:11.601 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 8.6148ms
+2024-10-14 15:44:11.601 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 8.5784ms
+2024-10-14 15:44:11.601 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-10-14 15:44:11.601 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/js/site.js'
+2024-10-14 15:44:11.601 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 0.6531ms
+2024-10-14 15:44:11.764 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico - null null
+2024-10-14 15:44:11.766 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/favicon.ico'
+2024-10-14 15:44:11.767 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/favicon.ico - 200 5430 image/x-icon 2.666ms
+2024-10-14 15:44:13.870 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-14 15:44:13.873 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-14 15:44:13.876 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:13.879 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-14 15:44:13.953 +02:00 [INF] Executed ViewResult - view Index executed in 75.2625ms.
+2024-10-14 15:44:13.953 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 76.513ms
+2024-10-14 15:44:13.953 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-14 15:44:13.953 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 83.322ms
+2024-10-14 15:44:15.685 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-14 15:44:15.687 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:15.690 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:15.693 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 15:44:15.715 +02:00 [INF] Executed ViewResult - view Register executed in 24.8191ms.
+2024-10-14 15:44:15.715 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 25.5775ms
+2024-10-14 15:44:15.716 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:15.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 30.2263ms
+2024-10-14 15:44:17.335 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 242
+2024-10-14 15:44:17.337 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:17.337 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:17.337 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 15:44:17.344 +02:00 [INF] Executed ViewResult - view Register executed in 6.8516ms.
+2024-10-14 15:44:17.344 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 7.112ms
+2024-10-14 15:44:17.344 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:17.344 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 9.006ms
+2024-10-14 15:44:18.001 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 242
+2024-10-14 15:44:18.001 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:18.002 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:18.002 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 15:44:18.004 +02:00 [INF] Executed ViewResult - view Register executed in 2.0479ms.
+2024-10-14 15:44:18.004 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.3507ms
+2024-10-14 15:44:18.004 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:18.005 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.3169ms
+2024-10-14 15:44:19.668 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 242
+2024-10-14 15:44:19.668 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:19.668 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:19.668 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 15:44:19.670 +02:00 [INF] Executed ViewResult - view Register executed in 1.3537ms.
+2024-10-14 15:44:19.670 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 1.5615ms
+2024-10-14 15:44:19.670 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:19.670 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 2.2986ms
+2024-10-14 15:44:20.418 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 242
+2024-10-14 15:44:20.418 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:20.418 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 15:44:20.418 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 15:44:20.419 +02:00 [INF] Executed ViewResult - view Register executed in 1.0686ms.
+2024-10-14 15:44:20.419 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 1.2614ms
+2024-10-14 15:44:20.419 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 15:44:20.419 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 1.7205ms
+2024-10-14 15:44:22.621 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-10-14 15:44:22.625 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'
+2024-10-14 15:44:22.626 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 4.6482ms
+2024-10-14 15:44:22.681 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-10-14 15:44:22.684 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map'
+2024-10-14 15:44:22.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 3.5475ms
+2024-10-14 16:04:48.988 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-14 16:04:48.988 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 16:04:48.988 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 16:04:48.990 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 16:04:48.992 +02:00 [INF] Executed ViewResult - view Register executed in 3.2803ms.
+2024-10-14 16:04:48.994 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 5.2667ms
+2024-10-14 16:04:48.994 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 16:04:48.994 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 5.8931ms
+2024-10-14 17:53:07.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-14 17:53:07.741 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 17:53:07.741 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-14 17:53:07.742 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-14 17:53:07.744 +02:00 [INF] Executed ViewResult - view Register executed in 2.8597ms.
+2024-10-14 17:53:07.744 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 3.0968ms
+2024-10-14 17:53:07.744 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-14 17:53:07.745 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 9.6284ms
+2024-10-15 17:12:37.560 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:12:37.564 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:12:37.568 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:12:37.580 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:12:37.594 +02:00 [INF] Executed ViewResult - view Index executed in 23.3046ms.
+2024-10-15 17:12:37.594 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 26.0642ms
+2024-10-15 17:12:37.594 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:12:37.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 35.4487ms
+2024-10-15 17:12:37.617 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-15 17:12:37.618 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - null null
+2024-10-15 17:12:37.621 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-15 17:12:37.623 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-10-15 17:12:37.623 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-10-15 17:12:37.623 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-10-15 17:12:37.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 4.7874ms
+2024-10-15 17:12:37.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 2.311ms
+2024-10-15 17:12:37.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 5.9262ms
+2024-10-15 17:12:40.026 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:12:40.026 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:12:40.026 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:12:40.026 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:12:40.027 +02:00 [INF] Executed ViewResult - view Index executed in 0.7708ms.
+2024-10-15 17:12:40.027 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.9733ms
+2024-10-15 17:12:40.029 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:12:40.029 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 3.3384ms
+2024-10-15 17:15:33.127 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:15:33.127 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:15:33.127 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:15:33.128 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:15:33.129 +02:00 [INF] Executed ViewResult - view Index executed in 1.1333ms.
+2024-10-15 17:15:33.129 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.3464ms
+2024-10-15 17:15:33.129 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:15:33.129 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.8799ms
+2024-10-15 17:15:57.162 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:15:57.162 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:15:57.162 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:15:57.162 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:15:57.163 +02:00 [INF] Executed ViewResult - view Index executed in 0.4121ms.
+2024-10-15 17:15:57.163 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.5101ms
+2024-10-15 17:15:57.163 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:15:57.163 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 0.8673ms
+2024-10-15 17:17:41.500 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:17:41.500 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:17:41.501 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:17:41.501 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:17:41.501 +02:00 [INF] Executed ViewResult - view Index executed in 0.7411ms.
+2024-10-15 17:17:41.502 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.9577ms
+2024-10-15 17:17:41.502 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:17:41.502 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.7476ms
+2024-10-15 17:24:33.734 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:24:33.737 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:24:33.739 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:24:33.739 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:24:33.741 +02:00 [INF] Executed ViewResult - view Index executed in 1.5775ms.
+2024-10-15 17:24:33.741 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.8046ms
+2024-10-15 17:24:33.741 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:24:33.741 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 7.0552ms
+2024-10-15 17:24:34.474 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:24:34.474 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:24:34.475 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:24:34.475 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:24:34.476 +02:00 [INF] Executed ViewResult - view Index executed in 0.8864ms.
+2024-10-15 17:24:34.476 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.0714ms
+2024-10-15 17:24:34.476 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:24:34.476 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 2.2253ms
+2024-10-15 17:25:13.520 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:25:13.521 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:25:13.521 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:25:13.521 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:25:13.522 +02:00 [INF] Executed ViewResult - view Index executed in 0.7382ms.
+2024-10-15 17:25:13.522 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.0238ms
+2024-10-15 17:25:13.522 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:25:13.522 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 2.2443ms
+2024-10-15 17:25:14.091 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:25:14.091 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:25:14.091 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:25:14.091 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:25:14.092 +02:00 [INF] Executed ViewResult - view Index executed in 0.5235ms.
+2024-10-15 17:25:14.092 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.6726ms
+2024-10-15 17:25:14.092 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:25:14.092 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.245ms
+2024-10-15 17:29:47.318 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:29:47.321 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:29:47.323 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:29:47.323 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:29:47.324 +02:00 [INF] Executed ViewResult - view Index executed in 0.8703ms.
+2024-10-15 17:29:47.324 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 1.6262ms
+2024-10-15 17:29:47.324 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:29:47.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 6.8301ms
+2024-10-15 17:30:06.383 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:30:06.384 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:30:06.384 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:30:06.384 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:30:06.385 +02:00 [INF] Executed ViewResult - view Index executed in 0.5998ms.
+2024-10-15 17:30:06.385 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.762ms
+2024-10-15 17:30:06.385 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:30:06.385 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.4357ms
+2024-10-15 17:30:40.623 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Privacy - null null
+2024-10-15 17:30:40.630 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Privacy - 404 0 null 6.859ms
+2024-10-15 17:30:40.631 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5002/Privacy, Response status code: 404
+2024-10-15 17:30:47.318 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Index - null null
+2024-10-15 17:30:47.318 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Index - 404 0 null 0.3768ms
+2024-10-15 17:30:47.319 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5002/Index, Response status code: 404
+2024-10-15 17:30:49.991 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:30:49.991 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:30:49.991 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:30:49.991 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:30:49.992 +02:00 [INF] Executed ViewResult - view Index executed in 0.6656ms.
+2024-10-15 17:30:49.992 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.819ms
+2024-10-15 17:30:49.992 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:30:49.992 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.4571ms
+2024-10-15 17:30:56.146 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-15 17:30:56.147 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-15 17:30:56.151 +02:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:30:56.157 +02:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-15 17:30:56.163 +02:00 [INF] Executed ViewResult - view Privacy executed in 11.3769ms.
+2024-10-15 17:30:56.163 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 12.1429ms
+2024-10-15 17:30:56.163 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-15 17:30:56.163 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 17.4565ms
+2024-10-15 17:31:00.509 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home - null null
+2024-10-15 17:31:00.509 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:31:00.509 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:31:00.510 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:31:00.510 +02:00 [INF] Executed ViewResult - view Index executed in 0.5804ms.
+2024-10-15 17:31:00.510 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.7149ms
+2024-10-15 17:31:00.510 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:31:00.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home - 200 null text/html; charset=utf-8 1.2888ms
+2024-10-15 17:31:05.875 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-15 17:31:05.876 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-15 17:31:05.877 +02:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:31:05.877 +02:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-15 17:31:05.877 +02:00 [INF] Executed ViewResult - view Privacy executed in 0.579ms.
+2024-10-15 17:31:05.877 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 0.7195ms
+2024-10-15 17:31:05.877 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-15 17:31:05.878 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 2.3701ms
+2024-10-15 17:31:12.535 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-15 17:31:12.535 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-15 17:31:12.535 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-15 17:31:12.537 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:31:12.543 +02:00 [INF] Executed ViewResult - view Index executed in 8.04ms.
+2024-10-15 17:31:12.544 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 8.2072ms
+2024-10-15 17:31:12.544 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-15 17:31:12.544 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 8.8015ms
+2024-10-15 17:42:01.742 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:42:01.748 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:42:01.748 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:42:01.748 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:42:01.749 +02:00 [INF] Executed ViewResult - view Index executed in 0.6742ms.
+2024-10-15 17:42:01.749 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.9508ms
+2024-10-15 17:42:01.749 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:42:01.749 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 7.3515ms

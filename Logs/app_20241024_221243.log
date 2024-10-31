@@ -1,0 +1,28 @@
+2024-10-24 22:12:44.272 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-24 22:12:44.498 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-24 22:12:44.504 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-24 22:12:44.505 +02:00 [INF] Hosting environment: Development
+2024-10-24 22:12:44.505 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-24 22:12:47.458 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-24 22:12:47.480 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-24 22:12:47.524 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-24 22:12:47.565 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-24 22:12:47.580 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-24 22:12:47.746 +02:00 [INF] Executed ViewResult - view Index executed in 171.549ms.
+2024-10-24 22:12:47.751 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 185.9165ms
+2024-10-24 22:12:47.752 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-24 22:12:47.758 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 305.3483ms
+2024-10-24 22:12:50.907 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-24 22:12:50.912 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-24 22:12:50.915 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-24 22:12:51.845 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-24 22:12:52.071 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."Username"
+FROM "Users" AS "u"
+2024-10-24 22:12:52.134 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-24 22:12:52.141 +02:00 [INF] Executed ViewResult - view List executed in 7.8601ms.
+2024-10-24 22:12:52.141 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 1225.8242ms
+2024-10-24 22:12:52.142 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-24 22:12:52.152 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 1244.5426ms
+2024-10-24 22:13:56.447 +02:00 [INF] Application is shutting down...

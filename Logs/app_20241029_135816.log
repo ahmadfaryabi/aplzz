@@ -1,0 +1,43 @@
+2024-10-29 13:58:16.542 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 13:58:16.651 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 13:58:16.658 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 13:58:16.659 +01:00 [INF] Hosting environment: Development
+2024-10-29 13:58:16.659 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 13:58:21.699 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 13:58:21.712 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 13:58:21.735 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:21.764 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:58:22.361 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:58:22.374 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:58:22.608 +01:00 [INF] Executed ViewResult - view Register executed in 232.9327ms.
+2024-10-29 13:58:22.612 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 847.11ms
+2024-10-29 13:58:22.612 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:22.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 929.776ms
+2024-10-29 13:58:22.628 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - null null
+2024-10-29 13:58:22.643 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-29 13:58:22.643 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - 200 574 text/css 15.3365ms
+2024-10-29 13:58:25.368 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 231
+2024-10-29 13:58:25.373 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:25.385 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:58:25.407 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:58:25.434 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:58:25.442 +01:00 [INF] Executed ViewResult - view Register executed in 8.437ms.
+2024-10-29 13:58:25.443 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 57.7634ms
+2024-10-29 13:58:25.443 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:25.443 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 75.6101ms
+2024-10-29 13:58:25.453 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - null null
+2024-10-29 13:58:25.456 +01:00 [INF] The file /css/site.css was not modified
+2024-10-29 13:58:25.457 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - 304 null text/css 3.2795ms
+2024-10-29 13:58:33.064 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 13:58:33.065 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:33.065 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:58:33.151 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:58:33.151 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:58:33.155 +01:00 [INF] Executed ViewResult - view Register executed in 3.874ms.
+2024-10-29 13:58:33.155 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 90.1644ms
+2024-10-29 13:58:33.155 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:58:33.155 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 91.1658ms
+2024-10-29 14:02:21.213 +01:00 [INF] Application is shutting down...

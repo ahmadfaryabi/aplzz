@@ -1,0 +1,20 @@
+2024-10-29 13:57:40.353 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 13:57:40.473 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 13:57:40.480 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 13:57:40.481 +01:00 [INF] Hosting environment: Development
+2024-10-29 13:57:40.481 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 13:57:43.392 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 13:57:43.406 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 13:57:43.431 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:43.458 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 13:57:44.066 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 13:57:44.078 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 13:57:44.322 +01:00 [INF] Executed ViewResult - view Register executed in 240.3647ms.
+2024-10-29 13:57:44.332 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 872.8396ms
+2024-10-29 13:57:44.332 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 13:57:44.336 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=yHsd5ZhQXO5Lze-K487IPOiYP4Kxpks_PTHpG3JyhCM - null null
+2024-10-29 13:57:44.361 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 969.9122ms
+2024-10-29 13:57:44.391 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-29 13:57:44.395 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=yHsd5ZhQXO5Lze-K487IPOiYP4Kxpks_PTHpG3JyhCM - 200 577 text/css 59.6085ms
+2024-10-29 13:58:12.974 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,49 @@
+2024-10-29 15:28:22.401 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 15:28:22.534 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 15:28:22.540 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 15:28:22.541 +01:00 [INF] Hosting environment: Development
+2024-10-29 15:28:22.541 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 15:28:48.840 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-29 15:28:48.856 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 15:28:48.881 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:48.911 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:28:49.531 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:28:49.546 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:28:49.815 +01:00 [INF] Executed ViewResult - view Index executed in 267.7983ms.
+2024-10-29 15:28:49.818 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 906.3207ms
+2024-10-29 15:28:49.818 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:49.831 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 992.585ms
+2024-10-29 15:28:49.832 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - null null
+2024-10-29 15:28:49.838 +01:00 [INF] The file /css/site.css was not modified
+2024-10-29 15:28:49.839 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - 304 null text/css 6.6642ms
+2024-10-29 15:28:50.856 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Login - application/x-www-form-urlencoded 199
+2024-10-29 15:28:50.863 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Login - 404 0 null 6.8381ms
+2024-10-29 15:28:50.864 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5002/Login/Login, Response status code: 404
+2024-10-29 15:28:52.977 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-29 15:28:52.978 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:52.978 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:28:53.003 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:28:53.004 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:28:53.011 +01:00 [INF] Executed ViewResult - view Index executed in 7.104ms.
+2024-10-29 15:28:53.011 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 32.7065ms
+2024-10-29 15:28:53.011 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:53.011 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 34.1189ms
+2024-10-29 15:28:53.703 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Login - application/x-www-form-urlencoded 199
+2024-10-29 15:28:53.705 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Login - 404 0 null 1.8713ms
+2024-10-29 15:28:53.705 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5002/Login/Login, Response status code: 404
+2024-10-29 15:28:54.220 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-29 15:28:54.221 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:54.221 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:28:54.305 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:28:54.306 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:28:54.308 +01:00 [INF] Executed ViewResult - view Index executed in 2.3651ms.
+2024-10-29 15:28:54.308 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 87.239ms
+2024-10-29 15:28:54.308 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:28:54.308 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 88.2732ms
+2024-10-29 15:28:54.686 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Login - application/x-www-form-urlencoded 199
+2024-10-29 15:28:54.686 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Login - 404 0 null 0.2789ms
+2024-10-29 15:28:54.686 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5002/Login/Login, Response status code: 404
+2024-10-29 15:29:15.519 +01:00 [INF] Application is shutting down...

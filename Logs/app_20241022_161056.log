@@ -1,0 +1,210 @@
+2024-10-22 16:10:57.384 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-22 16:10:57.743 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-22 16:10:57.770 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 16:10:57.791 +02:00 [INF] Hosting environment: Development
+2024-10-22 16:10:57.803 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-22 16:10:58.011 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-22 16:10:58.037 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 16:10:58.066 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-22 16:10:58.121 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:10:58.141 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-22 16:10:58.402 +02:00 [INF] Executed ViewResult - view Index executed in 268.1643ms.
+2024-10-22 16:10:58.410 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 287.3682ms
+2024-10-22 16:10:58.410 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-22 16:10:58.412 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-22 16:10:58.475 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - null null
+2024-10-22 16:10:58.475 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - null null
+2024-10-22 16:10:58.538 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-22 16:10:58.538 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-10-22 16:10:58.609 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 530.6073ms
+2024-10-22 16:10:58.611 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - null null
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/js/site.js'
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/Ahmadside.styles.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/obj/Debug/net8.0/scopedcss/bundle/Ahmadside.styles.css'
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/css/site.css'
+2024-10-22 16:10:58.682 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 271.8955ms
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Ahmadside.styles.css?v=rUW-nauVOqkyyEgiqv_a1YTN6vZwQCP4H4_p76acLKg - 200 445 text/css 208.3158ms
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 208.2135ms
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=3LA76xOnC7n3ZmOKshLhbjRCnizqbNNiEjw2MGwhzII - 200 537 text/css 72.4581ms
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 145.416ms
+2024-10-22 16:10:58.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 145.2953ms
+2024-10-22 16:10:58.752 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico - null null
+2024-10-22 16:10:58.778 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/wwwroot/favicon.ico'
+2024-10-22 16:10:58.778 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/favicon.ico - 200 5430 image/x-icon 26.4389ms
+2024-10-22 16:11:01.786 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-22 16:11:01.789 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-22 16:11:01.792 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-22 16:11:01.795 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-22 16:11:01.900 +02:00 [INF] Executed ViewResult - view Index executed in 106.6199ms.
+2024-10-22 16:11:01.900 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 107.7107ms
+2024-10-22 16:11:01.900 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-22 16:11:01.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 115.0067ms
+2024-10-22 16:11:06.041 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User - null null
+2024-10-22 16:11:06.043 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User - 404 0 null 2.6297ms
+2024-10-22 16:11:06.044 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5002/User, Response status code: 404
+2024-10-22 16:11:10.628 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/liste - null null
+2024-10-22 16:11:10.629 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/liste - 404 0 null 0.9779ms
+2024-10-22 16:11:10.629 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5002/User/liste, Response status code: 404
+2024-10-22 16:11:14.505 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/Liste - null null
+2024-10-22 16:11:14.506 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/Liste - 404 0 null 1.1976ms
+2024-10-22 16:11:14.506 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5002/User/Liste, Response status code: 404
+2024-10-22 16:11:24.411 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-22 16:11:24.411 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:24.415 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-22 16:11:24.424 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 8.7953ms
+2024-10-22 16:11:24.426 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:24.506 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Ahmadside.Models.UserDbContext' while attempting to activate 'Ahmadside.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-22 16:11:24.510 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:24.513 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:11:24.515 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-22 16:11:24.520 +02:00 [INF] Executed ViewResult - view Error executed in 5.5716ms.
+2024-10-22 16:11:24.520 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 7.3222ms
+2024-10-22 16:11:24.520 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:24.520 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 109.5536ms
+2024-10-22 16:11:30.506 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-22 16:11:30.506 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:30.507 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-22 16:11:30.507 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 0.5285ms
+2024-10-22 16:11:30.508 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:30.517 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Ahmadside.Models.UserDbContext' while attempting to activate 'Ahmadside.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-22 16:11:30.519 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:30.522 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:11:30.523 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-22 16:11:30.525 +02:00 [INF] Executed ViewResult - view Error executed in 2.373ms.
+2024-10-22 16:11:30.525 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 2.7913ms
+2024-10-22 16:11:30.525 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:30.526 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 19.9159ms
+2024-10-22 16:11:31.498 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-22 16:11:31.498 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:31.498 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-22 16:11:31.498 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 0.456ms
+2024-10-22 16:11:31.499 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:31.506 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Ahmadside.Models.UserDbContext' while attempting to activate 'Ahmadside.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-22 16:11:31.509 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:31.509 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:11:31.509 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-22 16:11:31.511 +02:00 [INF] Executed ViewResult - view Error executed in 2.0193ms.
+2024-10-22 16:11:31.521 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 12.2661ms
+2024-10-22 16:11:31.532 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:31.532 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 34.2883ms
+2024-10-22 16:11:32.773 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-22 16:11:32.773 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:32.773 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-22 16:11:32.774 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 0.7163ms
+2024-10-22 16:11:32.775 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:32.783 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Ahmadside.Models.UserDbContext' while attempting to activate 'Ahmadside.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-22 16:11:32.788 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:32.788 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:11:32.788 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-22 16:11:32.789 +02:00 [INF] Executed ViewResult - view Error executed in 0.9569ms.
+2024-10-22 16:11:32.789 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 1.237ms
+2024-10-22 16:11:32.789 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:32.790 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 16.9706ms
+2024-10-22 16:11:41.816 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-22 16:11:41.816 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-22 16:11:41.817 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-22 16:11:41.817 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-22 16:11:41.818 +02:00 [INF] Executed ViewResult - view Index executed in 1.3198ms.
+2024-10-22 16:11:41.818 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 1.5978ms
+2024-10-22 16:11:41.818 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-22 16:11:41.819 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 2.3217ms
+2024-10-22 16:11:43.096 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-22 16:11:43.096 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:43.096 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-22 16:11:43.097 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 0.6841ms
+2024-10-22 16:11:43.097 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-22 16:11:43.104 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Ahmadside.Models.UserDbContext' while attempting to activate 'Ahmadside.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-22 16:11:43.107 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:43.107 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-22 16:11:43.107 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-22 16:11:43.108 +02:00 [INF] Executed ViewResult - view Error executed in 0.8863ms.
+2024-10-22 16:11:43.108 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 1.2342ms
+2024-10-22 16:11:43.108 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-22 16:11:43.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 12.5347ms

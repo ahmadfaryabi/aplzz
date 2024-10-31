@@ -1,0 +1,128 @@
+2024-10-23 12:59:34.085 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-23 12:59:34.205 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-23 12:59:34.212 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 12:59:34.213 +02:00 [INF] Hosting environment: Development
+2024-10-23 12:59:34.213 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-23 12:59:41.013 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-23 12:59:41.032 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 12:59:41.063 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:59:41.093 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-23 12:59:41.107 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-23 12:59:41.164 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 65.577ms
+2024-10-23 12:59:41.167 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 12:59:41.185 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Ahmadside.Models.User>' does not contain a definition for 'User'
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at AspNetCoreGeneratedDocument.Views_User_List.ExecuteAsync() in /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside/Views/User/List.cshtml:line 2
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-23 12:59:41.189 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:59:41.193 +02:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:59:41.197 +02:00 [INF] Executing ViewResult, running view Error.
+2024-10-23 12:59:41.361 +02:00 [INF] Executed ViewResult - view Error executed in 164.6829ms.
+2024-10-23 12:59:41.361 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Error (Ahmadside) in 167.6411ms
+2024-10-23 12:59:41.361 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Error (Ahmadside)'
+2024-10-23 12:59:41.366 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 500 null text/html; charset=utf-8 356.062ms
+2024-10-23 12:59:47.138 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 12:59:47.140 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:59:47.143 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 12:59:47.145 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 12:59:47.151 +02:00 [INF] Executed ViewResult - view Index executed in 7.1241ms.
+2024-10-23 12:59:47.151 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 7.6602ms
+2024-10-23 12:59:47.151 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 12:59:47.151 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 13.0733ms
+2024-10-23 13:00:11.918 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-23 13:00:11.920 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:00:11.923 +02:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:00:11.925 +02:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-23 13:00:11.929 +02:00 [INF] Executed ViewResult - view Privacy executed in 5.8062ms.
+2024-10-23 13:00:11.929 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 6.2844ms
+2024-10-23 13:00:11.929 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:00:11.929 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 10.9578ms
+2024-10-23 13:00:13.168 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 13:00:13.168 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:00:13.169 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:00:13.169 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 13:00:13.171 +02:00 [INF] Executed ViewResult - view Index executed in 1.7425ms.
+2024-10-23 13:00:13.171 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 2.0062ms
+2024-10-23 13:00:13.171 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:00:13.171 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 2.941ms
+2024-10-23 13:03:45.207 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 13:03:45.208 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:03:45.208 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:45.209 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 13:03:45.210 +02:00 [INF] Executed ViewResult - view Index executed in 2.4515ms.
+2024-10-23 13:03:45.212 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 3.6207ms
+2024-10-23 13:03:45.212 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:03:45.212 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 4.7623ms
+2024-10-23 13:03:46.672 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/About - null null
+2024-10-23 13:03:46.674 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:03:46.675 +02:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult About() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:46.676 +02:00 [INF] Executing ViewResult, running view About.
+2024-10-23 13:03:46.681 +02:00 [INF] Executed ViewResult - view About executed in 5.406ms.
+2024-10-23 13:03:46.681 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.About (Ahmadside) in 5.8391ms
+2024-10-23 13:03:46.681 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:03:46.681 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/About - 200 null text/html; charset=utf-8 8.6177ms
+2024-10-23 13:03:49.038 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-23 13:03:49.038 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:03:49.038 +02:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:49.038 +02:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-23 13:03:49.039 +02:00 [INF] Executed ViewResult - view Privacy executed in 1.1383ms.
+2024-10-23 13:03:49.040 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 1.3658ms
+2024-10-23 13:03:49.040 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:03:49.040 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 2.0534ms
+2024-10-23 13:03:49.922 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-23 13:03:49.922 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:03:49.922 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:49.922 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 13:03:49.923 +02:00 [INF] Executed ViewResult - view Index executed in 0.7404ms.
+2024-10-23 13:03:49.923 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 0.8986ms
+2024-10-23 13:03:49.923 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-23 13:03:49.923 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 1.4626ms
+2024-10-23 13:03:55.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-23 13:03:55.872 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-23 13:03:55.874 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-23 13:03:55.876 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-23 13:03:55.910 +02:00 [INF] Executed ViewResult - view Index executed in 35.6582ms.
+2024-10-23 13:03:55.910 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 36.4745ms
+2024-10-23 13:03:55.910 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-23 13:03:55.910 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 38.8603ms
+2024-10-23 13:03:58.437 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/Privacy - null null
+2024-10-23 13:03:58.437 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:03:58.437 +02:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:58.437 +02:00 [INF] Executing ViewResult, running view Privacy.
+2024-10-23 13:03:58.438 +02:00 [INF] Executed ViewResult - view Privacy executed in 1.0448ms.
+2024-10-23 13:03:58.439 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Privacy (Ahmadside) in 1.3065ms
+2024-10-23 13:03:58.439 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Privacy (Ahmadside)'
+2024-10-23 13:03:58.439 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/Privacy - 200 null text/html; charset=utf-8 2.0189ms
+2024-10-23 13:03:59.005 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/About - null null
+2024-10-23 13:03:59.006 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:03:59.006 +02:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult About() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:03:59.006 +02:00 [INF] Executing ViewResult, running view About.
+2024-10-23 13:03:59.007 +02:00 [INF] Executed ViewResult - view About executed in 0.7636ms.
+2024-10-23 13:03:59.007 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.About (Ahmadside) in 0.9843ms
+2024-10-23 13:03:59.007 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:03:59.007 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/About - 200 null text/html; charset=utf-8 1.7672ms
+2024-10-23 13:18:01.749 +02:00 [INF] Application is shutting down...

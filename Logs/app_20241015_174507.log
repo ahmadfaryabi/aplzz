@@ -1,0 +1,31 @@
+2024-10-15 17:45:07.370 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-15 17:45:07.506 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-15 17:45:07.515 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 17:45:07.516 +02:00 [INF] Hosting environment: Development
+2024-10-15 17:45:07.517 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-15 17:45:12.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:45:12.859 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 17:45:12.903 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:45:12.959 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:45:12.983 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:45:13.320 +02:00 [INF] Executed ViewResult - view Index executed in 329.9741ms.
+2024-10-15 17:45:13.340 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 379.1022ms
+2024-10-15 17:45:13.340 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:45:13.348 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 523.5493ms
+2024-10-15 17:45:18.560 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-15 17:45:18.564 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-15 17:45:18.569 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-15 17:45:18.572 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:45:18.657 +02:00 [INF] Executed ViewResult - view Index executed in 86.4255ms.
+2024-10-15 17:45:18.657 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 87.9557ms
+2024-10-15 17:45:18.657 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-15 17:45:18.658 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 97.5795ms
+2024-10-15 17:45:19.626 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/ - null null
+2024-10-15 17:45:19.628 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:45:19.628 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-15 17:45:19.629 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-15 17:45:19.631 +02:00 [INF] Executed ViewResult - view Index executed in 1.9982ms.
+2024-10-15 17:45:19.631 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.Index (Ahmadside) in 2.4941ms
+2024-10-15 17:45:19.631 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.Index (Ahmadside)'
+2024-10-15 17:45:19.631 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/ - 200 null text/html; charset=utf-8 4.9285ms
+2024-10-15 17:45:37.073 +02:00 [INF] Application is shutting down...

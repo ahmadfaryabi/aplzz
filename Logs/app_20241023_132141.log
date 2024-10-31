@@ -1,0 +1,23 @@
+2024-10-23 13:21:41.256 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-23 13:21:41.379 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-23 13:21:41.386 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 13:21:41.387 +02:00 [INF] Hosting environment: Development
+2024-10-23 13:21:41.387 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-23 13:21:44.315 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Home/About - null null
+2024-10-23 13:21:44.330 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 13:21:44.356 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:21:44.389 +02:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult About() on controller Ahmadside.Controllers.HomeController (Ahmadside).
+2024-10-23 13:21:44.402 +02:00 [INF] Executing ViewResult, running view About.
+2024-10-23 13:21:44.585 +02:00 [INF] Executed ViewResult - view About executed in 186.2888ms.
+2024-10-23 13:21:44.591 +02:00 [INF] Executed action Ahmadside.Controllers.HomeController.About (Ahmadside) in 202.0934ms
+2024-10-23 13:21:44.592 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.HomeController.About (Ahmadside)'
+2024-10-23 13:21:44.598 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Home/About - 200 null text/html; charset=utf-8 286.6657ms
+2024-10-23 13:21:49.008 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-23 13:21:49.011 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 13:21:49.014 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-23 13:21:49.019 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-23 13:21:49.027 +02:00 [INF] Executed ViewResult - view List executed in 9.4167ms.
+2024-10-23 13:21:49.027 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 12.5716ms
+2024-10-23 13:21:49.027 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 13:21:49.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 19.8433ms
+2024-10-23 13:37:01.724 +02:00 [INF] Application is shutting down...

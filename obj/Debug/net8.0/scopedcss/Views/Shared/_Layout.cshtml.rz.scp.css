@@ -1,0 +1,14 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.content[b-pwfwcmcbxk] {
+  margin:auto;
+  max-width: 800px;
+  padding:20px;
+}
+
+.register[b-pwfwcmcbxk] {
+  border-radius: 5px;
+  box-shadow: 5px 0x 5px 0px #828282;
+  padding:20px 10px;
+}

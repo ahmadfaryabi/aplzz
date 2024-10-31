@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Logg inn";
+}
+@model LoginModel
+
+<h1>@ViewBag.Title</h1>
+<div class="register">
+    @if(TempData["SuccessMsg"] != null) {
+        <div class="alert alert-success">@TempData["SuccessMsg"]</div>
+    } 
+    @if(TempData["ErrorMessage"] != null) {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    } 
+     <form asp-action="">
+        <div class="form-group_">
+            <label asp-for="Email" class="control-label">E-post (*)</label>
+            <input type="text" asp-for="Email" id="" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <label asp-for="Password" class="control-label">Passord (*)</label>
+            <input type="password" asp-for="Password" class="form-control" id=""/>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <input type="submit" value="Logg inn" class="btn btn-primary" /> eller <a asp-controller="Login" asp-action="Register">Registrer deg</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+2024-10-23 13:38:26.380 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-23 13:38:26.514 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-23 13:38:26.520 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 13:38:26.521 +02:00 [INF] Hosting environment: Development
+2024-10-23 13:38:26.522 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-23 13:38:29.666 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-23 13:38:29.683 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 13:38:29.709 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 13:38:29.738 +02:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-23 13:38:29.754 +02:00 [INF] Executing ViewResult, running view List.
+2024-10-23 13:38:29.947 +02:00 [INF] Executed ViewResult - view List executed in 196.2164ms.
+2024-10-23 13:38:29.955 +02:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 215.7551ms
+2024-10-23 13:38:29.955 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-23 13:38:29.961 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 297.6645ms
+2024-10-23 13:38:39.927 +02:00 [INF] Application is shutting down...

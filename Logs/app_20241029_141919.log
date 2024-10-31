@@ -1,0 +1,223 @@
+2024-10-29 14:19:19.718 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 14:19:19.877 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 14:19:19.885 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 14:19:19.887 +01:00 [INF] Hosting environment: Development
+2024-10-29 14:19:19.887 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 14:19:22.995 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-29 14:19:23.010 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 14:19:23.035 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:19:23.065 +01:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-29 14:19:23.808 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:24.025 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+2024-10-29 14:19:24.038 +01:00 [INF] Executing ViewResult, running view List.
+2024-10-29 14:19:24.222 +01:00 [INF] Executed ViewResult - view List executed in 177.9719ms.
+2024-10-29 14:19:24.227 +01:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 1160.5978ms
+2024-10-29 14:19:24.227 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:19:24.254 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 1260.492ms
+2024-10-29 14:19:28.109 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 14:19:28.111 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:28.114 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:19:28.139 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:28.141 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:19:28.254 +01:00 [INF] Executed ViewResult - view Register executed in 113.9349ms.
+2024-10-29 14:19:28.254 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 139.7941ms
+2024-10-29 14:19:28.254 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:28.255 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 146.0064ms
+2024-10-29 14:19:28.265 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - null null
+2024-10-29 14:19:28.273 +01:00 [INF] The file /css/site.css was not modified
+2024-10-29 14:19:28.274 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - 304 null text/css 8.1657ms
+2024-10-29 14:19:30.600 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 247
+2024-10-29 14:19:30.604 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:30.622 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:19:30.708 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:30.743 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:19:30.752 +01:00 [INF] Executed ViewResult - view Register executed in 8.7154ms.
+2024-10-29 14:19:30.752 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 130.5154ms
+2024-10-29 14:19:30.752 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:30.753 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 152.202ms
+2024-10-29 14:19:40.325 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 278
+2024-10-29 14:19:40.326 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:40.326 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:19:40.328 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:40.458 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Username_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Username" = @__Username_0)
+2024-10-29 14:19:40.462 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-29 14:19:40.630 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = DateTime), @p2='?' (Size = 12), @p3='?' (Size = 3), @p4='?' (Size = 3), @p5='?', @p6='?', @p7='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Aftername", "Date_Started", "Email", "Firstname", "Password", "Phone", "ProfilePicture", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "IdUser";
+2024-10-29 14:19:40.653 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:19:40.656 +01:00 [INF] Executed ViewResult - view Register executed in 2.4937ms.
+2024-10-29 14:19:40.656 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 329.8244ms
+2024-10-29 14:19:40.656 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:40.656 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 330.9742ms
+2024-10-29 14:19:44.872 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-29 14:19:44.872 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:19:44.872 +01:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-29 14:19:44.874 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:44.878 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+2024-10-29 14:19:44.900 +01:00 [INF] Executing ViewResult, running view List.
+2024-10-29 14:19:44.902 +01:00 [INF] Executed ViewResult - view List executed in 1.9368ms.
+2024-10-29 14:19:44.902 +01:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 30.1359ms
+2024-10-29 14:19:44.902 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:19:44.902 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 30.8027ms
+2024-10-29 14:19:56.467 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 14:19:56.467 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:56.467 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:19:56.469 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:19:56.469 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:19:56.473 +01:00 [INF] Executed ViewResult - view Register executed in 3.3624ms.
+2024-10-29 14:19:56.473 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 5.5721ms
+2024-10-29 14:19:56.473 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:19:56.473 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 6.4069ms
+2024-10-29 14:20:00.829 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 247
+2024-10-29 14:20:00.829 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:00.829 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:00.831 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:00.832 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:00.836 +01:00 [INF] Executed ViewResult - view Register executed in 4.1595ms.
+2024-10-29 14:20:00.836 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 6.9649ms
+2024-10-29 14:20:00.836 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:00.836 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 7.6605ms
+2024-10-29 14:20:02.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 14:20:02.743 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:02.743 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:02.744 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:02.745 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:02.748 +01:00 [INF] Executed ViewResult - view Register executed in 3.2651ms.
+2024-10-29 14:20:02.748 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 4.7688ms
+2024-10-29 14:20:02.748 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:02.748 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 5.4328ms
+2024-10-29 14:20:06.029 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 231
+2024-10-29 14:20:06.029 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:06.029 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:06.031 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:06.032 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:06.035 +01:00 [INF] Executed ViewResult - view Register executed in 2.7032ms.
+2024-10-29 14:20:06.035 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 5.9169ms
+2024-10-29 14:20:06.035 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:06.036 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 6.8255ms
+2024-10-29 14:20:07.412 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-29 14:20:07.412 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:07.413 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:07.415 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:07.415 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:07.418 +01:00 [INF] Executed ViewResult - view Register executed in 3.0861ms.
+2024-10-29 14:20:07.418 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 5.3683ms
+2024-10-29 14:20:07.418 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:07.419 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 6.5053ms
+2024-10-29 14:20:39.721 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 303
+2024-10-29 14:20:39.722 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:39.722 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:39.725 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:39.731 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Username_0='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Username" = @__Username_0)
+2024-10-29 14:20:39.732 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-29 14:20:39.736 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (DbType = DateTime), @p2='?' (Size = 24), @p3='?' (Size = 5), @p4='?' (Size = 8), @p5='?', @p6='?', @p7='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Aftername", "Date_Started", "Email", "Firstname", "Password", "Phone", "ProfilePicture", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "IdUser";
+2024-10-29 14:20:39.738 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:39.739 +01:00 [INF] Executed ViewResult - view Register executed in 1.4057ms.
+2024-10-29 14:20:39.739 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 16.951ms
+2024-10-29 14:20:39.739 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:39.740 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 18.2063ms
+2024-10-29 14:20:47.094 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 295
+2024-10-29 14:20:47.094 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:47.094 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:47.096 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:47.097 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:47.101 +01:00 [INF] Executed ViewResult - view Register executed in 4.2639ms.
+2024-10-29 14:20:47.101 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 7.0566ms
+2024-10-29 14:20:47.101 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:47.102 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 7.7161ms
+2024-10-29 14:20:50.562 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 303
+2024-10-29 14:20:50.562 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:50.562 +01:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:20:50.564 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:50.565 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Username_0='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Username" = @__Username_0)
+2024-10-29 14:20:50.567 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Email_0='?' (Size = 24)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Email_0)
+2024-10-29 14:20:50.567 +01:00 [INF] Executing ViewResult, running view Register.
+2024-10-29 14:20:50.569 +01:00 [INF] Executed ViewResult - view Register executed in 1.5737ms.
+2024-10-29 14:20:50.569 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 6.8159ms
+2024-10-29 14:20:50.569 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-29 14:20:50.569 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 7.3821ms
+2024-10-29 14:20:57.686 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-29 14:20:57.687 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:20:57.687 +01:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-29 14:20:57.688 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:20:57.689 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+2024-10-29 14:20:57.689 +01:00 [INF] Executing ViewResult, running view List.
+2024-10-29 14:20:57.690 +01:00 [INF] Executed ViewResult - view List executed in 1.0951ms.
+2024-10-29 14:20:57.690 +01:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 3.1902ms
+2024-10-29 14:20:57.690 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:20:57.690 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 3.9635ms
+2024-10-29 14:24:08.472 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/User/List - null null
+2024-10-29 14:24:08.472 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:24:08.472 +01:00 [INF] Route matched with {action = "List", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Ahmadside.Controllers.UserController (Ahmadside).
+2024-10-29 14:24:08.474 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:24:08.474 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."IdUser", "u"."Aftername", "u"."Date_Started", "u"."Email", "u"."Firstname", "u"."Password", "u"."Phone", "u"."ProfilePicture", "u"."Username"
+FROM "Users" AS "u"
+2024-10-29 14:24:08.475 +01:00 [INF] Executing ViewResult, running view List.
+2024-10-29 14:24:08.476 +01:00 [INF] Executed ViewResult - view List executed in 1.2746ms.
+2024-10-29 14:24:08.476 +01:00 [INF] Executed action Ahmadside.Controllers.UserController.List (Ahmadside) in 4.1724ms
+2024-10-29 14:24:08.476 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.UserController.List (Ahmadside)'
+2024-10-29 14:24:08.476 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/User/List - 200 null text/html; charset=utf-8 4.7317ms
+2024-10-29 14:24:08.493 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - null null
+2024-10-29 14:24:08.493 +01:00 [INF] The file /css/site.css was not modified
+2024-10-29 14:24:08.493 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/css/site.css?v=44k-UzWKxkaI1ifvEusB9sIUloONkmHrOID1Ls2hXQY - 304 null text/css 0.5833ms
+2024-10-29 14:24:10.323 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-29 14:24:10.324 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 14:24:10.326 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 14:24:10.328 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 14:24:10.330 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 14:24:10.338 +01:00 [INF] Executed ViewResult - view Index executed in 9.4559ms.
+2024-10-29 14:24:10.338 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 11.9639ms
+2024-10-29 14:24:10.338 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 14:24:10.338 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 14.5885ms
+2024-10-29 14:34:52.379 +01:00 [INF] Application is shutting down...

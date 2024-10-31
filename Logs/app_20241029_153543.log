@@ -1,0 +1,37 @@
+2024-10-29 15:35:43.447 +01:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-29 15:35:43.563 +01:00 [INF] Now listening on: http://localhost:5002
+2024-10-29 15:35:43.568 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 15:35:43.570 +01:00 [INF] Hosting environment: Development
+2024-10-29 15:35:43.570 +01:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-29 15:35:45.656 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login - null null
+2024-10-29 15:35:45.672 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 15:35:45.699 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:45.731 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:35:46.412 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:35:46.426 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:35:46.667 +01:00 [INF] Executed ViewResult - view Index executed in 237.0462ms.
+2024-10-29 15:35:46.670 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 938.8072ms
+2024-10-29 15:35:46.671 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:46.701 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login - 200 null text/html; charset=utf-8 1047.7374ms
+2024-10-29 15:35:47.523 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 199
+2024-10-29 15:35:47.528 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:47.540 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:35:47.561 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:35:47.592 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:35:47.600 +01:00 [INF] Executed ViewResult - view Index executed in 8.4029ms.
+2024-10-29 15:35:47.600 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 60.4436ms
+2024-10-29 15:35:47.600 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:47.601 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 200 null text/html; charset=utf-8 77.8952ms
+2024-10-29 15:35:51.818 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login - application/x-www-form-urlencoded 233
+2024-10-29 15:35:51.820 +01:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:51.820 +01:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Ahmadside.Models.User) on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-29 15:35:51.901 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-10-29 15:35:51.903 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:35:51.905 +01:00 [INF] Executed ViewResult - view Index executed in 2.4065ms.
+2024-10-29 15:35:51.905 +01:00 [INF] Executed action Ahmadside.Controllers.LoginController.Index (Ahmadside) in 84.8967ms
+2024-10-29 15:35:51.905 +01:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Index (Ahmadside)'
+2024-10-29 15:35:51.906 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login - 200 null text/html; charset=utf-8 87.2795ms
+2024-10-29 15:37:43.466 +01:00 [INF] Application is shutting down...

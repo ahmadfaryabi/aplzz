@@ -1,0 +1,70 @@
+2024-10-25 12:22:25.362 +02:00 [INF] User profile is available. Using '/Users/ahmadfaryabi/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-25 12:22:25.507 +02:00 [INF] Now listening on: http://localhost:5002
+2024-10-25 12:22:25.515 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-25 12:22:25.516 +02:00 [INF] Hosting environment: Development
+2024-10-25 12:22:25.516 +02:00 [INF] Content root path: /Users/ahmadfaryabi/Documents/nettside kos/Ahmadside
+2024-10-25 12:22:25.897 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-25 12:22:25.912 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-10-25 12:22:25.938 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:25.967 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:25.980 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:26.270 +02:00 [INF] Executed ViewResult - view Register executed in 291.6924ms.
+2024-10-25 12:22:26.277 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 309.115ms
+2024-10-25 12:22:26.277 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:26.284 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 388.9802ms
+2024-10-25 12:22:27.695 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 230
+2024-10-25 12:22:27.700 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:27.701 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:27.702 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:27.710 +02:00 [INF] Executed ViewResult - view Register executed in 8.4959ms.
+2024-10-25 12:22:27.710 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 8.9725ms
+2024-10-25 12:22:27.710 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:27.711 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 15.1352ms
+2024-10-25 12:22:30.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-25 12:22:30.300 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:30.300 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:30.301 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:30.304 +02:00 [INF] Executed ViewResult - view Register executed in 3.296ms.
+2024-10-25 12:22:30.304 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 3.529ms
+2024-10-25 12:22:30.304 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:30.304 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 5.4041ms
+2024-10-25 12:22:30.941 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-25 12:22:30.942 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:30.942 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:30.942 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:30.945 +02:00 [INF] Executed ViewResult - view Register executed in 2.5488ms.
+2024-10-25 12:22:30.945 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.8599ms
+2024-10-25 12:22:30.945 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:30.945 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.8605ms
+2024-10-25 12:22:32.343 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/Login/Register - null null
+2024-10-25 12:22:32.343 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:32.344 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:32.344 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:32.346 +02:00 [INF] Executed ViewResult - view Register executed in 2.2912ms.
+2024-10-25 12:22:32.346 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.5387ms
+2024-10-25 12:22:32.346 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:32.347 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.4643ms
+2024-10-25 12:22:34.382 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 231
+2024-10-25 12:22:34.382 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:34.382 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:34.382 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:34.385 +02:00 [INF] Executed ViewResult - view Register executed in 2.2149ms.
+2024-10-25 12:22:34.385 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.4887ms
+2024-10-25 12:22:34.385 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:34.385 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.3076ms
+2024-10-25 12:22:35.588 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 230
+2024-10-25 12:22:35.588 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:35.589 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:35.589 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:35.591 +02:00 [INF] Executed ViewResult - view Register executed in 1.8736ms.
+2024-10-25 12:22:35.591 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.3401ms
+2024-10-25 12:22:35.591 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:35.591 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.3194ms
+2024-10-25 12:22:37.086 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/Login/Register - application/x-www-form-urlencoded 231
+2024-10-25 12:22:37.086 +02:00 [INF] Executing endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:37.086 +02:00 [INF] Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Ahmadside.Controllers.LoginController (Ahmadside).
+2024-10-25 12:22:37.087 +02:00 [INF] Executing ViewResult, running view Register.
+2024-10-25 12:22:37.089 +02:00 [INF] Executed ViewResult - view Register executed in 2.2512ms.
+2024-10-25 12:22:37.089 +02:00 [INF] Executed action Ahmadside.Controllers.LoginController.Register (Ahmadside) in 2.5429ms
+2024-10-25 12:22:37.089 +02:00 [INF] Executed endpoint 'Ahmadside.Controllers.LoginController.Register (Ahmadside)'
+2024-10-25 12:22:37.090 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/Login/Register - 200 null text/html; charset=utf-8 3.3039ms
