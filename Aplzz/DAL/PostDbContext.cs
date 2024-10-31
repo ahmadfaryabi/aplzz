@@ -7,7 +7,11 @@ namespace Aplzz.DAL
     {
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
         {
+<<<<<<< HEAD
             Database.EnsureCreated();
+=======
+            //Database.EnsureCreated();
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
         }
         public DbSet<User> Users { get; set; } 
         // needed tables for soocial media managements

@@ -939,5 +939,16 @@ C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+<<<<<<< HEAD
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+=======
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Castle.Core.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Serilog.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Serilog.Sinks.File.dll
+>>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)

@@ -82,16 +82,26 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0Q29udGVudC5jc2h0bWw=
 =======
+=======
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 [C:/Users/vansa/aplzz/Aplzz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vansa/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0Q29udGVudC5jc2h0bWw=
+<<<<<<< HEAD
 >>>>>>> c954901 (Errohandling og logging)
+=======
+=======
+[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0Q29udGVudC5jc2h0bWw=
+>>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vansa/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]

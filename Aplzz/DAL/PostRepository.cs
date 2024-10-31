@@ -171,4 +171,8 @@ public class PostRepository : IPostRepository
             throw;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)

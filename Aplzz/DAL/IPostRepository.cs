@@ -14,4 +14,8 @@ public interface IPostRepository
     Task<bool> RemoveLike(int postId, int userId);
     Task<int> GetLikeCount(int postId);
     Task<bool> HasUserLikedPost(int postId, int userId);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)

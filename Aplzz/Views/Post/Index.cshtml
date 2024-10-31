@@ -13,6 +13,25 @@
     <title>Aplzz - Sosial Media</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .like-button {
+            transition: all 0.3s ease;
+        }
+        .like-button.liked {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+        .like-button:active {
+            transform: scale(0.95);
+        }
+        .like-error {
+            color: red;
+            font-size: 0.8em;
+            margin-top: 5px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
@@ -43,6 +62,7 @@
                                 }
                                 <button 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     class="btn btn-primary btn-sm like-button @(isLiked ? "liked" : "")" 
                                     data-post-id="@post.PostId" 
                                     data-liked="@isLiked">
@@ -53,29 +73,34 @@
                                 <div class="like-error"></div>
 =======
                                     class="btn btn-primary btn-sm like-button" 
+=======
+                                    class="btn btn-primary btn-sm like-button @(isLiked ? "liked" : "")" 
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
                                     data-post-id="@post.PostId" 
                                     data-liked="@isLiked">
-                                    @if (isLiked)
-                                    {
-                                        <span>Fjern Like</span>
-                                    }
-                                    else
-                                    {
-                                        <span>Lik</span>
-                                    }
-                                    (<span class="like-count">@post.Likes?.Count ?? 0</span>)
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <span class="like-text">@(isLiked ? "Likt" : "Lik")</span>
+                                    (<span class="like-count">@(post.Likes?.Count ?? 0)</span>)
                                 </button>
+<<<<<<< HEAD
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+                                <div class="like-error"></div>
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 
                                 <button class="btn btn-secondary btn-sm" data-bs-toggle="collapse" data-bs-target="#commentForm-@post.PostId">Kommenter</button>
 
                                 <div class="collapse" id="commentForm-@post.PostId">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     <form class="comment-form" data-post-id="@post.PostId">
 =======
                                     <form asp-action="AddComment" method="post">
                                         <input type="hidden" name="postId" value="@post.PostId" />
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+                                    <form class="comment-form" data-post-id="@post.PostId">
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
                                         <div class="mb-2">
                                             <input type="text" class="form-control comment-input" placeholder="Skriv en kommentar..." required />
                                         </div>
@@ -117,18 +142,23 @@
             <p class="text-center">Ingen innlegg å vise.</p>
         }
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         $(document).ready(function() {
             // Like button click event
             $(".like-button").click(function(e) {
                 e.preventDefault();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
                 const button = $(this);
                 const errorDiv = button.siblings('.like-error');
                 const postId = button.data("post-id");
                 
                 button.prop('disabled', true);
                 
+<<<<<<< HEAD
                 $.ajax({
                     url: "/Post/LikePost",
                     method: "POST",
@@ -185,6 +215,8 @@
                 var isLiked = button.attr("data-liked") === "true";
 
                 // Send AJAX POST request
+=======
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
                 $.ajax({
                     url: "/Post/LikePost",
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
@@ -218,10 +250,27 @@
 =======
                     data: { postId: postId },
                     success: function(response) {
-                        // Update like count and button state
                         button.find(".like-count").text(response.likesCount);
-                        button.attr("data-liked", !isLiked); // Toggle like state
+                        button.toggleClass('liked', response.isLiked);
+                        
+                        const likeText = response.isLiked ? "Likt" : "Lik";
+                        button.find(".like-text").text(likeText);
+                        
+                        button.animate({ scale: 1.2 }, 100)
+                             .animate({ scale: 1.0 }, 100);
+                        
+                        errorDiv.hide();
+                    },
+                    error: function(xhr) {
+                        errorDiv.text("Kunne ikke prosessere like. Prøv igjen senere.").show();
+                    },
+                    complete: function() {
+                        button.prop('disabled', false);
+                    }
+                });
+            });
 
+<<<<<<< HEAD
                         // Update button text based on like state
                         if (!isLiked) {
                             button.html(`Fjern Like (<span class="like-count">${response.likesCount}</span>)`);
@@ -229,6 +278,55 @@
                             button.html(`Lik (<span class="like-count">${response.likesCount}</span>)`);
                         }
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+            // Comment form submission
+            $(".comment-form").submit(function(e) {
+                e.preventDefault();
+                const form = $(this);
+                const postId = form.data("post-id");
+                const input = form.find(".comment-input");
+                const button = form.find("button");
+                const spinner = button.find(".spinner-border");
+                const errorDiv = form.siblings(".comment-error");
+                const commentsContainer = form.closest(".card-body").find(".comments-container");
+
+                const commentText = input.val().trim();
+                if (!commentText) return;
+
+                // Disable form and show loading state
+                button.prop("disabled", true);
+                spinner.removeClass("d-none");
+                errorDiv.hide();
+
+                $.ajax({
+                    url: "/Post/AddComment",
+                    method: "POST",
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    data: { postId: postId, commentText: commentText },
+                    success: function(response) {
+                        // Add new comment to UI
+                        const newComment = `
+                            <div class="border-top pt-2">
+                                <p>${response.text}</p>
+                                <small class="text-muted">${response.commentedAt}</small>
+                            </div>
+                        `;
+                        commentsContainer.prepend(newComment);
+                        
+                        // Clear input and reset form
+                        input.val("");
+                        form.closest(".collapse").collapse("hide");
+                    },
+                    error: function(xhr) {
+                        const error = xhr.responseJSON?.error || "Kunne ikke legge til kommentar. Prøv igjen senere.";
+                        errorDiv.text(error).show();
+                    },
+                    complete: function() {
+                        button.prop("disabled", false);
+                        spinner.addClass("d-none");
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
                     }
                 });
             });

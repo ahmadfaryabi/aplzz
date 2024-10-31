@@ -1,6 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using Aplzz.DAL;
+=======
+<<<<<<< HEAD
+>>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 using Aplzz.Models;
+=======
+using Aplzz.DAL;
+>>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 using Serilog;
 using Serilog.Events;
 
@@ -85,11 +92,23 @@ builder.Logging.AddConsole();
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 
+var loggerConfiguration = new LoggerConfiguration()
+    .MinimumLevel.Information() // levels: Trace< Information < Warning < Erorr < Fatal
+    .WriteTo.File($"Logs/app_{DateTime.Now:yyyyMMdd_HHmmss}.log");
+
+loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceContext", out var value) &&
+    e.Level == LogEventLevel.Information &&
+    e.MessageTemplate.Text.Contains("Executed DbCommand"));
+
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
+    DBInit.Seed(app);
+
 }
 else
 {
