@@ -3,7 +3,11 @@
     ViewData["Title"] = "Registrer deg";
 }
 
+<<<<<<< HEAD
 
+=======
+<h1>@ViewBag.Title</h1>
+>>>>>>> 96fa80c (flere filer laget for innlogging)
 <div class="register">
 
     @if(TempData["ErrorEmail"] != null) {
@@ -15,6 +19,7 @@
     @if(TempData["SuccessMsg"] != null) {
         <div class="alert alert-success">@TempData["SuccessMsg"]</div>
     } 
+<<<<<<< HEAD
     <div class="title_center header">@ViewBag.Title hos Aplzz og start din sosiale verden!</div>
     <form asp-action="Register">
         <div class="form-group_">
@@ -35,6 +40,33 @@
         </div>
         <div class="form-group_">
             <input type="text" asp-for="Username" class="form-control" id="" placeholder="Brukernavn"/>
+=======
+
+    <form asp-action="Register">
+        <div class="form-group_">
+            <label asp-for="Firstname" class="control-label">Fornavn (*)</label>
+            <input type="text" asp-for="Firstname" id="" class="form-control" />
+            <span asp-validation-for="Firstname" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <label asp-for="Aftername" class="control-label">Etternavn (*)</label>
+            <input type="text" asp-for="Aftername" class="form-control" id=""/>
+            <span asp-validation-for="Aftername" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <label asp-for="Email" class="control-label">E-post (*)</label>
+            <input type="text" asp-for="Email" class="form-control" id=""/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <label asp-for="Password" class="control-label">Password (*)</label>
+            <input type="password" asp-for="Password" class="form-control" id=""/>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group_">
+            <label asp-for="Username" class="control-label">Brukernavn (*)</label>
+            <input type="text" asp-for="Username" class="form-control" id=""/>
+>>>>>>> 96fa80c (flere filer laget for innlogging)
             <span asp-validation-for="Username" class="text-danger"></span>
         </div>
         <div class="form-group_">
@@ -43,8 +75,12 @@
             <span asp-validation-for="ProfilePicture" class="text-danger"></span>
         </div>
         <div class="form-group_">
+<<<<<<< HEAD
             <input type="submit" value="Fullfør registrering" onclick="register()" class="aplzz_btn btn_register" />
             <p></p>Har du allerede registrert? <a asp-controller="Login" asp-action="Index">Logg inn</a>
+=======
+            <input type="submit" value="Finito" onclick="register()" class="btn btn-primary" />
+>>>>>>> 96fa80c (flere filer laget for innlogging)
         </div>
     </form>
 </div>

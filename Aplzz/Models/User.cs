@@ -1,7 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
+<<<<<<< HEAD
 namespace Aplzz.Models
+=======
+namespace Ahmadside.Models
+>>>>>>> 96fa80c (flere filer laget for innlogging)
 {
     public class User
         {
@@ -28,4 +32,8 @@ namespace Aplzz.Models
             [RegularExpression(@"([^\s]+(\.(?i)(jpe?g|png|gif|bmp))$)", ErrorMessage ="Please choose a picture (.jpeg, jpg, png file etc.)")]
             public string? ProfilePicture {get;set;}
         }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 96fa80c (flere filer laget for innlogging)
