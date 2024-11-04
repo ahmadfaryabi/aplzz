@@ -29,6 +29,7 @@ body {
   padding:20px;
 }
 
+<<<<<<< HEAD
 .title_center {
   color: #828282;
 }
@@ -39,16 +40,22 @@ body {
   margin:5px;
 }
 
+=======
+>>>>>>> d202e60 (endring på stil)
 .register {
   border-radius: 5px;
   box-shadow: 1px 5px 20px #828282;
   padding:20px 10px;
+<<<<<<< HEAD
   max-width: 500px;
   margin: auto;
+=======
+>>>>>>> d202e60 (endring på stil)
 }
 
 .form-group_ {
   margin:10px;
+<<<<<<< HEAD
 }
 
 .like-button {
@@ -88,4 +95,6 @@ body {
   background-color: #1c825e;
   font-weight: bolder;
   font-size: 20px;
+=======
+>>>>>>> d202e60 (endring på stil)
 }

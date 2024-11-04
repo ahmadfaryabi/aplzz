@@ -51,6 +51,7 @@ public class LoginController : Controller
     if(HttpContext.Session.GetString("username") != null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       return RedirectToAction("Index", "Post");
 =======
       return RedirectToAction("Index", "Home");
@@ -58,6 +59,9 @@ public class LoginController : Controller
 =======
       return RedirectToAction("Post", "Index");
 >>>>>>> 5504f1b (database endringer)
+=======
+      return RedirectToAction("Index", "Post");
+>>>>>>> d202e60 (endring på stil)
     } else {
       return View();
     }
