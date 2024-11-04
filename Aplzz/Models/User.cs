@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
-namespace Ahmadside.Models
+namespace Aplzz.Models
 {
     public class User
         {

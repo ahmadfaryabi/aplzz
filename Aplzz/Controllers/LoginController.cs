@@ -1,12 +1,12 @@
 using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Ahmadside.Models;
+using Aplzz.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
-namespace Ahmadside.Controllers;
+namespace Aplzz.Controllers;
 
 public class LoginController : Controller 
 {
@@ -20,7 +20,7 @@ public class LoginController : Controller
   public IActionResult Index() 
   {
     if(HttpContext.Session.GetString("username") != null) {
-      return RedirectToAction("Index", "Home");
+      return RedirectToAction("Post", "Index");
     } else {
       return View();
     }

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Ahmadside.Models;
+namespace Aplzz.Models;
 
 public class UserDbContext: DbContext
 {
