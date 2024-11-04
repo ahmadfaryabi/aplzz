@@ -20,7 +20,7 @@ public class LoginController : Controller
   public IActionResult Index() 
   {
     if(HttpContext.Session.GetString("username") != null) {
-      return RedirectToAction("Post", "Index");
+      return RedirectToAction("Index", "Post");
     } else {
       return View();
     }
