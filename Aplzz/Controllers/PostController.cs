@@ -13,10 +13,10 @@ namespace Aplzz.Controllers
 {
     public class PostController : Controller
     {
-        private readonly PostDbContext _context; // Legg til en privat felt for konteksten
+        private readonly DbContexts _context; // Legg til en privat felt for konteksten
 
         // Injiser PostDbContext via konstruktøren
-        public PostController(PostDbContext context)
+        public PostController(DbContexts context)
         {
             _context = context;
         }

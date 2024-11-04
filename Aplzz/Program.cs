@@ -5,9 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<PostDbContext>(options => {
+builder.Services.AddDbContext<DbContexts>(options => {
     options.UseSqlite(
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+});
+
+builder.Services.AddSession(options => {
+    options.Cookie.Name = ".Applz.Session";
+    options.Cookie.IsEssential = true;
 });
 
 var app = builder.Build();
@@ -18,6 +23,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
+app.UseAuthorization();
+app.UseAuthentication();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
