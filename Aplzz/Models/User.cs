@@ -2,10 +2,14 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Aplzz.Models
 =======
 namespace Ahmadside.Models
 >>>>>>> 96fa80c (flere filer laget for innlogging)
+=======
+namespace Aplzz.Models
+>>>>>>> 5504f1b (database endringer)
 {
     public class User
         {

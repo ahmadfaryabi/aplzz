@@ -13,11 +13,15 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<PostDbContext>(options => {
     options.UseSqlite(
 <<<<<<< HEAD
+<<<<<<< HEAD
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 =======
         builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
         builder.Configuration["ConnectionStrings:UserDbContextConnection"]);
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+        builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+>>>>>>> 5504f1b (database endringer)
 });
 
 <<<<<<< HEAD

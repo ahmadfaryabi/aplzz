@@ -284,7 +284,10 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
+=======
+>>>>>>> 5504f1b (database endringer)
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
@@ -355,6 +358,7 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.Up2Date
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
@@ -788,3 +792,5 @@ C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/zh-Hant/Mi
 >>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
 >>>>>>> origin/Zaka_R
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
+=======
+>>>>>>> 5504f1b (database endringer)

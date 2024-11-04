@@ -2,14 +2,19 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Aplzz.Models;
 =======
 using Ahmadside.Models;
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+using Aplzz.Models;
+>>>>>>> 5504f1b (database endringer)
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
+<<<<<<< HEAD
 <<<<<<< HEAD
 using Aplzz.DAL;
 namespace Aplzz.Controllers;
@@ -21,6 +26,9 @@ public class LoginController : Controller
   public LoginController(PostDbContext userDb) 
 =======
 namespace Ahmadside.Controllers;
+=======
+namespace Aplzz.Controllers;
+>>>>>>> 5504f1b (database endringer)
 
 public class LoginController : Controller 
 {
@@ -36,10 +44,14 @@ public class LoginController : Controller
   {
     if(HttpContext.Session.GetString("username") != null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       return RedirectToAction("Index", "Post");
 =======
       return RedirectToAction("Index", "Home");
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+      return RedirectToAction("Post", "Index");
+>>>>>>> 5504f1b (database endringer)
     } else {
       return View();
     }

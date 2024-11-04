@@ -17,6 +17,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb6bdf35fdc0bbd3b18537fead3c5e5bc8f78f0")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f92c6328edd3a0f9efae3ef7bd939fd4e7dee")]
@@ -27,6 +28,8 @@ using System.Reflection;
 =======
 =======
 >>>>>>> 96fa80c (flere filer laget for innlogging)
+=======
+>>>>>>> 5504f1b (database endringer)
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ea866292391bd29908831d9d38d6e21c5527e1")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c03e31a5bc5d2da5ab01f887d8c4d75729ed36c")]
@@ -37,7 +40,13 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76f5fcbe86f8f1d6aabdbc090980ec8ab86be08a")]
 >>>>>>> ea908cc (flere filer laget for innlogging)
+<<<<<<< HEAD
 >>>>>>> 96fa80c (flere filer laget for innlogging)
+=======
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea908cc2caf9cd9acd1347015e3258dff095ba6a")]
+>>>>>>> d764345 (database endringer)
+>>>>>>> 5504f1b (database endringer)
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
