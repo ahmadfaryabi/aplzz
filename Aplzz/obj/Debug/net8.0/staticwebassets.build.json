@@ -2,6 +2,7 @@
   "Version": 1,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -9,6 +10,9 @@
 =======
   "Hash": "g2bU+tzF1md5/MyC2IHiXvBizyHRrlRmhtZr2eUxgGw=",
 >>>>>>> 5504f1b (database endringer)
+=======
+  "Hash": "pUd6rPM6n3C9YWok+pboF6lU3zZ71RtR/t+cldYG4wM=",
+>>>>>>> 86d362f (login system endring)
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -274,6 +278,7 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -284,6 +289,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
+=======
+      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
+>>>>>>> 86d362f (login system endring)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -299,6 +310,7 @@
       "OriginalItemSpec": "wwwroot/images/data1100.jpeg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
       "SourceId": "Aplzz",
@@ -441,6 +453,8 @@
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
 =======
+=======
+>>>>>>> 86d362f (login system endring)
       "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",

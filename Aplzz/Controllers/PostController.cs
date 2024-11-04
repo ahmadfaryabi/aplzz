@@ -17,6 +17,7 @@ namespace Aplzz.Controllers
     public class PostController : Controller
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger; // Legg til logger
 
@@ -26,11 +27,19 @@ namespace Aplzz.Controllers
             _postRepository = postRepository;
             _logger = logger; // Initialiser logger
 =======
+=======
+>>>>>>> 86d362f (login system endring)
         private readonly PostDbContext _context; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController>_logger;
 
         // Injiser PostDbContext via konstruktøren
         public PostController(PostDbContext context,ILogger<PostController>logger)
+=======
+        private readonly DbContexts _context; // Legg til en privat felt for konteksten
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(DbContexts context)
+>>>>>>> f4ab8f9 (login system endring)
         {
             _context = context;
             _logger = logger;

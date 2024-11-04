@@ -9,8 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+<<<<<<< HEAD
 
 builder.Services.AddDbContext<PostDbContext>(options => {
+=======
+builder.Services.AddDbContext<DbContexts>(options => {
+>>>>>>> 86d362f (login system endring)
     options.UseSqlite(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24,6 +28,7 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 >>>>>>> 5504f1b (database endringer)
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 
@@ -50,6 +55,8 @@ builder.Services.AddSession(options =>
 });
 
 =======
+=======
+>>>>>>> 86d362f (login system endring)
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information() // levels: Trace< Information < Warning < Erorr < Fatal
     .WriteTo.File($"Logs/app_{DateTime.Now:yyyyMMdd_HHmmss}.log");
@@ -57,7 +64,16 @@ var loggerConfiguration = new LoggerConfiguration()
 loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceContext", out var value) &&
                             e.Level == LogEventLevel.Information &&
                             e.MessageTemplate.Text.Contains("Executed DbCommand"));
+<<<<<<< HEAD
 >>>>>>> c954901 (Errohandling og logging)
+=======
+=======
+builder.Services.AddSession(options => {
+    options.Cookie.Name = ".Applz.Session";
+    options.Cookie.IsEssential = true;
+});
+>>>>>>> f4ab8f9 (login system endring)
+>>>>>>> 86d362f (login system endring)
 
 var app = builder.Build();
 
@@ -72,6 +88,9 @@ else
 }
 
 app.UseStaticFiles();
+app.UseAuthorization();
+app.UseAuthentication();
+app.UseSession();
 
 app.UseRouting();
 

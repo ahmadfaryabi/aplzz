@@ -21,6 +21,7 @@ namespace Aplzz.Controllers;
 
 public class LoginController : Controller 
 {
+<<<<<<< HEAD
   private readonly PostDbContext _userDB;
 
   public LoginController(PostDbContext userDb) 
@@ -36,6 +37,11 @@ public class LoginController : Controller
 
   public LoginController(UserDbContext userDb) 
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+  private readonly DbContexts _userDB;
+
+  public LoginController(DbContexts userDb) 
+>>>>>>> 86d362f (login system endring)
   {
     _userDB = userDb;
   }
@@ -79,8 +85,12 @@ public class LoginController : Controller
 =======
         HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
       }
+<<<<<<< HEAD
       return RedirectToAction("Index", "Home");
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+      return RedirectToAction("Index", "Post");
+>>>>>>> 86d362f (login system endring)
     } else {
       TempData["ErrorMessage"] = "E-mail or password is incorrect or account does not exist!";
     }
