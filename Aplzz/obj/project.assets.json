@@ -2642,6 +2642,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/.nuget/packages/": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
@@ -2650,11 +2651,19 @@
     "C:\\Users\\vansa\\.nuget\\packages\\": {}
 >>>>>>> 37ea866 (Intializing  logging)
 =======
+=======
+>>>>>>> 82a25f3 (ok)
     "C:\\Users\\vansa\\.nuget\\packages\\": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
 >>>>>>> 76f5fcb (logg inn funksjoon)
+<<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+=======
+    "C:\\Users\\ahmad\\.nuget\\packages\\": {}
+>>>>>>> a051670 (ok)
+>>>>>>> 82a25f3 (ok)
   },
   "project": {
     "version": "1.0.0",
@@ -2662,10 +2671,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
 =======
 =======
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+>>>>>>> 82a25f3 (ok)
       "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
 >>>>>>> 37ea866 (Intializing  logging)
       "projectName": "Aplzz",
@@ -2693,15 +2705,25 @@
 =======
 =======
       "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+>>>>>>> a051670 (ok)
       "projectName": "Aplzz",
-      "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
-      "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
-      "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/",
+      "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+      "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> 76f5fcb (logg inn funksjoon)
+<<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+=======
+        "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> a051670 (ok)
+>>>>>>> 82a25f3 (ok)
       ],
       "originalTargetFrameworks": [
         "net8.0"

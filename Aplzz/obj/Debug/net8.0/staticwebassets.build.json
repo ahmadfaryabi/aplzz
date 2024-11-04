@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -13,6 +14,9 @@
 =======
   "Hash": "pUd6rPM6n3C9YWok+pboF6lU3zZ71RtR/t+cldYG4wM=",
 >>>>>>> 86d362f (login system endring)
+=======
+  "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
+>>>>>>> 82a25f3 (ok)
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -20,8 +24,9 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Aplzz/wwwroot",
+      "Name": "Aplzz\\wwwroot",
       "Source": "Aplzz",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
@@ -31,12 +36,16 @@
 =======
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css",
@@ -55,6 +64,12 @@
       "SourceType": "Computed",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.styles.css",
       "AssetKind": "All",
@@ -69,15 +84,20 @@
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
 =======
       "OriginalItemSpec": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
 >>>>>>> 5504f1b (database endringer)
+=======
+      "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
+>>>>>>> 82a25f3 (ok)
     },
     {
-      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css",
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/",
 =======
@@ -92,6 +112,9 @@
 =======
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.bundle.scp.css",
       "AssetKind": "All",
@@ -106,15 +129,20 @@
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
 =======
       "OriginalItemSpec": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
 >>>>>>> 5504f1b (database endringer)
+=======
+      "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
+>>>>>>> 82a25f3 (ok)
     },
     {
-      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
 =======
@@ -129,6 +157,9 @@
 =======
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -141,9 +172,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/favicon.ico",
@@ -162,6 +194,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -174,9 +212,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
@@ -195,6 +234,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -207,9 +252,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/chickenleg.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\chickenleg.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/cider.jpg",
@@ -228,6 +274,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -240,9 +292,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/cider.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\cider.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/coke.jpg",
@@ -261,6 +314,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\coke.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -273,9 +332,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/coke.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\coke.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +355,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 86d362f (login system endring)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -307,9 +373,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/data1100.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
@@ -460,6 +527,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
@@ -472,9 +545,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pizza.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\pizza.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
@@ -545,6 +619,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -557,9 +637,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/tacos.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\tacos.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/bootstrap.js",
@@ -578,6 +659,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -590,9 +677,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/jquery.min.js",
@@ -611,6 +699,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -623,9 +717,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/site.js",
@@ -644,6 +739,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\site.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -656,9 +757,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -677,6 +779,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -689,9 +797,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
@@ -710,6 +819,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -722,9 +837,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
@@ -743,6 +859,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -755,9 +877,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
@@ -776,6 +899,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -788,9 +917,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
@@ -809,6 +939,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -821,9 +957,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
@@ -842,6 +979,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -854,9 +997,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
@@ -875,6 +1019,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -887,9 +1037,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
@@ -908,6 +1059,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -920,9 +1077,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
@@ -941,6 +1099,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -953,9 +1117,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
@@ -974,6 +1139,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -986,9 +1157,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
@@ -1007,6 +1179,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1019,9 +1197,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
@@ -1040,6 +1219,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1052,9 +1237,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
@@ -1073,6 +1259,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1085,9 +1277,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
@@ -1106,6 +1299,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1118,9 +1317,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
@@ -1139,6 +1339,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1151,9 +1357,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
@@ -1172,6 +1379,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1184,9 +1397,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
@@ -1205,6 +1419,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1217,9 +1437,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
@@ -1238,6 +1459,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1250,9 +1477,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
@@ -1271,6 +1499,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1283,9 +1517,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
@@ -1304,6 +1539,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1316,9 +1557,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
@@ -1337,6 +1579,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1349,9 +1597,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
@@ -1370,6 +1619,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1382,9 +1637,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
@@ -1403,6 +1659,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1415,9 +1677,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
@@ -1436,6 +1699,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1448,9 +1717,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
@@ -1469,6 +1739,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1481,9 +1757,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
@@ -1502,6 +1779,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1514,9 +1797,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
@@ -1535,6 +1819,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1547,9 +1837,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
@@ -1568,6 +1859,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1580,9 +1877,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
@@ -1601,6 +1899,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1613,9 +1917,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
@@ -1634,6 +1939,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1646,9 +1957,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
@@ -1667,6 +1979,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1679,9 +1997,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
@@ -1700,6 +2019,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1712,9 +2037,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
@@ -1733,6 +2059,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1745,9 +2077,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
@@ -1766,6 +2099,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1778,9 +2117,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
@@ -1799,6 +2139,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1811,9 +2157,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
@@ -1832,6 +2179,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1844,9 +2197,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
@@ -1865,6 +2219,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1877,9 +2237,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
@@ -1898,6 +2259,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1910,9 +2277,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
@@ -1931,6 +2299,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1943,9 +2317,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
@@ -1964,6 +2339,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1976,9 +2357,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
@@ -1997,6 +2379,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2009,9 +2397,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
@@ -2030,6 +2419,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2042,9 +2437,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
@@ -2063,6 +2459,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2075,9 +2477,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
@@ -2096,6 +2499,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2108,9 +2517,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/LICENSE",
@@ -2129,6 +2539,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2141,9 +2557,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
@@ -2162,6 +2579,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2174,9 +2597,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
@@ -2195,6 +2619,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2207,9 +2637,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
@@ -2228,6 +2659,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2240,9 +2677,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.js",
@@ -2261,6 +2699,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2273,9 +2717,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
@@ -2294,6 +2739,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2306,9 +2757,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
@@ -2327,6 +2779,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2339,9 +2797,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
@@ -2360,6 +2819,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2372,9 +2837,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/LICENSE.md",
@@ -2393,6 +2859,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2405,9 +2877,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.js",
@@ -2426,6 +2899,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2438,9 +2917,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.js",
@@ -2459,6 +2939,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2471,9 +2957,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.map",
@@ -2492,6 +2979,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2504,9 +2997,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/LICENSE.txt",
@@ -2525,6 +3019,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/",
 >>>>>>> 5504f1b (database endringer)
+=======
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 82a25f3 (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2537,7 +3037,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageFolders>
 =======
@@ -18,17 +19,27 @@
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vansa\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> 37ea866 (Intializing  logging)
 =======
+=======
+>>>>>>> 82a25f3 (ok)
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vansa\.nuget\packages\</NuGetPackageFolders>
 =======
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageFolders>
 >>>>>>> 76f5fcb (logg inn funksjoon)
+<<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+=======
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ahmad\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> a051670 (ok)
+>>>>>>> 82a25f3 (ok)
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,10 +54,15 @@
 =======
 =======
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+>>>>>>> 82a25f3 (ok)
     <SourceRoot Include="C:\Users\vansa\.nuget\packages\" />
 =======
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
 >>>>>>> 76f5fcb (logg inn funksjoon)
+=======
+    <SourceRoot Include="C:\Users\ahmad\.nuget\packages\" />
+>>>>>>> a051670 (ok)
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />

@@ -4,10 +4,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+>>>>>>> 82a25f3 (ok)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -47,21 +50,31 @@
 =======
 =======
     "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {}
+=======
+    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
+>>>>>>> a051670 (ok)
   },
   "projects": {
-    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {
+    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+        "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
-        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
-        "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/",
+        "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> 76f5fcb (logg inn funksjoon)
+<<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+=======
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> a051670 (ok)
+>>>>>>> 82a25f3 (ok)
         ],
         "originalTargetFrameworks": [
           "net8.0"
