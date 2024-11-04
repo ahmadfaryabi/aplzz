@@ -25,6 +25,7 @@ builder.Services.AddDbContext<DbContexts>(options => {
     options.UseSqlite(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 =======
         builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
@@ -33,6 +34,12 @@ builder.Services.AddDbContext<DbContexts>(options => {
 =======
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 >>>>>>> 5504f1b (database endringer)
+=======
+        builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+=======
+        builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
+>>>>>>> 051aac6 (.)
+>>>>>>> 17bd246 (.)
 });
 
 <<<<<<< HEAD
