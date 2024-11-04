@@ -15,6 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb6bdf35fdc0bbd3b18537fead3c5e5bc8f78f0")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f92c6328edd3a0f9efae3ef7bd939fd4e7dee")]
@@ -22,6 +23,12 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ea866292391bd29908831d9d38d6e21c5527e1")]
 >>>>>>> c954901 (Errohandling og logging)
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ea866292391bd29908831d9d38d6e21c5527e1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c03e31a5bc5d2da5ab01f887d8c4d75729ed36c")]
+>>>>>>> 76f5fcb (logg inn funksjoon)
+>>>>>>> 5847ef8 (logg inn funksjoon)
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

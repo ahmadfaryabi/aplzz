@@ -1,11 +1,16 @@
 using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Aplzz.Models;
+=======
+using Ahmadside.Models;
+>>>>>>> 5847ef8 (logg inn funksjoon)
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
+<<<<<<< HEAD
 using Aplzz.DAL;
 namespace Aplzz.Controllers;
 
@@ -14,6 +19,15 @@ public class LoginController : Controller
   private readonly PostDbContext _userDB;
 
   public LoginController(PostDbContext userDb) 
+=======
+namespace Ahmadside.Controllers;
+
+public class LoginController : Controller 
+{
+  private readonly UserDbContext _userDB;
+
+  public LoginController(UserDbContext userDb) 
+>>>>>>> 5847ef8 (logg inn funksjoon)
   {
     _userDB = userDb;
   }
@@ -21,7 +35,11 @@ public class LoginController : Controller
   public IActionResult Index() 
   {
     if(HttpContext.Session.GetString("username") != null) {
+<<<<<<< HEAD
       return RedirectToAction("Index", "Post");
+=======
+      return RedirectToAction("Index", "Home");
+>>>>>>> 5847ef8 (logg inn funksjoon)
     } else {
       return View();
     }
@@ -42,9 +60,15 @@ public class LoginController : Controller
         HttpContext.Session.SetString("firstname", res.Firstname.ToString());
         HttpContext.Session.SetString("aftername", res.Aftername.ToString());
         HttpContext.Session.SetString("email", res.Email.ToString());
+<<<<<<< HEAD
        // HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
       }
       return RedirectToAction("Index", "Post");
+=======
+        HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
+      }
+      return RedirectToAction("Index", "Home");
+>>>>>>> 5847ef8 (logg inn funksjoon)
     } else {
       TempData["ErrorMessage"] = "E-mail or password is incorrect or account does not exist!";
     }
@@ -113,4 +137,14 @@ public class LoginController : Controller
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");
   }
+<<<<<<< HEAD
 }
+=======
+
+  [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+}
+>>>>>>> 5847ef8 (logg inn funksjoon)
