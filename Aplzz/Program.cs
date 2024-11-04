@@ -8,6 +8,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<PostDbContext>(options => {
     options.UseSqlite(
         builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
+        builder.Configuration["ConnectionStrings:UserDbContextConnection"]);
 });
 
 var app = builder.Build();
