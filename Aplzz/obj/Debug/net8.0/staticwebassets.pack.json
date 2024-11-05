@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "PackagePath": "staticwebassets/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
+    },
+    {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
     },
@@ -25,12 +29,32 @@
       "PackagePath": "staticwebassets/images/coke.jpg"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
+      "PackagePath": "staticwebassets/images/fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/frenchfries.jpg",
+      "PackagePath": "staticwebassets/images/frenchfries.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pexels.jpg",
+      "PackagePath": "staticwebassets/images/pexels.jpg"
+    },
+    {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "PackagePath": "staticwebassets/images/data1100.jpeg"
     },
     {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "PackagePath": "staticwebassets/images/pizza.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
+      "PackagePath": "staticwebassets/images/ribs.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "PackagePath": "staticwebassets/images/scott.jpg"
     },
     {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/tacos.jpg",
