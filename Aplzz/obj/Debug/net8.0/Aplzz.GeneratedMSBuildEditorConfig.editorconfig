@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aplzz
 build_property.RootNamespace = Aplzz
-build_property.ProjectDir = /Users/libansulub/Documents/GitHub/aplzz/Aplzz/
+build_property.ProjectDir = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/libansulub/Documents/GitHub/aplzz/Aplzz
+build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Create.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Post/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Delete.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Post/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Index.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Post/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Update.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Post/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0Q29udGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/_ViewImports.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/_ViewStart.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q2k0rc4hot
