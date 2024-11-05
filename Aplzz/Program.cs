@@ -1,15 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Aplzz.DAL;
 =======
 <<<<<<< HEAD
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+<<<<<<< HEAD
+>>>>>>> c63ba55 (endring)
 using Aplzz.Models;
 =======
 using Aplzz.DAL;
 >>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 using Serilog;
 using Serilog.Events;
+=======
+using Aplzz.Models;
+>>>>>>> d99f336 (endring)
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +33,7 @@ builder.Services.AddDbContext<DbContexts>(options => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 =======
         builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
@@ -35,6 +43,8 @@ builder.Services.AddDbContext<DbContexts>(options => {
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 >>>>>>> 5504f1b (database endringer)
 =======
+=======
+>>>>>>> c63ba55 (endring)
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 =======
         builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
@@ -85,10 +95,16 @@ loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceCont
 >>>>>>> c954901 (Errohandling og logging)
 =======
 =======
+=======
+        builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+});
+
+>>>>>>> d99f336 (endring)
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
     options.Cookie.IsEssential = true;
 });
+<<<<<<< HEAD
 >>>>>>> f4ab8f9 (login system endring)
 <<<<<<< HEAD
 >>>>>>> 86d362f (login system endring)
@@ -108,14 +124,14 @@ loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceCont
     e.MessageTemplate.Text.Contains("Executed DbCommand"));
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
+=======
+>>>>>>> d99f336 (endring)
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    DBInit.Seed(app);
-
 }
 else
 {
