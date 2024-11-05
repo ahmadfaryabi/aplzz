@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 namespace Aplzz.Models 
@@ -14,11 +15,21 @@ using Aplzz.Models;
 
 namespace Aplzz.DAL 
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+using Aplzz.Models;
+
+namespace Aplzz.DAL 
+=======
+
+namespace Aplzz.Models 
+>>>>>>> 3748811 (ok)
+>>>>>>> 36b1ce8 (ok)
 {
     public class DbContexts : DbContext 
     {
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
         {
+<<<<<<< HEAD
             //Database.EnsureCreated();
         }
 <<<<<<< HEAD
@@ -54,4 +65,17 @@ namespace Aplzz.DAL
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 86d362f (login system endring)
+=======
+=======
+            Database.EnsureCreated();
+        }
+        public DbSet<User> Users { get; set; } 
+        // needed tables for soocial media managements
+        public DbSet<Post> Posts { get; set; } 
+        public DbSet<Comment> Comments { get; set; } 
+    }
+}
+>>>>>>> 3748811 (ok)
+>>>>>>> 36b1ce8 (ok)

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Fz1IOqTOUZg=",
 =======
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 5b112ef (committing)
+=======
+>>>>>>> 36b1ce8 (ok)
   "dgSpecHash": "mdQpeZeg4RY=",
 =======
   "dgSpecHash": "xIKvvOIl4+w=",
@@ -186,6 +189,8 @@
   "expectedPackageFiles": [
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 3748811 (ok)
   "dgSpecHash": "e5VSI3/ItGM=",
   "success": true,
   "projectFilePath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
@@ -198,16 +203,24 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.csharp/4.5.0/microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+<<<<<<< HEAD
 >>>>>>> c329a7e (committing)
+=======
+>>>>>>> 3748811 (ok)
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.data.sqlite.core/8.0.10/microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.10/microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.10/microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.proxies/8.0.10/microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
 >>>>>>> c329a7e (committing)
+=======
+    "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
+    "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.proxies/8.0.10/microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
+>>>>>>> 3748811 (ok)
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.10/microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.10/microsoft.entityframeworkcore.sqlite.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.10/microsoft.entityframeworkcore.sqlite.core.8.0.10.nupkg.sha512",
@@ -222,16 +235,23 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3748811 (ok)
     "/Users/ahmadfaryabi/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog/4.0.0/serilog.4.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
+<<<<<<< HEAD
 >>>>>>> c329a7e (committing)
+=======
+>>>>>>> 3748811 (ok)
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "/Users/ahmadfaryabi/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
 >>>>>>> 76f5fcb (logg inn funksjoon)
@@ -323,6 +343,8 @@
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 =======
+=======
+>>>>>>> 3748811 (ok)
     "/Users/ahmadfaryabi/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
@@ -338,8 +360,14 @@
     "/Users/ahmadfaryabi/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+<<<<<<< HEAD
 >>>>>>> c329a7e (committing)
+<<<<<<< HEAD
 >>>>>>> 5b112ef (committing)
+=======
+=======
+>>>>>>> 3748811 (ok)
+>>>>>>> 36b1ce8 (ok)
   ],
   "logs": []
 }
