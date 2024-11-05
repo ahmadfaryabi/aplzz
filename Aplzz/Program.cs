@@ -7,9 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<PostDbContext>(options => {
+builder.Services.AddDbContext<DbContexts>(options => {
     options.UseSqlite(
-        builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
+        builder.Configuration["ConnectionStrings:ItemDbContextConnection"]);
 });
 
 builder.Logging.ClearProviders();
@@ -35,6 +35,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
+app.UseAuthorization();
+app.UseAuthentication();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

@@ -20,3 +20,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.content {
+  margin:auto;
+  max-width: 800px;
+  padding:20px;
+}
+
+.register {
+  border-radius: 5px;
+  box-shadow: 1px 5px 20px #828282;
+  padding:20px 10px;
+}
+
+.form-group_ {
+  margin:10px;
+}

@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Login/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Post/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
