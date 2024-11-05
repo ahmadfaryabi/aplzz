@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "PackagePath": "staticwebassets/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
+    },
+    {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
     },
@@ -33,12 +37,20 @@
       "PackagePath": "staticwebassets/images/frenchfries.jpg"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pexels.jpg",
+      "PackagePath": "staticwebassets/images/pexels.jpg"
+    },
+    {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "PackagePath": "staticwebassets/images/pizza.jpg"
     },
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "PackagePath": "staticwebassets/images/ribs.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "PackagePath": "staticwebassets/images/scott.jpg"
     },
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",

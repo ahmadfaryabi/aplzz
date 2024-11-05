@@ -9,10 +9,13 @@ namespace Aplzz.DAL
         {
             using var serviceScope = app.ApplicationServices.CreateScope();
             var context = serviceScope.ServiceProvider.GetRequiredService<PostDbContext>();
-            context.Database.EnsureDeleted();
-            context.Database.EnsureCreated();
+            
+            if (!context.Database.CanConnect())
+            {
+                context.Database.EnsureCreated();
+            }
 
-            // Seed Users
+            // Seed Users først
             if (!context.Users.Any())
             {
                 var users = new List<User>
@@ -24,7 +27,8 @@ namespace Aplzz.DAL
                 context.SaveChanges();
             }
 
-            // Seed Posts
+            // Seed Posts og lagre PostId-ene
+            List<int> postIds = new List<int>();
             if (!context.Posts.Any())
             {
                 var posts = new List<Post>
@@ -33,38 +37,44 @@ namespace Aplzz.DAL
                     {
                         Content = "Dette er det første innlegget.",
                         CreatedAt = DateTime.Now,
-                        ImageUrl = "/images/chickenleg.jpg"
+                        ImageUrl = "/images/pexels.jpg"
                     },
                     new Post
                     {
                         Content = "Dette er det andre innlegget.",
                         CreatedAt = DateTime.Now,
-                        ImageUrl = "/images/pizza.jpg"
+                        ImageUrl = "/images/scott.jpg"
                     }
                 };
                 context.Posts.AddRange(posts);
                 context.SaveChanges();
+                postIds = posts.Select(p => p.PostId).ToList();
+            }
+            else
+            {
+                postIds = context.Posts.Select(p => p.PostId).ToList();
             }
 
-            // Seed Comments
-            if (!context.Comments.Any())
+            // Seed Comments kun hvis vi har gyldige innlegg
+            if (!context.Comments.Any() && postIds.Any())
             {
                 var comments = new List<Comment>
                 {
-                    new Comment { Text = "Flott innlegg!", CommentedAt = DateTime.Now, PostId = 1 },
-                    new Comment { Text = "Veldig informativt.", CommentedAt = DateTime.Now, PostId = 2 }
+                    new Comment { Text = "Flott innlegg!", CommentedAt = DateTime.Now, PostId = postIds[0] },
+                    new Comment { Text = "Veldig informativt.", CommentedAt = DateTime.Now, PostId = postIds.Last() }
                 };
                 context.Comments.AddRange(comments);
                 context.SaveChanges();
             }
 
-            // Seed Likes
-            if (!context.Likes.Any())
+            // Seed Likes kun hvis vi har gyldige innlegg og brukere
+            if (!context.Likes.Any() && postIds.Any() && context.Users.Any())
             {
+                var userIds = context.Users.Select(u => u.UserId).ToList();
                 var likes = new List<Like>
                 {
-                    new Like { PostId = 1, UserId = 1 },
-                    new Like { PostId = 2, UserId = 2 }
+                    new Like { PostId = postIds[0], UserId = userIds[0] },
+                    new Like { PostId = postIds.Last(), UserId = userIds.Last() }
                 };
                 context.Likes.AddRange(likes);
                 context.SaveChanges();
