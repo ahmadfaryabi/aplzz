@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -19,11 +20,19 @@
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
 >>>>>>> 82a25f3 (ok)
 =======
+=======
+>>>>>>> b70eb87 (Endret DbInit)
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
 =======
   "Hash": "uDPeVNopV59A0z+MtEjqb5eqOtih91P0QBxs5hBew2c=",
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+<<<<<<< HEAD
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+=======
+  "Hash": "Iq55C/o8K5rdp6uLzxtGQbT4H6U0VVK+d8kEu7f/keM=",
+>>>>>>> 7ee40a9 (Endret DbInit)
+>>>>>>> b70eb87 (Endret DbInit)
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -406,6 +415,25 @@
       "OriginalItemSpec": "wwwroot/images/frenchfries.jpg"
     },
     {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pexels.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/pexels.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pexels.jpg"
+    },
+    {
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
       "SourceId": "Aplzz",
@@ -693,6 +721,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/ribs.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/scott.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/scott.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
     },
     {
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",

@@ -22,6 +22,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb6bdf35fdc0bbd3b18537fead3c5e5bc8f78f0")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f92c6328edd3a0f9efae3ef7bd939fd4e7dee")]
@@ -59,6 +60,8 @@ using System.Reflection;
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> b70eb87 (Endret DbInit)
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea908cc2caf9cd9acd1347015e3258dff095ba6a")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4ab8f9e31a6f97052aac30c454f8741b71bd7bc")]
@@ -75,7 +78,13 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01c56da8a027415a1fcef493cd9eb4edc4a671c5")]
 >>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+<<<<<<< HEAD
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+430942bfab3f0dda3e3e9bfb8c6952facee0d459")]
+>>>>>>> 7ee40a9 (Endret DbInit)
+>>>>>>> b70eb87 (Endret DbInit)
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,11 +10,15 @@ namespace Aplzz.DAL
             using var serviceScope = app.ApplicationServices.CreateScope();
             var context = serviceScope.ServiceProvider.GetRequiredService<PostDbContext>();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b70eb87 (Endret DbInit)
             
             if (!context.Database.CanConnect())
             {
                 context.Database.EnsureCreated();
             }
+<<<<<<< HEAD
 
             // Seed Users først
 =======
@@ -23,6 +27,10 @@ namespace Aplzz.DAL
 
             // Seed Users
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+
+            // Seed Users først
+>>>>>>> b70eb87 (Endret DbInit)
             if (!context.Users.Any())
             {
                 var users = new List<User>
@@ -40,11 +48,16 @@ namespace Aplzz.DAL
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Seed Posts og lagre PostId-ene
             List<int> postIds = new List<int>();
 =======
             // Seed Posts
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+            // Seed Posts og lagre PostId-ene
+            List<int> postIds = new List<int>();
+>>>>>>> b70eb87 (Endret DbInit)
             if (!context.Posts.Any())
             {
                 var posts = new List<Post>
@@ -54,30 +67,42 @@ namespace Aplzz.DAL
                         Content = "Dette er det første innlegget.",
                         CreatedAt = DateTime.Now,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ImageUrl = "/images/pexels.jpg"
 =======
                         ImageUrl = "/images/chickenleg.jpg"
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+                        ImageUrl = "/images/pexels.jpg"
+>>>>>>> b70eb87 (Endret DbInit)
                     },
                     new Post
                     {
                         Content = "Dette er det andre innlegget.",
                         CreatedAt = DateTime.Now,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ImageUrl = "/images/scott.jpg"
 =======
                         ImageUrl = "/images/pizza.jpg"
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+                        ImageUrl = "/images/scott.jpg"
+>>>>>>> b70eb87 (Endret DbInit)
                     }
                 };
                 context.Posts.AddRange(posts);
                 context.SaveChanges();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b70eb87 (Endret DbInit)
                 postIds = posts.Select(p => p.PostId).ToList();
             }
             else
             {
                 postIds = context.Posts.Select(p => p.PostId).ToList();
+<<<<<<< HEAD
             }
 
             // Seed Comments kun hvis vi har gyldige innlegg
@@ -88,21 +113,29 @@ namespace Aplzz.DAL
                     new Comment { Text = "Flott innlegg!", CommentedAt = DateTime.Now, PostId = postIds[0] },
                     new Comment { Text = "Veldig informativt.", CommentedAt = DateTime.Now, PostId = postIds.Last() }
 =======
+=======
+>>>>>>> b70eb87 (Endret DbInit)
             }
 
-            // Seed Comments
-            if (!context.Comments.Any())
+            // Seed Comments kun hvis vi har gyldige innlegg
+            if (!context.Comments.Any() && postIds.Any())
             {
                 var comments = new List<Comment>
                 {
+<<<<<<< HEAD
                     new Comment { Text = "Flott innlegg!", CommentedAt = DateTime.Now, PostId = 1 },
                     new Comment { Text = "Veldig informativt.", CommentedAt = DateTime.Now, PostId = 2 }
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+                    new Comment { Text = "Flott innlegg!", CommentedAt = DateTime.Now, PostId = postIds[0] },
+                    new Comment { Text = "Veldig informativt.", CommentedAt = DateTime.Now, PostId = postIds.Last() }
+>>>>>>> b70eb87 (Endret DbInit)
                 };
                 context.Comments.AddRange(comments);
                 context.SaveChanges();
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // Seed Likes kun hvis vi har gyldige innlegg og brukere
             if (!context.Likes.Any() && postIds.Any() && context.Users.Any())
@@ -115,12 +148,22 @@ namespace Aplzz.DAL
 =======
             // Seed Likes
             if (!context.Likes.Any())
+=======
+            // Seed Likes kun hvis vi har gyldige innlegg og brukere
+            if (!context.Likes.Any() && postIds.Any() && context.Users.Any())
+>>>>>>> b70eb87 (Endret DbInit)
             {
+                var userIds = context.Users.Select(u => u.UserId).ToList();
                 var likes = new List<Like>
                 {
+<<<<<<< HEAD
                     new Like { PostId = 1, UserId = 1 },
                     new Like { PostId = 2, UserId = 2 }
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+                    new Like { PostId = postIds[0], UserId = userIds[0] },
+                    new Like { PostId = postIds.Last(), UserId = userIds.Last() }
+>>>>>>> b70eb87 (Endret DbInit)
                 };
                 context.Likes.AddRange(likes);
                 context.SaveChanges();

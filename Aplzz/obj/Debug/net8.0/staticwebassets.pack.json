@@ -25,6 +25,7 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/IMG_1404.PNG",
       "PackagePath": "staticwebassets/images/IMG_1404.PNG"
     },
@@ -38,6 +39,18 @@
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
       "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
 >>>>>>> 82a25f3 (ok)
+=======
+      "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
+      "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
+=======
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "PackagePath": "staticwebassets/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
+      "PackagePath": "staticwebassets/images/chickenleg.jpg"
+>>>>>>> 7ee40a9 (Endret DbInit)
+>>>>>>> b70eb87 (Endret DbInit)
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
@@ -117,12 +130,20 @@
       "PackagePath": "staticwebassets/images/frenchfries.jpg"
     },
     {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pexels.jpg",
+      "PackagePath": "staticwebassets/images/pexels.jpg"
+    },
+    {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "PackagePath": "staticwebassets/images/pizza.jpg"
     },
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "PackagePath": "staticwebassets/images/ribs.jpg"
+    },
+    {
+      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "PackagePath": "staticwebassets/images/scott.jpg"
     },
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",
