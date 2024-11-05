@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageFolders>
 =======
@@ -21,6 +22,8 @@
 =======
 =======
 >>>>>>> 82a25f3 (ok)
+=======
+>>>>>>> 5b112ef (committing)
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vansa\.nuget\packages\</NuGetPackageFolders>
 =======
@@ -34,11 +37,19 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ahmad\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> a051670 (ok)
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageFolders>
+>>>>>>> c329a7e (committing)
+>>>>>>> 5b112ef (committing)
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +67,8 @@
 >>>>>>> 5847ef8 (logg inn funksjoon)
 =======
 >>>>>>> 82a25f3 (ok)
+=======
+>>>>>>> 5b112ef (committing)
     <SourceRoot Include="C:\Users\vansa\.nuget\packages\" />
 =======
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
@@ -63,6 +76,9 @@
 =======
     <SourceRoot Include="C:\Users\ahmad\.nuget\packages\" />
 >>>>>>> a051670 (ok)
+=======
+    <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
+>>>>>>> c329a7e (committing)
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
@@ -83,7 +99,11 @@
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/libansulub/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+>>>>>>> 5b112ef (committing)
   </PropertyGroup>
 </Project>

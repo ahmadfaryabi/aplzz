@@ -5,12 +5,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
 >>>>>>> 5847ef8 (logg inn funksjoon)
 =======
 >>>>>>> 82a25f3 (ok)
+=======
+>>>>>>> 5b112ef (committing)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -74,7 +77,26 @@
 =======
           "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> a051670 (ok)
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {}
+  },
+  "projects": {
+    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+        "projectName": "Aplzz",
+        "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
+        "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+>>>>>>> c329a7e (committing)
+>>>>>>> 5b112ef (committing)
         ],
         "originalTargetFrameworks": [
           "net8.0"

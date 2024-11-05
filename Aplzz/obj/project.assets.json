@@ -2859,6 +2859,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/.nuget/packages/": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
@@ -2869,6 +2870,8 @@
 =======
 =======
 >>>>>>> 82a25f3 (ok)
+=======
+>>>>>>> 5b112ef (committing)
     "C:\\Users\\vansa\\.nuget\\packages\\": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
@@ -2879,11 +2882,18 @@
 =======
     "C:\\Users\\ahmad\\.nuget\\packages\\": {}
 >>>>>>> a051670 (ok)
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+    "/Users/ahmadfaryabi/.nuget/packages/": {}
+>>>>>>> c329a7e (committing)
+>>>>>>> 5b112ef (committing)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2894,6 +2904,8 @@
 >>>>>>> 5847ef8 (logg inn funksjoon)
 =======
 >>>>>>> 82a25f3 (ok)
+=======
+>>>>>>> 5b112ef (committing)
       "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
 >>>>>>> 37ea866 (Intializing  logging)
       "projectName": "Aplzz",
@@ -2939,7 +2951,20 @@
 =======
         "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> a051670 (ok)
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+      "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+      "projectName": "Aplzz",
+      "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
+      "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
+      "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+>>>>>>> c329a7e (committing)
+>>>>>>> 5b112ef (committing)
       ],
       "originalTargetFrameworks": [
         "net8.0"
