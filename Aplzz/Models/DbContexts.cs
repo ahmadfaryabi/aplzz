@@ -21,6 +21,7 @@ namespace Aplzz.DAL
         {
             //Database.EnsureCreated();
         }
+<<<<<<< HEAD
         public DbSet<User> Users { get; set; } 
 <<<<<<< HEAD
         public DbSet<Like> Likes { get; set; } 
@@ -37,6 +38,9 @@ namespace Aplzz.DAL
     }
 }
 =======
+=======
+        public DbSet<User>git Users { get; set; } 
+>>>>>>> ab8fc79 (ook)
         // needed tables for soocial media managements
         public DbSet<Post> Posts { get; set; } 
         public DbSet<Comment> Comments { get; set; } 
