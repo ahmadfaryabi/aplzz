@@ -14,4 +14,3 @@ namespace Aplzz.Models
         public DbSet<Comment> Comments { get; set; } 
     }
 }
-

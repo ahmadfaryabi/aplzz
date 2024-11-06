@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
+=======
+  "Hash": "iejHWrjk0/HtCRMOq7HynRWvX+jguDTQFfmkCj3F9eo=",
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -150,7 +154,68 @@
       "OriginalItemSpec": "wwwroot\\images\\coke.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
+=======
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/fishandchips.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/fishandchips.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/frenchfries.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/frenchfries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/frenchfries.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pexels.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/pexels.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pexels.jpg"
+    },
+    {
+      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
@@ -188,7 +253,68 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
+=======
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/ribs.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/ribs.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/scott.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/scott.jpg"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
+    },
+    {
+      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/tacos.jpg",
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",

@@ -42,12 +42,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0Q29udGVudC5jc2h0bWw=
+=======
+[/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0Q29udGVudC5jc2h0bWw=
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
