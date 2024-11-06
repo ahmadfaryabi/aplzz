@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageFolders>
 =======
@@ -30,6 +31,8 @@
 >>>>>>> 7a60692 (fikset)
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 8109aa9 (accountprofile)
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vansa\.nuget\packages\</NuGetPackageFolders>
 =======
@@ -64,11 +67,19 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\yaha-\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\yaha-\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +106,8 @@
 >>>>>>> 7a60692 (fikset)
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 8109aa9 (accountprofile)
     <SourceRoot Include="C:\Users\vansa\.nuget\packages\" />
 =======
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
@@ -105,6 +118,9 @@
 =======
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
 >>>>>>> c329a7e (committing)
+=======
+    <SourceRoot Include="C:\Users\yaha-\.nuget\packages\" />
+>>>>>>> 5d12ca7 (accountprofile)
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
@@ -127,6 +143,7 @@
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 =======
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\8.0.10\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\8.0.10\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />
+<<<<<<< HEAD
 >>>>>>> 7cf30d2 (fiksing)
 =======
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
@@ -166,6 +183,14 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\yaha-\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
 >>>>>>> 7071121 (ok)
+<<<<<<< HEAD
 >>>>>>> 6322eac (ok)
+=======
+=======
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\yaha-\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
   </PropertyGroup>
 </Project>

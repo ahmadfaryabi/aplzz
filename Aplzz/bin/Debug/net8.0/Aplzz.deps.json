@@ -12,14 +12,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.File": "6.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -32,6 +38,13 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
         },
         "runtime": {
           "Aplzz.dll": {}
@@ -40,10 +53,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -57,6 +75,7 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -65,6 +84,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -354,10 +379,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
         "dependencies": {
           "Castle.Core": "5.1.1",
@@ -372,6 +402,7 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -380,6 +411,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -514,10 +551,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "Serilog/4.0.0": {
         "runtime": {
           "lib/net8.0/Serilog.dll": {
@@ -551,6 +593,7 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -559,6 +602,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -773,6 +822,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Diagnostics.EventLog/6.0.0": {},
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
@@ -784,6 +834,14 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+      "System.Diagnostics.EventLog/6.0.0": {},
+=======
+>>>>>>> 7071121 (ok)
+=======
+      "System.Diagnostics.EventLog/6.0.0": {},
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
       "System.IO.Pipelines/6.0.3": {},
       "System.Memory/4.5.3": {},
       "System.Reflection.Metadata/6.0.1": {
@@ -809,10 +867,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "Castle.Core/5.1.1": {
       "type": "package",
       "serviceable": true,
@@ -820,6 +883,7 @@
       "path": "castle.core/5.1.1",
       "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -830,6 +894,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -917,10 +987,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -928,6 +1003,7 @@
       "path": "microsoft.entityframeworkcore.proxies/8.0.10",
       "hashPath": "microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512"
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -938,6 +1014,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -1039,10 +1121,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "Serilog/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1066,6 +1153,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -1074,6 +1162,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",
       "serviceable": true,
@@ -1161,10 +1255,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "System.Diagnostics.EventLog/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1172,6 +1271,7 @@
       "path": "system.diagnostics.eventlog/6.0.0",
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1182,6 +1282,12 @@
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 7071121 (ok)
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
     "System.IO.Pipelines/6.0.3": {
       "type": "package",
       "serviceable": true,

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
@@ -141,6 +142,8 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
 =======
+=======
+>>>>>>> 8109aa9 (accountprofile)
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
@@ -1260,6 +1263,17 @@ C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/zh-Hant/Mi
 >>>>>>> 7a60692 (fikset)
 =======
 =======
+=======
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.AssemblyReference.cache
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfoInputs.cache
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfo.cs
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.CoreCompileInputs.cache
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cache
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cs
+C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.sourcelink.json
+>>>>>>> 5d12ca7 (accountprofile)
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.Development.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\package-lock.json
@@ -1270,9 +1284,18 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.runtimeconfig.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.pdb
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Castle.Core.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Humanizer.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
@@ -1282,9 +1305,71 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Mono.TextTemplating.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Serilog.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\Serilog.Sinks.File.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.CodeDom.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.Composition.Convention.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.Composition.Hosting.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.Composition.Runtime.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\System.Composition.TypedParts.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -1305,15 +1390,6 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.AssemblyReference.cache
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfoInputs.cache
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfo.cs
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.CoreCompileInputs.cache
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.MvcApplicationPartsAssemblyInfo.cache
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cache
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cs
-c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.sourcelink.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.build.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.development.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1330,6 +1406,7 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.pdb
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.genruntimeconfig.cache
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9848c75 (AccountProfile update)
 <<<<<<< HEAD
@@ -1403,4 +1480,9 @@ C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 >>>>>>> 7071121 (ok)
+<<<<<<< HEAD
 >>>>>>> 6322eac (ok)
+=======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)

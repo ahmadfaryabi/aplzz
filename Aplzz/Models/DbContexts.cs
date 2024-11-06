@@ -73,6 +73,7 @@ namespace Aplzz.Models
             Database.EnsureCreated();
         }
         public DbSet<User> Users { get; set; } 
+        public DbSet<Like> Likes { get; set; } 
         // needed tables for soocial media managements
         public DbSet<Post> Posts { get; set; } 
         public DbSet<Comment> Comments { get; set; } 

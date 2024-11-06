@@ -173,8 +173,11 @@ public class LoginController : Controller
     return RedirectToAction("Index", "Login");
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> 8109aa9 (accountprofile)
 
 <<<<<<< HEAD
   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -191,4 +194,10 @@ public class LoginController : Controller
 //         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 //     }
 }
+<<<<<<< HEAD
 >>>>>>> 2b5b12d (fiksing)
+=======
+=======
+}
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)

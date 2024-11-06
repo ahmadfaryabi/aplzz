@@ -1,8 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Linq; // Legg til for LINQ
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Aplzz.DAL;
 using Aplzz.Models;
 using Aplzz.ViewModels;
-using System;
+using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
@@ -16,6 +19,7 @@ namespace Aplzz.Controllers
     
     public class PostController : Controller
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,6 +39,8 @@ namespace Aplzz.Controllers
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
+=======
+>>>>>>> 8109aa9 (accountprofile)
         private readonly PostDbContext _context; // Legg til en privat felt for konteksten
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,10 +88,22 @@ namespace Aplzz.Controllers
             _postRepository = postRepository;
             _logger = logger;
 >>>>>>> 7071121 (ok)
+=======
+        private readonly DbContexts _context; // Legg til en privat felt for konteksten
+        private readonly ILogger<PostController> _logger; // Legg til logger
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(DbContexts context, ILogger<PostController> logger)
+        {
+            _context = context;
+            _logger = logger; // Initialiser logger
+>>>>>>> 5d12ca7 (accountprofile)
         }
 
-        public async Task<IActionResult> Index()
+        // Handling to display the list of posts
+        public IActionResult Index()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
            
@@ -136,13 +154,21 @@ namespace Aplzz.Controllers
 >>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 7071121 (ok)
+=======
+            var posts = _context.Posts
+                .Include(p => p.Comments) // Inkluder kommentarer
+                .ToList(); // Hent innleggene som en liste
+
+            var viewModel = new PostViewModel(posts, "Aplzz Feed");
+            return View(viewModel);
+>>>>>>> 5d12ca7 (accountprofile)
         }
 
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+        return View();
         }
 
         [HttpPost]
@@ -152,6 +178,7 @@ namespace Aplzz.Controllers
             {
                 if (imageFile != null && imageFile.Length > 0)
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +214,8 @@ namespace Aplzz.Controllers
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+>>>>>>> 8109aa9 (accountprofile)
                     try {
                         // Lagre bildet på serveren
                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
@@ -222,20 +251,18 @@ namespace Aplzz.Controllers
 =======
 =======
                     try
+=======
+                    // Lagre bildet på serveren
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+>>>>>>> 5d12ca7 (accountprofile)
                     {
-                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await imageFile.CopyToAsync(stream);
-                        }
-                        post.ImageUrl = $"/images/{imageFile.FileName}";
+                        await imageFile.CopyToAsync(stream);
                     }
-                    catch (Exception e)
-                    {
-                        _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
-                    }
+                    post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
                 }
 
+<<<<<<< HEAD
 =======
                     try
                     {
@@ -270,6 +297,7 @@ namespace Aplzz.Controllers
 =======
 =======
 >>>>>>> 7071121 (ok)
+<<<<<<< HEAD
 >>>>>>> 6322eac (ok)
             }
             _logger.LogWarning("[PostController] Post creation failed{@post}",post);
@@ -281,10 +309,24 @@ namespace Aplzz.Controllers
  
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+                post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
+                _context.Posts.Add(post);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+>>>>>>> 5d12ca7 (accountprofile)
+            }
+            _logger.LogWarning("[PostController] Post creation failed{@post}",post);
+            return View(post);
+        }    
+>>>>>>> 8109aa9 (accountprofile)
 
         [HttpPost]
         public async Task<IActionResult> AddComment(int postId, string commentText)
         {
+            _logger.LogInformation("Legger til kommentar: {CommentText} til postId: {PostId}", commentText, postId);
+
             if (!string.IsNullOrEmpty(commentText))
             {
                 var comment = new Comment
@@ -294,6 +336,7 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +367,8 @@ namespace Aplzz.Controllers
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
 >>>>>>> 6322eac (ok)
+=======
+>>>>>>> 8109aa9 (accountprofile)
                 try{
                  _context.Comments.Add(comment);
                   await _context.SaveChangesAsync();
@@ -378,11 +423,22 @@ namespace Aplzz.Controllers
 =======
               _logger.LogError("[PostController] Post not found to update the PostId{PostId:0000}",id);
               return BadRequest("Post not found for the PostId");
+<<<<<<< HEAD
 >>>>>>> c954901 (Errohandling og logging)
+=======
+=======
+                _context.Comments.Add(comment);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
             }
-            return View(post);
-        }
+            else
+            {
+                _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)
+            }
 
+<<<<<<< HEAD
         [HttpPost]
         public async Task<IActionResult> Update(Post post, IFormFile? imageFile)
         {
@@ -749,37 +805,132 @@ public async Task<IActionResult> LikePost(int postId)
             {
                 return NotFound();
             }
+=======
+>>>>>>> 5d12ca7 (accountprofile)
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpPost]
-        public async Task<IActionResult> LikePost(int postId)
+        [HttpGet]
+        public IActionResult Update(int id)
         {
-            try
+            var post = _context.Posts.Find(id); 
+            if (post == null)
             {
-                int userId = 1; // Hardkodet bruker-ID
-                var isLiked = await _postRepository.HasUserLikedPost(postId, userId);
-
-                if (isLiked)
-                {
-                    await _postRepository.RemoveLike(postId, userId);
-                }
-                else
-                {
-                    var like = new Like { PostId = postId, UserId = userId };
-                    await _postRepository.AddLike(like);
-                }
-
-                var newLikeCount = await _postRepository.GetLikeCount(postId);
-                return Json(new { likesCount = newLikeCount, isLiked = !isLiked });
+                return NotFound();
             }
-            catch (Exception e)
+            return View(post); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
+        {
+            var existingPost = await _context.Posts.FindAsync(post.PostId); // Hent eksisterende innlegg
+            if (existingPost == null)
             {
-                _logger.LogError("[PostController] Failed to process like: {e}", e.Message);
-                return BadRequest("Failed to process like");
+                return NotFound(); // Returner 404 hvis innlegget ikke finnes
             }
+
+            // Oppdater feltene i eksisterende innlegg
+            existingPost.Content = post.Content; // Oppdater innhold
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                // Lagre bildet på serveren
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                existingPost.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+            }
+
+            existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt
+            _context.Posts.Update(existingPost); 
+            await _context.SaveChangesAsync(); 
+            return RedirectToAction(nameof(Index)); 
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var post = _context.Posts.Find(id);
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return View(post); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmed(int id) 
+        {
+            var post = await _context.Posts.FindAsync(id); 
+            if (post == null)
+            {
+                return NotFound();
+            }
+            _context.Posts.Remove(post);
+            await _context.SaveChangesAsync(); 
+            return RedirectToAction(nameof(Index)); 
+        }
+
+        [HttpPost]
+public async Task<IActionResult> LikePost(int postId)
+{
+    int userId = 1; // Hardkode userId for testbrukeren "testuser"
+    _logger.LogInformation("Bruker {IdUser} liker postId: {PostId}", userId, postId);
+
+    var postExists = await _context.Posts.AnyAsync(p => p.PostId == postId);
+    if (!postExists)
+    {
+        _logger.LogWarning("Post med postId: {PostId} eksisterer ikke.", postId);
+        return NotFound();
+    }
+
+    var existingLike = await _context.Likes
+        .FirstOrDefaultAsync(l => l.PostId == postId && l.UserId == userId);
+
+    if (existingLike != null)
+    {
+        // Hvis det allerede finnes en like fra denne brukeren, fjern den
+        _context.Likes.Remove(existingLike);
+        _logger.LogInformation("Fjerner like for postId: {PostId} av bruker {IdUser}", postId, userId);
+    }
+    else
+    {
+        // Hvis ingen like finnes, legg til en ny
+        var like = new Like
+        {
+            PostId = postId,
+            UserId = userId
+        };
+        _context.Likes.Add(like);
+        _logger.LogInformation("Legger til like for postId: {PostId} av bruker {UserId}", postId, userId);
+    }
+
+    await _context.SaveChangesAsync();
+
+    // Returner oppdatert like-telling
+    var likeCount = await _context.Likes.CountAsync(l => l.PostId == postId);
+    return Json(new { likesCount = likeCount });
+}
+
+        [HttpPost]
+        public async Task<IActionResult> CreateTestUser()
+        {
+            var testUser = new User
+            {
+                Username = "testuser",
+                Email = "testuser@example.com"
+            };
+
+            _context.Users.Add(testUser);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
@@ -789,4 +940,11 @@ public async Task<IActionResult> LikePost(int postId)
 =======
 }
 >>>>>>> 7071121 (ok)
+<<<<<<< HEAD
 >>>>>>> 6322eac (ok)
+=======
+=======
+}
+
+>>>>>>> 5d12ca7 (accountprofile)
+>>>>>>> 8109aa9 (accountprofile)

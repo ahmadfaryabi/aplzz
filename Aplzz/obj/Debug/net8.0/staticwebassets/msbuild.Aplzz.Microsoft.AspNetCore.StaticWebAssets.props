@@ -98,6 +98,7 @@
     </StaticWebAsset>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))">
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))">
@@ -105,10 +106,14 @@
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))">
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))">
+>>>>>>> 5d12ca7 (accountprofile)
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Aplzz</BasePath>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <RelativePath>images/data1100.jpeg</RelativePath>
@@ -118,6 +123,9 @@
 =======
       <RelativePath>images/data1100.jpeg</RelativePath>
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+=======
+      <RelativePath>images/data1100.jpeg</RelativePath>
+>>>>>>> 5d12ca7 (accountprofile)
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -128,9 +136,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))</OriginalItemSpec>
 =======
 =======
+=======
+>>>>>>> 5d12ca7 (accountprofile)
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))">
@@ -147,7 +158,10 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+=======
+>>>>>>> 5d12ca7 (accountprofile)
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))">
@@ -165,6 +179,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))</OriginalItemSpec>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 =======
@@ -238,6 +253,8 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\katt.jpg))</OriginalItemSpec>
+=======
+>>>>>>> 5d12ca7 (accountprofile)
     </StaticWebAsset>
 <<<<<<< HEAD
 =======

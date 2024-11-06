@@ -43,6 +43,7 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 >>>>>>> ab71774 (fikset sql lite feil. :))
 =======
 // Add DbContext for Posts
+<<<<<<< HEAD
 builder.Services.AddDbContext<PostDbContext>(options => {
 <<<<<<< HEAD
 >>>>>>> 6322eac (ok)
@@ -70,12 +71,16 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 >>>>>>> 17bd246 (.)
 =======
 =======
+=======
+builder.Services.AddDbContext<DbContexts>(options => {
+>>>>>>> 5d12ca7 (accountprofile)
     options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
 });
 
 // Add DbContext for Account Profiles
 builder.Services.AddDbContext<AccountDbContext>(options => {
     options.UseSqlite(builder.Configuration["ConnectionStrings:AccountDbContextConnection"]);
+<<<<<<< HEAD
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
 });
@@ -136,6 +141,8 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
     options.Cookie.IsEssential = true;
+=======
+>>>>>>> 5d12ca7 (accountprofile)
 });
 <<<<<<< HEAD
 >>>>>>> f4ab8f9 (login system endring)
