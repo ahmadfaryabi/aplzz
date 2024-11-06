@@ -11,8 +11,12 @@ using Aplzz.ViewModels;
 
 namespace Aplzz.Controllers
 {
+<<<<<<< HEAD
   
     public class AccountProfileController : Controller
+=======
+      public class AccountProfileController : Controller
+>>>>>>> 4ad0b03 (AccountProfile update)
     {
         private readonly AccountDbContext _context;
 
@@ -21,6 +25,7 @@ namespace Aplzz.Controllers
             _context = context;
         }
 
+<<<<<<< HEAD
         // GET: Display list of profiles
         public async Task<IActionResult> Index()
         {
@@ -160,19 +165,97 @@ namespace Aplzz.Controllers
         }
 
         // POST: Delete an existing profile
+=======
+        // READ: Display a list of profiles
+        public async Task<IActionResult> Index()
+        {
+            var profiles = await _context.AccountProfiles.ToListAsync();
+            return View(profiles);
+        }
+
+        // CREATE: Display form for new profile
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // CREATE: Add a new profile to the database
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(AccountProfile profile)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(profile);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(profile);
+        }
+
+        // READ: Display a specific profile
+        public async Task<IActionResult> Details(int id)
+        {
+            var profile = await _context.AccountProfiles.FindAsync(id);
+            if (profile == null) return NotFound();
+            return View(profile);
+        }
+
+        // UPDATE: Display form for editing a profile
+        public async Task<IActionResult> Edit(int id)
+        {
+            var profile = await _context.AccountProfiles.FindAsync(id);
+            if (profile == null) return NotFound();
+            return View(profile);
+        }
+
+        // UPDATE: Edit a specific profile in the database
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, AccountProfile profile)
+        {
+            if (id != profile.AccountId) return NotFound();
+            
+            if (ModelState.IsValid)
+            {
+                profile.UpdatedAt = DateTime.Now;
+                _context.Update(profile);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(profile);
+        }
+
+        // DELETE: Confirm profile deletion
+        public async Task<IActionResult> Delete(int id)
+        {
+            var profile = await _context.AccountProfiles.FindAsync(id);
+            if (profile == null) return NotFound();
+            return View(profile);
+        }
+
+        // DELETE: Remove a profile from the database
+>>>>>>> 4ad0b03 (AccountProfile update)
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var profile = await _context.AccountProfiles.FindAsync(id);
+<<<<<<< HEAD
             if (profile == null)
             {
                 return NotFound();
             }
 
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
             _context.AccountProfiles.Remove(profile);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4ad0b03 (AccountProfile update)

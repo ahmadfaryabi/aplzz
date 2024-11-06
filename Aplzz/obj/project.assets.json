@@ -2861,6 +2861,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/.nuget/packages/": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
@@ -2875,6 +2876,8 @@
 >>>>>>> 5b112ef (committing)
 =======
 >>>>>>> 7a60692 (fikset)
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
     "C:\\Users\\vansa\\.nuget\\packages\\": {}
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
@@ -2897,11 +2900,18 @@
 =======
     "/Users/ahmadfaryabi/.nuget/packages/": {}
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+    "C:\\Users\\yaha-\\.nuget\\packages\\": {}
+>>>>>>> 9848c75 (AccountProfile update)
+>>>>>>> 4ad0b03 (AccountProfile update)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2921,6 +2931,8 @@
 >>>>>>> 2b5b12d (fiksing)
 =======
 >>>>>>> 7a60692 (fikset)
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
       "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
 >>>>>>> 37ea866 (Intializing  logging)
       "projectName": "Aplzz",
@@ -2992,7 +3004,20 @@
 =======
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+      "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
+      "projectName": "Aplzz",
+      "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
+      "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 9848c75 (AccountProfile update)
+>>>>>>> 4ad0b03 (AccountProfile update)
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3072,7 +3097,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

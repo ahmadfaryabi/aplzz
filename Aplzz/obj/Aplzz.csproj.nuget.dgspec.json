@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 2b5b12d (fiksing)
 =======
 >>>>>>> 7a60692 (fikset)
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -115,7 +118,26 @@
 =======
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
+        "projectName": "Aplzz",
+        "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
+        "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 9848c75 (AccountProfile update)
+>>>>>>> 4ad0b03 (AccountProfile update)
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -195,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

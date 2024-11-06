@@ -16,6 +16,7 @@ build_property.RootNamespace = Aplzz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/libansulub/Documents/GitHub/aplzz/Aplzz/
 =======
 build_property.ProjectDir = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/
@@ -32,6 +33,8 @@ build_property.ProjectDir = C:\Users\vansa\aplzz\Aplzz\
 >>>>>>> 2b5b12d (fiksing)
 =======
 >>>>>>> 7a60692 (fikset)
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
 build_property.ProjectDir = C:\Users\vansa\aplzz\Aplzz\
 =======
 build_property.ProjectDir = /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/
@@ -60,12 +63,19 @@ build_property.ProjectDir = C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz
 =======
 build_property.ProjectDir = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+build_property.ProjectDir = C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\
+>>>>>>> 9848c75 (AccountProfile update)
+>>>>>>> 4ad0b03 (AccountProfile update)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +107,8 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
 >>>>>>> 2b5b12d (fiksing)
 =======
 >>>>>>> 7a60692 (fikset)
+=======
+>>>>>>> 4ad0b03 (AccountProfile update)
 build_property.MSBuildProjectDirectory = C:\Users\vansa\aplzz\Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
@@ -354,4 +366,51 @@ build_metadata.AdditionalFiles.CssScope = b-slhz5x6pun
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q2k0rc4hot
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+build_property.MSBuildProjectDirectory = C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0Q29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-slhz5x6pun
+>>>>>>> 9848c75 (AccountProfile update)
+>>>>>>> 4ad0b03 (AccountProfile update)
