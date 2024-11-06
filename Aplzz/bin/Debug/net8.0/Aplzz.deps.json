@@ -9,21 +9,15 @@
       "Aplzz/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
-<<<<<<< HEAD
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
-=======
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.File": "6.0.0"
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
         },
         "runtime": {
           "Aplzz.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -35,7 +29,6 @@
           }
         }
       },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -322,8 +315,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
         "dependencies": {
           "Castle.Core": "5.1.1",
@@ -336,7 +327,6 @@
           }
         }
       },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -468,8 +458,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Serilog/4.0.0": {
         "runtime": {
           "lib/net8.0/Serilog.dll": {
@@ -501,7 +489,6 @@
           }
         }
       },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -713,10 +700,7 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "System.Diagnostics.EventLog/6.0.0": {},
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
       "System.IO.Pipelines/6.0.3": {},
       "System.Memory/4.5.3": {},
       "System.Reflection.Metadata/6.0.1": {
@@ -739,8 +723,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
-=======
     "Castle.Core/5.1.1": {
       "type": "package",
       "serviceable": true,
@@ -748,7 +730,6 @@
       "path": "castle.core/5.1.1",
       "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -833,8 +814,6 @@
       "path": "microsoft.entityframeworkcore.design/8.0.10",
       "hashPath": "microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -842,7 +821,6 @@
       "path": "microsoft.entityframeworkcore.proxies/8.0.10",
       "hashPath": "microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512"
     },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -941,8 +919,6 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "Serilog/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -964,7 +940,6 @@
       "path": "serilog.sinks.file/6.0.0",
       "hashPath": "serilog.sinks.file.6.0.0.nupkg.sha512"
     },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",
       "serviceable": true,
@@ -1049,8 +1024,6 @@
       "path": "system.composition.typedparts/6.0.0",
       "hashPath": "system.composition.typedparts.6.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "System.Diagnostics.EventLog/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1058,7 +1031,6 @@
       "path": "system.diagnostics.eventlog/6.0.0",
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     "System.IO.Pipelines/6.0.3": {
       "type": "package",
       "serviceable": true,
