@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/Aplzz.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
+    <header> 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Post" asp-action="Index">Aplzz</a>
@@ -22,6 +22,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Post" asp-action="Index">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AccountProfile" asp-action="Index">Profiles</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -32,12 +35,7 @@
             @RenderBody()
         </main>
     </div>
-
-   <!-- <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Aplzz <a asp-area="" asp-controller="Post"></a>
-        </div>
-    </footer> -->
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

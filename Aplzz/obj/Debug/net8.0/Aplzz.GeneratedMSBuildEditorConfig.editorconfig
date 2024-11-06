@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/AccountProfile/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/AccountProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/AccountProfile/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Post/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/AccountProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY291bnRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Shared/Error.cshtml]
