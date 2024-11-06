@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/Aplzz.props" />
+  <Import Project="..\buildMultiTargeting\Aplzz.props" />
 </Project>
