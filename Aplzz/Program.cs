@@ -32,6 +32,7 @@ builder.Services.AddControllersWithViews();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 builder.Services.AddDbContext<PostDbContext>(options => {
 =======
@@ -40,6 +41,11 @@ builder.Services.AddDbContext<DbContexts>(options => {
 =======
 builder.Services.AddDbContext<PostDbContext>(options => {
 >>>>>>> ab71774 (fikset sql lite feil. :))
+=======
+// Add DbContext for Posts
+builder.Services.AddDbContext<PostDbContext>(options => {
+<<<<<<< HEAD
+>>>>>>> 6322eac (ok)
     options.UseSqlite(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,7 +66,18 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 =======
         builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
 >>>>>>> 051aac6 (.)
+<<<<<<< HEAD
 >>>>>>> 17bd246 (.)
+=======
+=======
+    options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
+});
+
+// Add DbContext for Account Profiles
+builder.Services.AddDbContext<AccountDbContext>(options => {
+    options.UseSqlite(builder.Configuration["ConnectionStrings:AccountDbContextConnection"]);
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
 });
 
 <<<<<<< HEAD

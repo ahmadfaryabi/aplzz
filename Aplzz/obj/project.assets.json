@@ -4,8 +4,11 @@
     "net8.0": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -23,10 +26,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -384,8 +392,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -404,10 +415,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -646,6 +662,7 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -662,6 +679,8 @@
 >>>>>>> 37ea866 (Intializing  logging)
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> 6322eac (ok)
       "Serilog/4.0.0": {
         "type": "package",
         "compile": {
@@ -707,6 +726,8 @@
             "related": ".xml"
           }
 =======
+=======
+>>>>>>> 7071121 (ok)
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -717,6 +738,7 @@
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
         }
       },
@@ -764,6 +786,8 @@
           "lib/net8.0/Serilog.Sinks.File.dll": {
             "related": ".xml"
           }
+=======
+>>>>>>> 7071121 (ok)
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -1033,8 +1057,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "System.Diagnostics.EventLog/6.0.0": {
         "type": "package",
         "compile": {
@@ -1062,10 +1089,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
@@ -1172,8 +1204,11 @@
   "libraries": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "Castle.Core/5.1.1": {
       "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "type": "package",
@@ -1199,10 +1234,15 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1756,8 +1796,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
       "sha512": "HJPkmBhy9vjuS6bZ7g0Dj8pOpuB027LM1kE06WEcYfLgHy0V4kNNA/BqfSQGdwI0IQbxj7NSuSTnMYwJtYBgog==",
       "type": "package",
@@ -1774,10 +1817,15 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "sha512": "OefBEE47kGKPRPV3OT+FAW6o5BFgLk2D9EoeWVy7NbOepzUneayLQxbVE098FfedTyMwxvZQoDD9LrvZc3MadA==",
       "type": "package",
@@ -2190,6 +2238,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2207,6 +2256,8 @@
 >>>>>>> 37ea866 (Intializing  logging)
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> 6322eac (ok)
     "Serilog/4.0.0": {
       "sha512": "2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
       "type": "package",
@@ -2277,6 +2328,8 @@
         "serilog.sinks.file.6.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
 =======
+=======
+>>>>>>> 7071121 (ok)
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2288,6 +2341,7 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
       ]
     },
@@ -2360,6 +2414,8 @@
         "serilog-sink-nuget.png",
         "serilog.sinks.file.6.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
+=======
+>>>>>>> 7071121 (ok)
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -2629,8 +2685,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "System.Diagnostics.EventLog/6.0.0": {
       "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
       "type": "package",
@@ -2663,10 +2722,15 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "System.IO.Pipelines/6.0.3": {
       "sha512": "ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "type": "package",
@@ -2832,18 +2896,24 @@
     "net8.0": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.10",
 =======
 >>>>>>> 37ea866 (Intializing  logging)
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> 6322eac (ok)
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Serilog.Extensions.Logging >= 8.0.0",
       "Serilog.Sinks.File >= 6.0.0"
 =======
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
 <<<<<<< HEAD
+=======
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
+>>>>>>> 7071121 (ok)
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10"
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 =======
@@ -3054,17 +3124,25 @@
           },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
           "Microsoft.EntityFrameworkCore.Proxies": {
             "target": "Package",
             "version": "[8.0.10, )"
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.10, )"

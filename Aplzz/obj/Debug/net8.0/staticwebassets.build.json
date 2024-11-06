@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -34,6 +35,8 @@
 >>>>>>> 7a60692 (fikset)
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
 =======
   "Hash": "uDPeVNopV59A0z+MtEjqb5eqOtih91P0QBxs5hBew2c=",
@@ -68,7 +71,13 @@
 =======
   "Hash": "8KGbvPCYnI8HXjd+am5PfiFC9AXoBSrIe7fHsqOTkjI=",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+  "Hash": "CO5OZ5F9/tRzxnQ7NDVNusOvlw3+5fTHWm6vhqm79ps=",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -78,6 +87,7 @@
     {
       "Name": "Aplzz\\wwwroot",
       "Source": "Aplzz",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,17 +111,26 @@
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
 >>>>>>> 7a60692 (fikset)
 =======
+=======
+>>>>>>> 6322eac (ok)
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
 =======
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +144,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
@@ -162,7 +183,16 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.styles.css",
       "AssetKind": "All",
@@ -175,6 +205,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +238,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "OriginalItemSpec": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
     },
     {
@@ -231,14 +264,24 @@
 =======
 =======
       "OriginalItemSpec": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
+=======
+      "OriginalItemSpec": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
+>>>>>>> 7071121 (ok)
     },
     {
-      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.bundle.scp.css",
       "AssetKind": "All",
@@ -251,6 +294,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +327,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "OriginalItemSpec": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
     },
     {
@@ -307,14 +353,24 @@
 =======
 =======
       "OriginalItemSpec": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
+=======
+      "OriginalItemSpec": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
+>>>>>>> 7071121 (ok)
     },
     {
-      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -336,6 +392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/favicon.ico",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -343,6 +400,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/favicon.ico",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -380,7 +439,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -402,6 +470,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -409,6 +478,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -446,7 +517,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -468,6 +548,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/cider.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -475,6 +556,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/cider.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -512,7 +595,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -534,6 +626,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/coke.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -541,6 +634,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/coke.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -578,7 +673,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\coke.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -602,6 +706,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -609,6 +714,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -656,9 +763,12 @@
 =======
       "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
 >>>>>>> 9848c75 (AccountProfile update)
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
+>>>>>>> 7071121 (ok)
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/frenchfries.jpg",
       "AssetKind": "All",
@@ -1015,6 +1125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1022,6 +1133,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1178,7 +1291,16 @@
 =======
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
 >>>>>>> fa8e010 (fikset)
+<<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -1200,6 +1322,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1207,6 +1330,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1244,7 +1369,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -1266,6 +1400,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1273,6 +1408,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1310,7 +1447,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -1332,6 +1478,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/js/site.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1339,6 +1486,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/site.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1376,7 +1525,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\site.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1398,6 +1556,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1405,6 +1564,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1442,7 +1603,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1464,6 +1634,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1471,6 +1642,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1508,7 +1681,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1530,6 +1712,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1537,6 +1720,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1574,7 +1759,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1596,6 +1790,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1603,6 +1798,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1640,7 +1837,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1662,6 +1868,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1669,6 +1876,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1706,7 +1915,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1728,6 +1946,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1735,6 +1954,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1772,7 +1993,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1794,6 +2024,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1801,6 +2032,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1838,7 +2071,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1860,6 +2102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1867,6 +2110,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1904,7 +2149,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1926,6 +2180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1933,6 +2188,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1970,7 +2227,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1992,6 +2258,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -1999,6 +2266,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2036,7 +2305,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2058,6 +2336,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2065,6 +2344,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2102,7 +2383,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2124,6 +2414,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2131,6 +2422,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2168,7 +2461,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2190,6 +2492,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2197,6 +2500,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2234,7 +2539,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2256,6 +2570,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2263,6 +2578,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2300,7 +2617,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2322,6 +2648,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2329,6 +2656,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2366,7 +2695,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2388,6 +2726,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2395,6 +2734,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2432,7 +2773,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2454,6 +2804,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2461,6 +2812,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2498,7 +2851,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2520,6 +2882,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2527,6 +2890,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2564,7 +2929,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2586,6 +2960,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2593,6 +2968,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2630,7 +3007,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2652,6 +3038,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2659,6 +3046,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2696,7 +3085,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2718,6 +3116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2725,6 +3124,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2762,7 +3163,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2784,6 +3194,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2791,6 +3202,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2828,7 +3241,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2850,6 +3272,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2857,6 +3280,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2894,7 +3319,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2916,6 +3350,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2923,6 +3358,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2960,7 +3397,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2982,6 +3428,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -2989,6 +3436,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3026,7 +3475,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3048,6 +3506,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3055,6 +3514,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3092,7 +3553,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3114,6 +3584,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3121,6 +3592,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3158,7 +3631,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3180,6 +3662,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3187,6 +3670,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3224,7 +3709,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3246,6 +3740,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3253,6 +3748,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3290,7 +3787,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3312,6 +3818,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3319,6 +3826,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3356,7 +3865,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3378,6 +3896,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3385,6 +3904,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3422,7 +3943,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3444,6 +3974,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3451,6 +3982,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3488,7 +4021,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3510,6 +4052,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3517,6 +4060,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3554,7 +4099,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3576,6 +4130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3583,6 +4138,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3620,7 +4177,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3642,6 +4208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3649,6 +4216,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3686,7 +4255,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3708,6 +4286,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3715,6 +4294,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3752,7 +4333,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3774,6 +4364,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3781,6 +4372,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3818,7 +4411,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3840,6 +4442,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3847,6 +4450,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3884,7 +4489,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3906,6 +4520,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3913,6 +4528,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3950,7 +4567,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3972,6 +4598,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -3979,6 +4606,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4016,7 +4645,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4038,6 +4676,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4045,6 +4684,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4082,7 +4723,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4104,6 +4754,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4111,6 +4762,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4148,7 +4801,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4170,6 +4832,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4177,6 +4840,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4214,7 +4879,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4236,6 +4910,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4243,6 +4918,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4280,7 +4957,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4302,6 +4988,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4309,6 +4996,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4346,7 +5035,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4368,6 +5066,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4375,6 +5074,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4412,7 +5113,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4434,6 +5144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4441,6 +5152,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4478,7 +5191,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4500,6 +5222,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4507,6 +5230,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4544,7 +5269,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -4566,6 +5300,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4573,6 +5308,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4610,7 +5347,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4632,6 +5378,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4639,6 +5386,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4676,7 +5425,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4698,6 +5456,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4705,6 +5464,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4742,7 +5503,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4764,6 +5534,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4771,6 +5542,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4808,7 +5581,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4830,6 +5612,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4837,6 +5620,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4874,7 +5659,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4896,6 +5690,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4903,6 +5698,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4940,7 +5737,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4962,6 +5768,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -4969,6 +5776,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -5006,7 +5815,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -5028,6 +5846,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -5035,6 +5854,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -5072,7 +5893,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -5094,6 +5924,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -5101,6 +5932,8 @@
 =======
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+>>>>>>> 6322eac (ok)
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -5138,7 +5971,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 9848c75 (AccountProfile update)
+<<<<<<< HEAD
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

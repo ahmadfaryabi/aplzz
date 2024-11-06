@@ -174,17 +174,25 @@
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"

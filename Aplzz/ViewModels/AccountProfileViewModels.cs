@@ -1,9 +1,16 @@
 using Aplzz.Models;
 using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Aplzz.ViewModels
+=======
+using System.ComponentModel.DataAnnotations;
+
+
+   namespace Aplzz.ViewModels
+>>>>>>> 6322eac (ok)
 {
     public class AccountProfileViewModel
     {
@@ -12,6 +19,7 @@ namespace Aplzz.ViewModels
         [Required]
         [MaxLength(100)]
         [Display(Name = "Username")]
+<<<<<<< HEAD
         public string Username { get; set; } = string.Empty; // Initialize with a default non-null value
 
         [MaxLength(500)]
@@ -32,5 +40,26 @@ namespace Aplzz.ViewModels
         public IEnumerable<AccountProfile> Profiles { get; set; } = new List<AccountProfile>(); // Initialize with an empty list
 
         public string CurrentViewName { get; set; } = string.Empty; // Initialize with a default non-null value
+=======
+        public string Username { get; set; } // Username of the profile
+
+        [MaxLength(500)]
+        [Display(Name = "Bio")]
+        public string Bio { get; set; } // Bio of the profile
+
+        [Display(Name = "Profile Picture URL")]
+        [DataType(DataType.ImageUrl)]
+        public string ProfilePicture { get; set; } // URL or path to profile picture
+
+        [Display(Name = "Date Created")]
+        public DateTime CreatedAt { get; set; } // Date profile was created
+
+        [Display(Name = "Last Updated")]
+        public DateTime UpdatedAt { get; set; } // Date profile was last updated
+
+        // New properties added for Index view
+        public IEnumerable<AccountProfile> Profiles { get; set; } // List of profiles for Index
+        public string CurrentViewName { get; set; }               // Additional metadata
+>>>>>>> 6322eac (ok)
     }
 }

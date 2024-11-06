@@ -11,18 +11,27 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.File": "6.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
         },
         "runtime": {
           "Aplzz.dll": {}
@@ -30,8 +39,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -44,10 +56,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -336,8 +353,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
         "dependencies": {
           "Castle.Core": "5.1.1",
@@ -351,10 +371,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -488,8 +513,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
       "Serilog/4.0.0": {
         "runtime": {
           "lib/net8.0/Serilog.dll": {
@@ -522,10 +550,15 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -739,12 +772,18 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Diagnostics.EventLog/6.0.0": {},
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
       "System.Diagnostics.EventLog/6.0.0": {},
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+      "System.Diagnostics.EventLog/6.0.0": {},
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
       "System.IO.Pipelines/6.0.3": {},
       "System.Memory/4.5.3": {},
       "System.Reflection.Metadata/6.0.1": {
@@ -769,8 +808,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "Castle.Core/5.1.1": {
       "type": "package",
       "serviceable": true,
@@ -779,10 +821,15 @@
       "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -869,8 +916,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -879,10 +929,15 @@
       "hashPath": "microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -983,8 +1038,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "Serilog/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1007,10 +1065,15 @@
       "hashPath": "serilog.sinks.file.6.0.0.nupkg.sha512"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",
       "serviceable": true,
@@ -1097,8 +1160,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+>>>>>>> 6322eac (ok)
     "System.Diagnostics.EventLog/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1107,10 +1173,15 @@
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+=======
+>>>>>>> 7071121 (ok)
+>>>>>>> 6322eac (ok)
     "System.IO.Pipelines/6.0.3": {
       "type": "package",
       "serviceable": true,
