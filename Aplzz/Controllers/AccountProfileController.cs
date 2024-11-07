@@ -11,6 +11,7 @@ using Aplzz.ViewModels;
 
 namespace Aplzz.Controllers
 {
+  
     public class AccountProfileController : Controller
     {
         private readonly AccountDbContext _context;
@@ -33,6 +34,7 @@ namespace Aplzz.Controllers
             return View(viewModel);
         }
 
+            
         // GET: Display details of a profile by ID
         public async Task<IActionResult> Details(int id)
         {
@@ -44,8 +46,9 @@ namespace Aplzz.Controllers
 
             var viewModel = new AccountProfileViewModel
             {
+                
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture,
                 CreatedAt = profile.CreatedAt,
@@ -97,7 +100,7 @@ namespace Aplzz.Controllers
             var viewModel = new AccountProfileViewModel
             {
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture
             };
@@ -148,7 +151,7 @@ namespace Aplzz.Controllers
             var viewModel = new AccountProfileViewModel
             {
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture
             };

@@ -26,15 +26,15 @@ namespace Aplzz.Controllers
         }
 
         // Handling to display the list of posts
-        public IActionResult Index()
-        {
-            var posts = _context.Posts
-                .Include(p => p.Comments) // Inkluder kommentarer
-                .ToList(); // Hent innleggene som en liste
+      //  public async Task<IActionResult> Index()
+       // {
+       //     var posts = await _context.Posts
+        //        .Where(p => p.PostId > 0) // or another condition involving PostId
+        //        .ToListAsync();
 
-            var viewModel = new PostViewModel(posts, "Aplzz Feed");
-            return View(viewModel);
-        }
+        //    var viewModel = new PostViewModel(posts, "Aplzz Feed");
+        //    return View(viewModel);
+       // }
 
         [HttpGet]
         public IActionResult Create()
