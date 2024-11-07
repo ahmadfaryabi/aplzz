@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.Development.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\package-lock.json
@@ -139,3 +140,288 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.pdb
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.genruntimeconfig.cache
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.dll
+=======
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.deps.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.runtimeconfig.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.pdb
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfo.cs
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.csproj.CoreCompileInputs.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.MvcApplicationPartsAssemblyInfo.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cs
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.sourcelink.json
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets.build.json
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets.development.json
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.build.Aplzz.props
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Aplzz.props
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Aplzz.props
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.dll
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/refint/Aplzz.dll
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.pdb
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/package-lock.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/package.json
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Data.Sqlite.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.batteries_v2.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.core.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
+/Users/libansulub/Desktop/Aplzz/obj/Debug/net8.0/Aplzz.csproj.Up2Date
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/package.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.deps.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.runtimeconfig.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.pdb
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Data.Sqlite.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.batteries_v2.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.core.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfo.cs
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.CoreCompileInputs.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.MvcApplicationPartsAssemblyInfo.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cs
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.sourcelink.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.build.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.development.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.build.Aplzz.props
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Aplzz.props
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Aplzz.props
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.Up2Date
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/refint/Aplzz.dll
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
+/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfo.cs
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.CoreCompileInputs.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.MvcApplicationPartsAssemblyInfo.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.RazorAssemblyInfo.cs
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.sourcelink.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/refint/Aplzz.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/package.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz.deps.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz.runtimeconfig.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Aplzz.pdb
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Data.Sqlite.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.batteries_v2.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.core.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.build.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.development.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.build.Aplzz.props
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Aplzz.props
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Aplzz.props
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.Up2Date
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
+/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\appsettings.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\package-lock.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\package.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.staticwebassets.runtime.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.exe
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.deps.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.runtimeconfig.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Aplzz.pdb
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.AssemblyReference.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfoInputs.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfo.cs
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cs
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.sourcelink.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.build.Aplzz.props
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Aplzz.props
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Aplzz.props
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\scopedcss\bundle\Aplzz.styles.css
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\scopedcss\projectbundle\Aplzz.bundle.scp.css
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.Up2Date
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\refint\Aplzz.dll
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.pdb
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.genruntimeconfig.cache
+C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.dll
+=======
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
+>>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
