@@ -44,6 +44,7 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 =======
 // Add DbContext for Posts
 <<<<<<< HEAD
+<<<<<<< HEAD
 builder.Services.AddDbContext<PostDbContext>(options => {
 <<<<<<< HEAD
 >>>>>>> 6322eac (ok)
@@ -74,17 +75,23 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 =======
 builder.Services.AddDbContext<DbContexts>(options => {
 >>>>>>> 5d12ca7 (accountprofile)
+=======
+builder.Services.AddDbContext<DbContexts>(options =>
+{
+>>>>>>> 4fa072a (account)
     options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
 });
 
 // Add DbContext for Account Profiles
-builder.Services.AddDbContext<AccountDbContext>(options => {
+builder.Services.AddDbContext<AccountDbContext>(options =>
+{
     options.UseSqlite(builder.Configuration["ConnectionStrings:AccountDbContextConnection"]);
 <<<<<<< HEAD
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +124,8 @@ builder.Services.AddSession(options =>
 >>>>>>> 86d362f (login system endring)
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> a3b8ecd (account)
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information() // levels: Trace< Information < Warning < Erorr < Fatal
     .WriteTo.File($"Logs/app_{DateTime.Now:yyyyMMdd_HHmmss}.log");
@@ -166,6 +175,19 @@ loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceCont
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 =======
 >>>>>>> d99f336 (endring)
+=======
+// Add Distributed Memory Cache for session support
+builder.Services.AddDistributedMemoryCache();
+
+// Add session services and configure session options
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+>>>>>>> 4fa072a (account)
 
 var app = builder.Build();
 
@@ -180,8 +202,13 @@ else
 }
 
 app.UseStaticFiles();
-app.UseAuthorization();
+
+app.UseRouting();
+
 app.UseAuthentication();
+app.UseAuthorization();
+
+// Add session middleware to the request pipeline
 app.UseSession();
 
 app.UseRouting();

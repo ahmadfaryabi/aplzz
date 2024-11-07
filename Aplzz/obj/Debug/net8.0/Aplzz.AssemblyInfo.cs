@@ -40,6 +40,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb6bdf35fdc0bbd3b18537fead3c5e5bc8f78f0")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f92c6328edd3a0f9efae3ef7bd939fd4e7dee")]
@@ -113,6 +114,8 @@ using System.Reflection;
 >>>>>>> 4ad0b03 (AccountProfile update)
 =======
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> a3b8ecd (account)
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea908cc2caf9cd9acd1347015e3258dff095ba6a")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4ab8f9e31a6f97052aac30c454f8741b71bd7bc")]
@@ -237,7 +240,13 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5342580ecbdd9b889841c6be01587a3a7f22771e")]
 >>>>>>> 5d12ca7 (accountprofile)
+<<<<<<< HEAD
 >>>>>>> 8109aa9 (accountprofile)
+=======
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d12ca767443fcc7da5c40c17b96f231e5058ea2")]
+>>>>>>> 4fa072a (account)
+>>>>>>> a3b8ecd (account)
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

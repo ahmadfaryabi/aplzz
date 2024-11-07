@@ -101,6 +101,7 @@ namespace Aplzz.Controllers
         }
 
         // Handling to display the list of posts
+<<<<<<< HEAD
         public IActionResult Index()
         {
 <<<<<<< HEAD
@@ -163,6 +164,17 @@ namespace Aplzz.Controllers
             return View(viewModel);
 >>>>>>> 5d12ca7 (accountprofile)
         }
+=======
+      //  public async Task<IActionResult> Index()
+       // {
+       //     var posts = await _context.Posts
+        //        .Where(p => p.PostId > 0) // or another condition involving PostId
+        //        .ToListAsync();
+
+        //    var viewModel = new PostViewModel(posts, "Aplzz Feed");
+        //    return View(viewModel);
+       // }
+>>>>>>> 4fa072a (account)
 
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
         [HttpGet]

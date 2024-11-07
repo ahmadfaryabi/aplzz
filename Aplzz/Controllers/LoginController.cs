@@ -92,6 +92,9 @@ public class LoginController : Controller
         HttpContext.Session.SetString("aftername", res.Aftername.ToString());
         HttpContext.Session.SetString("email", res.Email.ToString());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a3b8ecd (account)
        // HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
       }
       return RedirectToAction("Index", "Post");

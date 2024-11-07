@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
@@ -144,6 +145,8 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 =======
 =======
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> a3b8ecd (account)
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
@@ -1274,6 +1277,8 @@ C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cs
 C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.sourcelink.json
 >>>>>>> 5d12ca7 (accountprofile)
+=======
+>>>>>>> 4fa072a (account)
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.Development.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\appsettings.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\package-lock.json
@@ -1390,6 +1395,15 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.AssemblyReference.cache
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfoInputs.cache
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.AssemblyInfo.cs
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.csproj.CoreCompileInputs.cache
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cache
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.RazorAssemblyInfo.cs
+c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.sourcelink.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.build.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets.development.json
 c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\Aplzz\obj\Debug\net8.0\staticwebassets\msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props

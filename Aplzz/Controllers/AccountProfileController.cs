@@ -13,6 +13,9 @@ namespace Aplzz.Controllers
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a3b8ecd (account)
   
     public class AccountProfileController : Controller
 =======
@@ -45,6 +48,7 @@ namespace Aplzz.Controllers
         }
 
             
+<<<<<<< HEAD
         // GET: Display details of a profile by ID
         public async Task<IActionResult> Details(int id)
         {
@@ -187,6 +191,8 @@ namespace Aplzz.Controllers
             return View(viewModel);
         }
 
+=======
+>>>>>>> a3b8ecd (account)
         // GET: Display details of a profile by ID
         public async Task<IActionResult> Details(int id)
         {
@@ -198,8 +204,9 @@ namespace Aplzz.Controllers
 
             var viewModel = new AccountProfileViewModel
             {
+                
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture,
                 CreatedAt = profile.CreatedAt,
@@ -251,7 +258,7 @@ namespace Aplzz.Controllers
             var viewModel = new AccountProfileViewModel
             {
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture
             };
@@ -302,7 +309,7 @@ namespace Aplzz.Controllers
             var viewModel = new AccountProfileViewModel
             {
                 AccountId = profile.AccountId,
-                Username = profile.Username,
+                Username = profile.Username ?? string.Empty,
                 Bio = profile.Bio,
                 ProfilePicture = profile.ProfilePicture
             };

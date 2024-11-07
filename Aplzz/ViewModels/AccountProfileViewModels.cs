@@ -1,6 +1,7 @@
 using Aplzz.Models;
 using System;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -11,6 +12,12 @@ using System.ComponentModel.DataAnnotations;
 
    namespace Aplzz.ViewModels
 >>>>>>> 6322eac (ok)
+=======
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Aplzz.ViewModels
+>>>>>>> a3b8ecd (account)
 {
     public class AccountProfileViewModel
     {
@@ -19,6 +26,7 @@ using System.ComponentModel.DataAnnotations;
         [Required]
         [MaxLength(100)]
         [Display(Name = "Username")]
+<<<<<<< HEAD
 <<<<<<< HEAD
         public string Username { get; set; } = string.Empty; // Initialize with a default non-null value
 
@@ -42,24 +50,33 @@ using System.ComponentModel.DataAnnotations;
         public string CurrentViewName { get; set; } = string.Empty; // Initialize with a default non-null value
 =======
         public string Username { get; set; } // Username of the profile
+=======
+        public string Username { get; set; } = string.Empty; // Initialize with a default non-null value
+>>>>>>> a3b8ecd (account)
 
         [MaxLength(500)]
         [Display(Name = "Bio")]
-        public string Bio { get; set; } // Bio of the profile
+        public string? Bio { get; set; } // Make nullable, since bio may not always be set
 
         [Display(Name = "Profile Picture URL")]
         [DataType(DataType.ImageUrl)]
-        public string ProfilePicture { get; set; } // URL or path to profile picture
+        public string? ProfilePicture { get; set; } // Make nullable as this may not always have a value
 
         [Display(Name = "Date Created")]
-        public DateTime CreatedAt { get; set; } // Date profile was created
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow; // Set default to current date/time
 
         [Display(Name = "Last Updated")]
-        public DateTime UpdatedAt { get; set; } // Date profile was last updated
+        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow; // Set default to current date/time
 
         // New properties added for Index view
+<<<<<<< HEAD
         public IEnumerable<AccountProfile> Profiles { get; set; } // List of profiles for Index
         public string CurrentViewName { get; set; }               // Additional metadata
 >>>>>>> 6322eac (ok)
+=======
+        public IEnumerable<AccountProfile> Profiles { get; set; } = new List<AccountProfile>(); // Initialize with an empty list
+
+        public string CurrentViewName { get; set; } = string.Empty; // Initialize with a default non-null value
+>>>>>>> a3b8ecd (account)
     }
 }
