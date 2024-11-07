@@ -81,8 +81,8 @@
 >>>>>>> c329a7e (committing)
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-<<<<<<< HEAD
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 37ea866 (Intializing  logging)
   </ImportGroup>
@@ -94,16 +94,25 @@
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
 =======
 =======
+>>>>>>> 2b5b12d (fiksing)
+=======
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.10/build/net8.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.10/build/net8.0/Microsoft.EntityFrameworkCore.Design.props')" />
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+=======
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\8.0.10\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\8.0.10\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />
+>>>>>>> 7cf30d2 (fiksing)
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/libansulub/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
 >>>>>>> 5b112ef (committing)
+=======
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\ahmad\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+>>>>>>> 2b5b12d (fiksing)
   </PropertyGroup>
 </Project>

@@ -34,6 +34,7 @@ namespace Aplzz.Controllers
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
         private readonly PostDbContext _context; // Legg til en privat felt for konteksten
 <<<<<<< HEAD
+<<<<<<< HEAD
         private readonly ILogger<PostController>_logger;
 
         // Injiser PostDbContext via konstruktøren
@@ -44,6 +45,13 @@ namespace Aplzz.Controllers
         // Injiser PostDbContext via konstruktøren
         public PostController(DbContexts context)
 >>>>>>> f4ab8f9 (login system endring)
+=======
+        private readonly ILogger<PostController> _logger;
+        private readonly IPostRepository _postRepository;
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(IPostRepository postRepository, ILogger<PostController> logger)
+>>>>>>> 7cf30d2 (fiksing)
         {
             _context = context;
             _logger = logger;

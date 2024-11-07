@@ -167,6 +167,7 @@ public class LoginController : Controller
 }
 =======
 
+<<<<<<< HEAD
   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
@@ -174,3 +175,11 @@ public class LoginController : Controller
     }
 }
 >>>>>>> 5847ef8 (logg inn funksjoon)
+=======
+//   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+//     public IActionResult Error()
+//     {
+//         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+//     }
+}
+>>>>>>> 2b5b12d (fiksing)

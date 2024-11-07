@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
@@ -14,6 +15,8 @@
 >>>>>>> 82a25f3 (ok)
 =======
 >>>>>>> 5b112ef (committing)
+=======
+>>>>>>> 2b5b12d (fiksing)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -56,16 +59,19 @@
 =======
     "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> a051670 (ok)
+=======
+    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
+>>>>>>> 7cf30d2 (fiksing)
   },
   "projects": {
-    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
+    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+        "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+        "projectPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
+        "outputPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
 <<<<<<< HEAD
