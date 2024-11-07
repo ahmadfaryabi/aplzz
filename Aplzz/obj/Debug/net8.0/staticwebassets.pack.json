@@ -12,18 +12,10 @@
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
-    {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
-      "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
-=======
-      "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
-      "PackagePath": "staticwebassets/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
-    },
+
     {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
@@ -34,10 +26,6 @@
       "PackagePath": "staticwebassets\\images\\coke.jpg"
     },
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
-      "PackagePath": "staticwebassets\\images\\data1100.jpeg"
-=======
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
       "PackagePath": "staticwebassets/images/fishandchips.jpg"
     },
@@ -52,17 +40,12 @@
     {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "PackagePath": "staticwebassets/images/data1100.jpeg"
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
       "PackagePath": "staticwebassets\\images\\pizza.jpg"
     },
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
-      "PackagePath": "staticwebassets\\images\\tacos.jpg"
-=======
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "PackagePath": "staticwebassets/images/ribs.jpg"
     },
@@ -73,7 +56,6 @@
     {
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/tacos.jpg",
       "PackagePath": "staticwebassets/images/tacos.jpg"
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
