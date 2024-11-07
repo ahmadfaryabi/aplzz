@@ -22,6 +22,7 @@
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
+<<<<<<< HEAD
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,11 +47,20 @@
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
       "PackagePath": "staticwebassets/images/Skjermbilde 2024-11-04 kl. 14.12.15.png"
     },
+=======
+
+>>>>>>> 4daf140 (fikset feil)
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
+<<<<<<< HEAD
 >>>>>>> 7ee40a9 (Endret DbInit)
+<<<<<<< HEAD
 >>>>>>> b70eb87 (Endret DbInit)
+=======
+=======
+>>>>>>> c951a1d (fikset feil)
+>>>>>>> 4daf140 (fikset feil)
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
@@ -61,6 +71,7 @@
       "PackagePath": "staticwebassets\\images\\coke.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +126,8 @@
 =======
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> 4daf140 (fikset feil)
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
       "PackagePath": "staticwebassets\\images\\data1100.jpeg"
     },
@@ -122,6 +135,8 @@
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
       "PackagePath": "staticwebassets\\images\\pizza.jpg"
 =======
+=======
+>>>>>>> c951a1d (fikset feil)
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
       "PackagePath": "staticwebassets/images/fishandchips.jpg"
     },
@@ -134,10 +149,21 @@
       "PackagePath": "staticwebassets/images/pexels.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "PackagePath": "staticwebassets/images/pizza.jpg"
     },
     {
+=======
+      "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
+      "PackagePath": "staticwebassets/images/data1100.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza.jpg"
+    },
+    {
+>>>>>>> c951a1d (fikset feil)
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "PackagePath": "staticwebassets/images/ribs.jpg"
     },
@@ -148,12 +174,18 @@
     {
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/tacos.jpg",
       "PackagePath": "staticwebassets/images/tacos.jpg"
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
       "PackagePath": "staticwebassets\\images\\tacos.jpg"
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+>>>>>>> c951a1d (fikset feil)
+>>>>>>> 4daf140 (fikset feil)
     },
     {
       "Id": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
