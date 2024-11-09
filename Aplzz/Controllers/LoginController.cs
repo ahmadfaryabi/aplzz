@@ -6,13 +6,14 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
+using Aplzz.DAL;
 namespace Aplzz.Controllers;
 
 public class LoginController : Controller 
 {
-  private readonly DbContexts _userDB;
+  private readonly PostDbContext _userDB;
 
-  public LoginController(DbContexts userDb) 
+  public LoginController(PostDbContext userDb) 
   {
     _userDB = userDb;
   }

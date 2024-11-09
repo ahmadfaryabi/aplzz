@@ -1,14 +1,16 @@
 using Microsoft.EntityFrameworkCore;
-using Aplzz.Models;
+using Aplzz.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<DbContexts>(options => {
+builder.Services.AddDbContext<PostDbContext>(options => {
     options.UseSqlite(
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 });
+
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
