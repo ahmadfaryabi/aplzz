@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -22,6 +23,8 @@
 =======
 =======
 >>>>>>> b70eb87 (Endret DbInit)
+=======
+>>>>>>> ab71774 (fikset sql lite feil. :))
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
 =======
   "Hash": "uDPeVNopV59A0z+MtEjqb5eqOtih91P0QBxs5hBew2c=",
@@ -32,7 +35,13 @@
 =======
   "Hash": "Iq55C/o8K5rdp6uLzxtGQbT4H6U0VVK+d8kEu7f/keM=",
 >>>>>>> 7ee40a9 (Endret DbInit)
+<<<<<<< HEAD
 >>>>>>> b70eb87 (Endret DbInit)
+=======
+=======
+  "Hash": "rBss4MkM9bvkYLj25biUUnojnVp81cnSgHDIoSkgSA8=",
+>>>>>>> c4e2647 (fikset sql lite feil. :))
+>>>>>>> ab71774 (fikset sql lite feil. :))
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -42,6 +51,7 @@
     {
       "Name": "Aplzz\\wwwroot",
       "Source": "Aplzz",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,12 +65,16 @@
 =======
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +100,12 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.styles.css",
       "AssetKind": "All",
@@ -101,6 +121,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
 =======
       "OriginalItemSpec": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
@@ -108,11 +129,15 @@
 =======
       "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
 >>>>>>> 82a25f3 (ok)
+=======
+      "OriginalItemSpec": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
+>>>>>>> ab71774 (fikset sql lite feil. :))
     },
     {
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/",
@@ -131,6 +156,9 @@
 =======
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.bundle.scp.css",
       "AssetKind": "All",
@@ -146,6 +174,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
 =======
       "OriginalItemSpec": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
@@ -153,11 +182,15 @@
 =======
       "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
 >>>>>>> 82a25f3 (ok)
+=======
+      "OriginalItemSpec": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
+>>>>>>> ab71774 (fikset sql lite feil. :))
     },
     {
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
@@ -176,6 +209,9 @@
 =======
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -191,6 +227,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +253,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -231,6 +274,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +300,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -271,6 +321,7 @@
       "OriginalItemSpec": "wwwroot\\images\\chickenleg.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +347,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -311,6 +368,7 @@
       "OriginalItemSpec": "wwwroot\\images\\cider.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +394,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\coke.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -351,6 +415,7 @@
       "OriginalItemSpec": "wwwroot\\images\\coke.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,8 +443,12 @@
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
 =======
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/fishandchips.jpg",
@@ -439,7 +508,13 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> c4e2647 (fikset sql lite feil. :))
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -455,6 +530,7 @@
       "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,6 +688,69 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\fishandchips.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/fishandchips.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fishandchips.jpg"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\frenchfries.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/frenchfries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/pexels.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels.jpg"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
@@ -627,6 +766,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,9 +845,12 @@
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
 =======
       "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\ribs.jpg",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/ribs.jpg",
       "AssetKind": "All",
@@ -720,13 +863,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ribs.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ribs.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/scott.jpg",
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\scott.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/scott.jpg",
       "AssetKind": "All",
@@ -739,12 +882,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/scott.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\scott.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/",
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/Skjermbilde 2024-11-04 kl. 14.12.15.png",
@@ -766,7 +910,13 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 82a25f3 (ok)
+=======
+=======
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> c4e2647 (fikset sql lite feil. :))
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -782,6 +932,7 @@
       "OriginalItemSpec": "wwwroot\\images\\tacos.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +958,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -822,6 +979,7 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -847,6 +1005,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -862,6 +1026,7 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +1052,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\site.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -902,6 +1073,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,6 +1099,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -942,6 +1120,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -967,6 +1146,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -982,6 +1167,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1193,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1022,6 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1047,6 +1240,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1062,6 +1261,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1287,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1102,6 +1308,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1334,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1142,6 +1355,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1167,6 +1381,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1182,6 +1402,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,6 +1428,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1222,6 +1449,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1247,6 +1475,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1262,6 +1496,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1522,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1302,6 +1543,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1327,6 +1569,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1342,6 +1590,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,6 +1616,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1382,6 +1637,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1407,6 +1663,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1422,6 +1684,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1710,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1462,6 +1731,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1487,6 +1757,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1502,6 +1778,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1527,6 +1804,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1542,6 +1825,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1567,6 +1851,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1582,6 +1872,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1607,6 +1898,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1622,6 +1919,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1647,6 +1945,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1662,6 +1966,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1687,6 +1992,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1702,6 +2013,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1727,6 +2039,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1742,6 +2060,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1767,6 +2086,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1782,6 +2107,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1807,6 +2133,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1822,6 +2154,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1847,6 +2180,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1862,6 +2201,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1887,6 +2227,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1902,6 +2248,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1927,6 +2274,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1942,6 +2295,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1967,6 +2321,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1982,6 +2342,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2007,6 +2368,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2022,6 +2389,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2047,6 +2415,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2062,6 +2436,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2087,6 +2462,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2102,6 +2483,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2127,6 +2509,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2142,6 +2530,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2167,6 +2556,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2182,6 +2577,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,6 +2603,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2222,6 +2624,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,6 +2650,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2262,6 +2671,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2287,6 +2697,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2302,6 +2718,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2327,6 +2744,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2342,6 +2765,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2367,6 +2791,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2382,6 +2812,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2407,6 +2838,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2422,6 +2859,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2447,6 +2885,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2462,6 +2906,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2487,6 +2932,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2502,6 +2953,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2527,6 +2979,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2542,6 +3000,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2567,6 +3026,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2582,6 +3047,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2607,6 +3073,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2622,6 +3094,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2647,6 +3120,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2662,6 +3141,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2687,6 +3167,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2702,6 +3188,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,6 +3214,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2742,6 +3235,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2767,6 +3261,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2782,6 +3282,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2807,6 +3308,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2822,6 +3329,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2847,6 +3355,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2862,6 +3376,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2887,6 +3402,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2902,6 +3423,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2927,6 +3449,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2942,6 +3470,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2967,6 +3496,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2982,6 +3517,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3007,6 +3543,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3022,6 +3564,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3047,6 +3590,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3062,6 +3611,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3087,6 +3637,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3102,6 +3658,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3127,6 +3684,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3142,6 +3705,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3167,6 +3731,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
 >>>>>>> 82a25f3 (ok)
+=======
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+>>>>>>> ab71774 (fikset sql lite feil. :))
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -97,19 +97,27 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\coke.jpg))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))">
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))">
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))">
+>>>>>>> c4e2647 (fikset sql lite feil. :))
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Aplzz</BasePath>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <RelativePath>images/data1100.jpeg</RelativePath>
 =======
       <RelativePath>images/fishandchips.jpg</RelativePath>
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+=======
+      <RelativePath>images/data1100.jpeg</RelativePath>
+>>>>>>> c4e2647 (fikset sql lite feil. :))
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -119,8 +127,27 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))</OriginalItemSpec>
 =======
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\data1100.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Aplzz</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Aplzz</BasePath>
+      <RelativePath>images/fishandchips.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+>>>>>>> c4e2647 (fikset sql lite feil. :))
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))">
@@ -138,7 +165,10 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))</OriginalItemSpec>
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
+=======
+>>>>>>> c4e2647 (fikset sql lite feil. :))
     </StaticWebAsset>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +312,7 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\scott.jpg))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -302,6 +333,8 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Skjermbilde 2024-11-04 kl. 14.12.15.png))</OriginalItemSpec>
     </StaticWebAsset>
 >>>>>>> b70eb87 (Endret DbInit)
+=======
+>>>>>>> ab71774 (fikset sql lite feil. :))
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\tacos.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>

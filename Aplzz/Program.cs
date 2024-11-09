@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Aplzz.DAL;
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@ using Aplzz.DAL;
 =======
 <<<<<<< HEAD
 >>>>>>> c63ba55 (endring)
+=======
+<<<<<<< HEAD
+>>>>>>> ab71774 (fikset sql lite feil. :))
 using Aplzz.Models;
 =======
 using Aplzz.DAL;
@@ -17,6 +21,9 @@ using Serilog.Events;
 =======
 using Aplzz.Models;
 >>>>>>> d99f336 (endring)
+=======
+using Aplzz.DAL;
+>>>>>>> c4e2647 (fikset sql lite feil. :))
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,11 +31,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 builder.Services.AddDbContext<PostDbContext>(options => {
 =======
 builder.Services.AddDbContext<DbContexts>(options => {
 >>>>>>> 86d362f (login system endring)
+=======
+builder.Services.AddDbContext<PostDbContext>(options => {
+>>>>>>> ab71774 (fikset sql lite feil. :))
     options.UseSqlite(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,7 +110,12 @@ loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceCont
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
 });
 
+<<<<<<< HEAD
 >>>>>>> d99f336 (endring)
+=======
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+>>>>>>> c4e2647 (fikset sql lite feil. :))
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
     options.Cookie.IsEssential = true;

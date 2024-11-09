@@ -16,11 +16,15 @@ using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab71774 (fikset sql lite feil. :))
 using Aplzz.DAL;
 namespace Aplzz.Controllers;
 
 public class LoginController : Controller 
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   private readonly PostDbContext _userDB;
 
@@ -42,6 +46,11 @@ public class LoginController : Controller
 
   public LoginController(DbContexts userDb) 
 >>>>>>> 86d362f (login system endring)
+=======
+  private readonly PostDbContext _userDB;
+
+  public LoginController(PostDbContext userDb) 
+>>>>>>> ab71774 (fikset sql lite feil. :))
   {
     _userDB = userDb;
   }

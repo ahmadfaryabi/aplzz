@@ -8,10 +8,14 @@ namespace Aplzz.DAL
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Database.EnsureCreated();
 =======
             //Database.EnsureCreated();
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
+=======
+            Database.EnsureCreated();
+>>>>>>> ab71774 (fikset sql lite feil. :))
         }
         public DbSet<User> Users { get; set; } 
         // needed tables for soocial media managements
