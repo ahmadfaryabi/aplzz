@@ -3,7 +3,7 @@
     ViewData["Title"] = "Registrer deg";
 }
 
-<h1>@ViewBag.Title</h1>
+
 <div class="register">
 
     @if(TempData["ErrorEmail"] != null) {
@@ -15,31 +15,26 @@
     @if(TempData["SuccessMsg"] != null) {
         <div class="alert alert-success">@TempData["SuccessMsg"]</div>
     } 
-
+    <div class="title_center header">@ViewBag.Title hos Aplzz og start din sosiale verden!</div>
     <form asp-action="Register">
         <div class="form-group_">
-            <label asp-for="Firstname" class="control-label">Fornavn (*)</label>
-            <input type="text" asp-for="Firstname" id="" class="form-control" />
+            <input type="text" asp-for="Firstname" id="" class="form-control" placeholder="Fornavn"/>
             <span asp-validation-for="Firstname" class="text-danger"></span>
         </div>
         <div class="form-group_">
-            <label asp-for="Aftername" class="control-label">Etternavn (*)</label>
-            <input type="text" asp-for="Aftername" class="form-control" id=""/>
+            <input type="text" asp-for="Aftername" class="form-control" id="" placeholder="Etternavn"/>
             <span asp-validation-for="Aftername" class="text-danger"></span>
         </div>
         <div class="form-group_">
-            <label asp-for="Email" class="control-label">E-post (*)</label>
-            <input type="text" asp-for="Email" class="form-control" id=""/>
+            <input type="text" asp-for="Email" class="form-control" id="" placeholder="E-post"/>
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="form-group_">
-            <label asp-for="Password" class="control-label">Password (*)</label>
-            <input type="password" asp-for="Password" class="form-control" id=""/>
+            <input type="password" asp-for="Password" class="form-control" id="" placeholder="Passord"/>
             <span asp-validation-for="Password" class="text-danger"></span>
         </div>
         <div class="form-group_">
-            <label asp-for="Username" class="control-label">Brukernavn (*)</label>
-            <input type="text" asp-for="Username" class="form-control" id=""/>
+            <input type="text" asp-for="Username" class="form-control" id="" placeholder="Brukernavn"/>
             <span asp-validation-for="Username" class="text-danger"></span>
         </div>
         <div class="form-group_">
@@ -48,7 +43,8 @@
             <span asp-validation-for="ProfilePicture" class="text-danger"></span>
         </div>
         <div class="form-group_">
-            <input type="submit" value="Finito" onclick="register()" class="btn btn-primary" />
+            <input type="submit" value="Fullfør registrering" onclick="register()" class="aplzz_btn btn_register" />
+            <p></p>Har du allerede registrert? <a asp-controller="Login" asp-action="Index">Logg inn</a>
         </div>
     </form>
 </div>

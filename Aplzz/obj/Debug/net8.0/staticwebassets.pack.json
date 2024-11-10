@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\IMG_1404.PNG",
+      "PackagePath": "staticwebassets\\images\\IMG_1404.PNG"
+    },
+    {
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
       "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
     },
@@ -35,6 +39,10 @@
     {
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\frenchfries.jpg",
       "PackagePath": "staticwebassets\\images\\frenchfries.jpg"
+    },
+    {
+      "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\katt.jpg",
+      "PackagePath": "staticwebassets\\images\\katt.jpg"
     },
     {
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
