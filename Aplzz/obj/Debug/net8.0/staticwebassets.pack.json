@@ -59,6 +59,7 @@
 >>>>>>> ab71774 (fikset sql lite feil. :))
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
 <<<<<<< HEAD
@@ -72,6 +73,12 @@
 >>>>>>> 4daf140 (fikset feil)
 =======
 =======
+=======
+      "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\IMG_1404.PNG",
+      "PackagePath": "staticwebassets\\images\\IMG_1404.PNG"
+    },
+    {
+>>>>>>> 1c5c828 (fikset på stiling vedr. login/registrering)
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
       "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
 >>>>>>> c4e2647 (fikset sql lite feil. :))
@@ -173,6 +180,7 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/pizza.jpg",
       "PackagePath": "staticwebassets/images/pizza.jpg"
     },
@@ -181,6 +189,12 @@
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "PackagePath": "staticwebassets/images/data1100.jpeg"
 =======
+=======
+      "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\katt.jpg",
+      "PackagePath": "staticwebassets\\images\\katt.jpg"
+    },
+    {
+>>>>>>> 1c5c828 (fikset på stiling vedr. login/registrering)
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
       "PackagePath": "staticwebassets\\images\\pexels.jpg"
 >>>>>>> c4e2647 (fikset sql lite feil. :))

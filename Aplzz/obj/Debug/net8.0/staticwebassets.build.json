@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "mhYLMB7yAw4m1dnTN4c5ocn89IXEJbmvp9U/uvs/f4w=",
 =======
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
@@ -25,6 +26,8 @@
 >>>>>>> b70eb87 (Endret DbInit)
 =======
 >>>>>>> ab71774 (fikset sql lite feil. :))
+=======
+>>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
   "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
 =======
   "Hash": "uDPeVNopV59A0z+MtEjqb5eqOtih91P0QBxs5hBew2c=",
@@ -41,7 +44,13 @@
 =======
   "Hash": "rBss4MkM9bvkYLj25biUUnojnVp81cnSgHDIoSkgSA8=",
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+<<<<<<< HEAD
 >>>>>>> ab71774 (fikset sql lite feil. :))
+=======
+=======
+  "Hash": "IjsfNo0quSlfkcyprOpPb/2zAxQ6bzzkseYhrvt92mE=",
+>>>>>>> 1c5c828 (fikset på stiling vedr. login/registrering)
+>>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -725,6 +734,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\IMG_1404.PNG",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/IMG_1404.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IMG_1404.PNG"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\katt.jpg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/katt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\katt.jpg"
     },
     {
       "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
