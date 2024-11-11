@@ -281,7 +281,6 @@ c:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
-<<<<<<< HEAD
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
@@ -422,6 +421,5 @@ C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\refint\Apl
 C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.pdb
 C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\Aplzz.genruntimeconfig.cache
 C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.dll
-=======
 >>>>>>> d99f336fee5261038d837b2c088847523dcbe697
 >>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
