@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
-  },
-  "projects": {
-    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
         ],
         "originalTargetFrameworks": [
           "net8.0"
