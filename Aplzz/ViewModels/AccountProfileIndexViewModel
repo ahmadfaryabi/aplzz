@@ -1,0 +1,8 @@
+namespace Aplzz.ViewModels
+{
+    public class AccountProfileIndexViewModel
+    {
+        public List<AccountProfile> Profiles { get; set; }
+        public string CurrentViewName { get; set; }
+    }
+}
