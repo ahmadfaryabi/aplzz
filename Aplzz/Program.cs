@@ -15,6 +15,7 @@ using Aplzz.DAL;
 using Aplzz.Models;
 =======
 using Aplzz.DAL;
+<<<<<<< HEAD
 >>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 using Serilog;
 using Serilog.Events;
@@ -24,12 +25,16 @@ using Aplzz.Models;
 =======
 using Aplzz.DAL;
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+=======
+using Aplzz.Models;
+>>>>>>> f6cecd9 (fikse feil)
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,9 +47,14 @@ builder.Services.AddDbContext<DbContexts>(options => {
 builder.Services.AddDbContext<PostDbContext>(options => {
 >>>>>>> ab71774 (fikset sql lite feil. :))
 =======
+=======
+>>>>>>> 1628de3 (fikse feil)
 // Add DbContext for Posts
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+>>>>>>> f6cecd9 (fikse feil)
 builder.Services.AddDbContext<PostDbContext>(options => {
 <<<<<<< HEAD
 >>>>>>> 6322eac (ok)
@@ -65,6 +75,7 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 =======
 >>>>>>> c63ba55 (endring)
         builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+<<<<<<< HEAD
 =======
         builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
 >>>>>>> 051aac6 (.)
@@ -76,6 +87,15 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 builder.Services.AddDbContext<DbContexts>(options => {
 >>>>>>> 5d12ca7 (accountprofile)
 =======
+=======
+});
+
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+builder.Services.AddSession(options => {
+    options.Cookie.Name = ".Applz.Session";
+// Add DbContext for Posts
+>>>>>>> f6cecd9 (fikse feil)
 builder.Services.AddDbContext<DbContexts>(options =>
 {
 >>>>>>> 4fa072a (account)

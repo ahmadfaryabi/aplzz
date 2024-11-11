@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
@@ -29,6 +30,8 @@
 >>>>>>> 8109aa9 (accountprofile)
 =======
 >>>>>>> a3b8ecd (account)
+=======
+>>>>>>> 1628de3 (fikse feil)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -151,6 +154,9 @@
 =======
     "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 4fa072a (account)
+=======
+    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
+>>>>>>> f6cecd9 (fikse feil)
   },
   "projects": {
     "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {
@@ -163,9 +169,16 @@
         "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> 5d12ca7 (accountprofile)
+<<<<<<< HEAD
 >>>>>>> 8109aa9 (accountprofile)
+=======
+=======
+          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+>>>>>>> f6cecd9 (fikse feil)
+>>>>>>> 1628de3 (fikse feil)
         ],
         "originalTargetFrameworks": [
           "net8.0"
