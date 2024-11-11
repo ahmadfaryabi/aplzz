@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Fz1IOqTOUZg=",
 =======
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 36b1ce8 (ok)
 =======
 >>>>>>> 2b5b12d (fiksing)
+=======
+>>>>>>> 7a60692 (fikset)
   "dgSpecHash": "mdQpeZeg4RY=",
 =======
   "dgSpecHash": "xIKvvOIl4+w=",
@@ -190,9 +193,13 @@
 =======
   "dgSpecHash": "+tKooJyHV/0=",
 >>>>>>> 7cf30d2 (fiksing)
+=======
+  "dgSpecHash": "m1bG3obw/Mw=",
+>>>>>>> fa8e010 (fikset)
   "success": true,
-  "projectFilePath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+  "projectFilePath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -202,6 +209,8 @@
   "success": true,
   "projectFilePath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
   "expectedPackageFiles": [
+=======
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -211,15 +220,19 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c329a7e (committing)
 =======
 >>>>>>> 3748811 (ok)
+=======
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.data.sqlite.core/8.0.10/microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.10/microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.10/microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.proxies/8.0.10/microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
@@ -228,6 +241,10 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.proxies/8.0.10/microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
 >>>>>>> 3748811 (ok)
+=======
+    "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
+    "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.proxies/8.0.10/microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.10/microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.10/microsoft.entityframeworkcore.sqlite.8.0.10.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.10/microsoft.entityframeworkcore.sqlite.core.8.0.10.nupkg.sha512",
@@ -243,21 +260,28 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3748811 (ok)
+=======
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog/4.0.0/serilog.4.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c329a7e (committing)
 =======
 >>>>>>> 3748811 (ok)
+=======
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "/Users/ahmadfaryabi/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
@@ -369,6 +393,8 @@
 =======
 =======
 >>>>>>> 3748811 (ok)
+=======
+>>>>>>> fa8e010 (fikset)
     "/Users/ahmadfaryabi/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
@@ -384,6 +410,7 @@
     "/Users/ahmadfaryabi/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c329a7e (committing)
 <<<<<<< HEAD
@@ -411,14 +438,12 @@
     "C:\\Users\\ahmad\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
 >>>>>>> 7cf30d2 (fiksing)
+<<<<<<< HEAD
 >>>>>>> 2b5b12d (fiksing)
+=======
+=======
+>>>>>>> fa8e010 (fikset)
+>>>>>>> 7a60692 (fikset)
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

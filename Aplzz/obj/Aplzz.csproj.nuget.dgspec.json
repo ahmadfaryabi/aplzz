@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
@@ -17,6 +18,8 @@
 >>>>>>> 5b112ef (committing)
 =======
 >>>>>>> 2b5b12d (fiksing)
+=======
+>>>>>>> 7a60692 (fikset)
     "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 37ea866 (Intializing  logging)
   },
@@ -62,18 +65,22 @@
 =======
     "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 7cf30d2 (fiksing)
+=======
+    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
+>>>>>>> fa8e010 (fikset)
   },
   "projects": {
-    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
+    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+        "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
+        "projectPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
+        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
+        "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> 76f5fcb (logg inn funksjoon)
@@ -102,7 +109,13 @@
         "configFilePaths": [
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> c329a7e (committing)
+<<<<<<< HEAD
 >>>>>>> 5b112ef (committing)
+=======
+=======
+          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+>>>>>>> fa8e010 (fikset)
+>>>>>>> 7a60692 (fikset)
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -182,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
