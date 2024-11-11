@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c5c82816bf6fc9db84a920bab2830bd28f0f23e")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fa072ab6340dd49215f8b54d690763a3d98dd16")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e916e46e01e4025b2acb5965d10bdc054b692042")]
+>>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
+>>>>>>> origin/Zaka_R
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

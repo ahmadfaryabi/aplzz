@@ -42,7 +42,7 @@ public class LoginController : Controller
         HttpContext.Session.SetString("firstname", res.Firstname.ToString());
         HttpContext.Session.SetString("aftername", res.Aftername.ToString());
         HttpContext.Session.SetString("email", res.Email.ToString());
-        HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
+       // HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
       }
       return RedirectToAction("Index", "Post");
     } else {
@@ -113,6 +113,9 @@ public class LoginController : Controller
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");
   }
+<<<<<<< HEAD
+}
+=======
 
 //   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 //     public IActionResult Error()
@@ -120,3 +123,4 @@ public class LoginController : Controller
 //         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 //     }
 }
+>>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545

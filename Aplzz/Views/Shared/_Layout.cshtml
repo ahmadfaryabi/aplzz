@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header> 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Post" asp-action="Index">Aplzz</a>
@@ -25,8 +25,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Post" asp-action="Index">Home</a>
                         </li>
+<<<<<<< HEAD
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AccountProfile" asp-action="Index">Profiles</a>
+=======
                         <li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Logg inn</a>
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
                         </li>
                     </ul>
                 </div>
@@ -38,12 +43,7 @@
             @RenderBody()
         </main>
     </div>
-
-   <!-- <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Aplzz <a asp-area="" asp-controller="Post"></a>
-        </div>
-    </footer> -->
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
