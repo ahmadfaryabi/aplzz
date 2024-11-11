@@ -1,27 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
->>>>>>> origin/Zaka_R
   },
   "projects": {
     "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {
@@ -34,12 +14,7 @@
         "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
-=======
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
         ],
         "originalTargetFrameworks": [
           "net8.0"

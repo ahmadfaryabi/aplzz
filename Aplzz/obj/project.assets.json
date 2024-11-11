@@ -2630,46 +2630,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "/Users/ahmadfaryabi/.nuget/packages/": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\yaha-\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\ahmad\\.nuget\\packages\\": {}
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-      "projectName": "Aplzz",
-      "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-      "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
->>>>>>> origin/Zaka_R
       "projectName": "Aplzz",
       "projectPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
       "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
       "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
-=======
-        "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2743,5 +2716,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
