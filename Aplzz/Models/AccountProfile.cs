@@ -23,5 +23,9 @@ namespace Aplzz.Models
 
         [DataType(DataType.Date)]
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+        public List<AccountProfile>? Profiles { get; set; }
+        public string? CurrentViewName { get; set; }
+
     }
 }

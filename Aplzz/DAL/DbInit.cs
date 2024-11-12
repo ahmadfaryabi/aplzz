@@ -8,7 +8,7 @@ namespace Aplzz.DAL
         public static void Seed(IApplicationBuilder app)
         {
             using var serviceScope = app.ApplicationServices.CreateScope();
-            var context = serviceScope.ServiceProvider.GetRequiredService<DbContexts>();
+            var context = serviceScope.ServiceProvider.GetRequiredService<PostDbContext>();
             
             if (!context.Database.CanConnect())
             {
