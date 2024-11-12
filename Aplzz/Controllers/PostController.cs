@@ -19,10 +19,10 @@ using Aplzz.DAL;
 >>>>>>> 6f13df7 (feil fiksing)
 
 namespace Aplzz.Controllers
-{
-    
+{   
     public class PostController : Controller
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,18 +102,19 @@ namespace Aplzz.Controllers
         // Injiser PostDbContext via konstruktøren
         public PostController(DbContexts context, ILogger<PostController> logger)
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
         private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger; // Legg til logger
 
         // Injiser PostDbContext via konstruktøren
         public PostController(IPostRepository postRepository, ILogger<PostController> logger)
->>>>>>> 834f36d (feil fiksing)
         {
             _postRepository = postRepository;
             _logger = logger; // Initialiser logger
->>>>>>> 5d12ca7 (accountprofile)
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Handling to display the list of posts
 <<<<<<< HEAD
@@ -191,14 +192,21 @@ namespace Aplzz.Controllers
        // }
 >>>>>>> 4fa072a (account)
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
        // Handling to display the list of posts
        public async Task<IActionResult> Index()
        {
            var posts = await _postRepository.GetAll();
+           if(posts == null) {
+              _logger.LogError("[PostController] Post List not found while executing _postRepository.GetAll()");
+               return NotFound("Post not found");
+           }
+                
+               
            var viewModel = new PostViewModel(posts, "Aplzz Feed");
            return View(viewModel);
        }
->>>>>>> 834f36d (feil fiksing)
 
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
         [HttpGet]
@@ -214,6 +222,7 @@ namespace Aplzz.Controllers
             {
                 if (imageFile != null && imageFile.Length > 0)
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,21 +311,25 @@ namespace Aplzz.Controllers
 =======
                     try
                     {
+=======
+                    try
+                    {
+                        // Lagre bildet på serveren
+>>>>>>> d0be505 (fikset på sidene)
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
                         using (var stream = new FileStream(filePath, FileMode.Create))
                         {
                             await imageFile.CopyToAsync(stream);
                         }
-                        post.ImageUrl = $"/images/{imageFile.FileName}";
-                    }
+                        post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+                    } 
                     catch (Exception e)
                     {
                         _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
                     }
                 }
 
->>>>>>> 7071121 (ok)
-                post.CreatedAt = DateTime.Now;
+                post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
                 try
                 {
                     await _postRepository.Create(post);
@@ -326,6 +339,7 @@ namespace Aplzz.Controllers
                 {
                     _logger.LogError("[PostController] Failed to create post: {e}", e.Message);
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 <<<<<<< HEAD
@@ -351,11 +365,19 @@ namespace Aplzz.Controllers
                 await _postRepository.Create(post);
                 return RedirectToAction(nameof(Index));
 >>>>>>> 5d12ca7 (accountprofile)
+=======
+                _logger.LogWarning("[PostController] post creation has failed {@post}",post);
+>>>>>>> d0be505 (fikset på sidene)
             }
-            _logger.LogWarning("[PostController] Post creation failed{@post}",post);
             return View(post);
+<<<<<<< HEAD
         }    
 >>>>>>> 8109aa9 (accountprofile)
+=======
+        }
+        
+ 
+>>>>>>> d0be505 (fikset på sidene)
 
         [HttpPost]
         public async Task<IActionResult> AddComment(int postId, string commentText)
@@ -371,6 +393,7 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,8 +445,9 @@ namespace Aplzz.Controllers
                 _context.Comments.Add(comment);
                 await _context.SaveChangesAsync();
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
                 await _postRepository.AddComment(comment);
->>>>>>> 834f36d (feil fiksing)
                 _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
             }
             else
@@ -431,6 +455,7 @@ namespace Aplzz.Controllers
                 _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
             }
 
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
             return RedirectToAction(nameof(Index));
 <<<<<<< HEAD
@@ -848,6 +873,8 @@ public async Task<IActionResult> LikePost(int postId)
             }
 =======
 >>>>>>> 5d12ca7 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
             return RedirectToAction(nameof(Index));
         }
 
@@ -857,17 +884,20 @@ public async Task<IActionResult> LikePost(int postId)
             var post = _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found when updating the postId{postId:0000}",id);
+                return NotFound("Post not found for the postId");
             }
-            return View(post); 
+                return View(post); 
+            
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
         {
             var existingPost = await _postRepository.GetPostById(post.PostId); // Hent eksisterende innlegg
             if (existingPost == null)
             {
+                _logger.LogError("[PostController] Post List not found while executing _postRepository.GetAll()");
                 return NotFound(); // Returner 404 hvis innlegget ikke finnes
             }
 
@@ -876,6 +906,8 @@ public async Task<IActionResult> LikePost(int postId)
 
             if (imageFile != null && imageFile.Length > 0)
             {
+                try{
+
                 // Lagre bildet på serveren
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
@@ -883,12 +915,26 @@ public async Task<IActionResult> LikePost(int postId)
                     await imageFile.CopyToAsync(stream);
                 }
                 existingPost.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+
+                } catch (Exception e)
+            {
+                _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
+            }
+
+                
             }
 
             existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt 
-            await _postRepository.Update(existingPost);; 
-            return RedirectToAction(nameof(Index)); 
+            try{
+                await _postRepository.Update(existingPost);; 
+                return RedirectToAction(nameof(Index)); 
+            }  catch (Exception e)
+        {
+            _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
         }
+            return View(post);    
+        }
+            
 
         [HttpGet]
         public IActionResult Delete(int id)
@@ -896,7 +942,8 @@ public async Task<IActionResult> LikePost(int postId)
             var post = _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found for  PostId{PostId:0000}",id);
+                return NotFound("Post not found for the PostId");
             }
             return View(post); 
         }
@@ -907,50 +954,48 @@ public async Task<IActionResult> LikePost(int postId)
             var post = await _postRepository.GetPostById(id); 
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found for PostId{PostId:0000}",id);
+                 return NotFound("Post not found");
             }
-            await _postRepository.Delete(id); 
+            bool result = await _postRepository.Delete(id);
+            if (!result)
+            {
+             _logger.LogError("[PostController] Post deletion failed for the PostId{PostId:0000}",id);
+             return BadRequest("Post deletion failed");
+            }
+ 
             return RedirectToAction(nameof(Index)); 
         }
 
         [HttpPost]
         public async Task<IActionResult> LikePost(int postId)
         {
-            int userId = 1; // Hardkode userId for testbrukeren "testuser"
-            _logger.LogInformation("Bruker {IdUser} liker postId: {PostId}", userId, postId);
-
-            var postExists = await _postRepository.GetPostById(postId);
-            if (postExists == null)
+            try
             {
-                _logger.LogWarning("Post med postId: {PostId} eksisterer ikke.", postId);
-                return NotFound();
-            }
+                int userId = 1; // Hardkodet bruker-ID
+                var isLiked = await _postRepository.HasUserLikedPost(postId, userId);
 
-            var existingLike = await _postRepository.GetLikeCount(postId);
-
-            if (existingLike != null)
-            {
-                // Hvis det allerede finnes en like fra denne brukeren, fjern den
-                await _postRepository.RemoveLike(userId, postId);
-                _logger.LogInformation("Fjerner like for postId: {PostId} av bruker {IdUser}", postId, userId);
-            }
-            else
-            {
-                // Hvis ingen like finnes, legg til en ny
-                var like = new Like
+                if (isLiked)
                 {
-                    PostId = postId,
-                    UserId = userId
-                };
-                await _postRepository.AddLike(like);
-                _logger.LogInformation("Legger til like for postId: {PostId} av bruker {UserId}", postId, userId);
-            }
+                    await _postRepository.RemoveLike(postId, userId);
+                }
+                else
+                {
+                    var like = new Like { PostId = postId, UserId = userId };
+                    await _postRepository.AddLike(like);
+                }
 
-            // Returner oppdatert like-telling
-            var likeCount = await _postRepository.GetLikeCount(postId);
-            return Json(new { likesCount = likeCount });
+                var newLikeCount = await _postRepository.GetLikeCount(postId);
+                return Json(new { likesCount = newLikeCount, isLiked = !isLiked });
+            }
+            catch (Exception e)
+            {
+                _logger.LogError("[PostController] Failed to process like: {e}", e.Message);
+                return BadRequest("Failed to process like");
+            }
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -969,3 +1014,6 @@ public async Task<IActionResult> LikePost(int postId)
 
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+}
+>>>>>>> d0be505 (fikset på sidene)

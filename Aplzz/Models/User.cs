@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
@@ -45,6 +44,7 @@ namespace Aplzz.Models
 >>>>>>> 96fa80c (flere filer laget for innlogging)
 =======
 }
+<<<<<<< HEAD
 =======
 using System.ComponentModel.DataAnnotations;
 
@@ -65,3 +65,5 @@ namespace Aplzz.Models
 }
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
+=======
+>>>>>>> d0be505 (fikset på sidene)

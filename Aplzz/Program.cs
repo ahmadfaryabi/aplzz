@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Aplzz.DAL;
 =======
 <<<<<<< HEAD
@@ -14,26 +15,17 @@ using Aplzz.DAL;
 >>>>>>> ab71774 (fikset sql lite feil. :))
 using Aplzz.Models;
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
 using Aplzz.DAL;
-<<<<<<< HEAD
->>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
-using Serilog;
-using Serilog.Events;
-=======
 using Aplzz.Models;
->>>>>>> d99f336 (endring)
-=======
-using Aplzz.DAL;
->>>>>>> c4e2647 (fikset sql lite feil. :))
-=======
-using Aplzz.Models;
->>>>>>> f6cecd9 (fikse feil)
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,9 +45,11 @@ builder.Services.AddDbContext<PostDbContext>(options => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
 
->>>>>>> f6cecd9 (fikse feil)
 builder.Services.AddDbContext<PostDbContext>(options => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6322eac (ok)
     options.UseSqlite(
@@ -88,6 +82,10 @@ builder.Services.AddDbContext<DbContexts>(options => {
 >>>>>>> 5d12ca7 (accountprofile)
 =======
 =======
+=======
+    options.UseSqlite(
+        builder.Configuration["ConnectionStrings:DatabaseConnection"]);
+>>>>>>> d0be505 (fikset på sidene)
 });
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
@@ -95,20 +93,13 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
 // Add DbContext for Posts
-<<<<<<< HEAD
->>>>>>> f6cecd9 (fikse feil)
-builder.Services.AddDbContext<DbContexts>(options =>
-{
->>>>>>> 4fa072a (account)
-    options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
-=======
->>>>>>> 834f36d (feil fiksing)
 });
 
 // Add DbContext for Account Profiles
 builder.Services.AddDbContext<AccountDbContext>(options =>
 {
     options.UseSqlite(builder.Configuration["ConnectionStrings:AccountDbContextConnection"]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
@@ -199,6 +190,10 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 =======
 >>>>>>> d99f336 (endring)
 =======
+=======
+});
+
+>>>>>>> d0be505 (fikset på sidene)
 // Add Distributed Memory Cache for session support
 builder.Services.AddDistributedMemoryCache();
 
@@ -210,7 +205,6 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
->>>>>>> 4fa072a (account)
 
 var app = builder.Build();
 

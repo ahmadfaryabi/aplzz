@@ -64,6 +64,25 @@ body {
 >>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
 }
 
+.sideNavBar {
+  background-color: #fff;
+  border:1px #828282 solid right;
+  position:fixed;
+  top:0;bottom:0;width:300px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideNavBar .divBtn {
+  width:100%;
+  padding:5px 10px;
+}
+
+.sideNavBar.divBtn:hover {
+  background-color: #828282;
+}
+
 .form-group_ {
   margin:10px;
 <<<<<<< HEAD
@@ -112,6 +131,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d202e60 (endring på stil)
 =======
@@ -125,3 +145,7 @@ body {
 =======
 >>>>>>> 6f13df7 (feil fiksing)
 }
+=======
+}
+
+>>>>>>> d0be505 (fikset på sidene)

@@ -38,6 +38,7 @@ namespace Aplzz.DAL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6322eac (ok)
                     new User {IdUser = 1, Firstname = "Ahmad", Aftername="Faryabi",Username="ahmad", Password="1234", Phone="12345678", Email="email@email.com",
@@ -54,6 +55,10 @@ namespace Aplzz.DAL
 =======
 >>>>>>> 7071121 (ok)
 >>>>>>> 6322eac (ok)
+=======
+                    new User {IdUser = 1, Firstname = "Ahmad", Aftername="Faryabi",Username="ahmad", Password="1234", Phone="12345678", Email="email@email.com",
+                    ProfilePicture="images/profile.jpeg"}
+>>>>>>> d0be505 (fikset på sidene)
                 };
                 context.Users.AddRange(users);
                 context.SaveChanges();
@@ -152,11 +157,7 @@ namespace Aplzz.DAL
             // Seed Likes kun hvis vi har gyldige innlegg og brukere
             if (!context.Likes.Any() && postIds.Any() && context.Users.Any())
             {
-<<<<<<< HEAD
                 var userIds = context.Users.Select(u => u.IdUser).ToList();
-=======
-                var userIds = context.Users.Select(u => u.UserId).ToList();
->>>>>>> 7071121 (ok)
                 var likes = new List<Like>
                 {
                     new Like { PostId = postIds[0], UserId = userIds[0] },

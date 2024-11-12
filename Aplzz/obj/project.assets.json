@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -14,6 +15,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -33,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -47,6 +51,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -406,6 +412,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -414,6 +421,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -434,6 +443,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -448,6 +458,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -688,9 +700,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -703,6 +718,7 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 37ea866 (Intializing  logging)
@@ -774,6 +790,8 @@
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
         }
       },
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Serilog/4.0.0": {
         "type": "package",
         "compile": {
@@ -818,8 +836,6 @@
           "lib/net8.0/Serilog.Sinks.File.dll": {
             "related": ".xml"
           }
-=======
->>>>>>> 7071121 (ok)
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -1091,6 +1107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -1099,6 +1116,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "System.Diagnostics.EventLog/6.0.0": {
         "type": "package",
         "compile": {
@@ -1128,6 +1147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -1142,6 +1162,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
@@ -1250,6 +1272,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -1258,6 +1281,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Castle.Core/5.1.1": {
       "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "type": "package",
@@ -1285,6 +1310,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -1299,6 +1325,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1854,6 +1882,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -1862,6 +1891,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
       "sha512": "HJPkmBhy9vjuS6bZ7g0Dj8pOpuB027LM1kE06WEcYfLgHy0V4kNNA/BqfSQGdwI0IQbxj7NSuSTnMYwJtYBgog==",
       "type": "package",
@@ -1880,6 +1911,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -1894,6 +1926,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "sha512": "OefBEE47kGKPRPV3OT+FAW6o5BFgLk2D9EoeWVy7NbOepzUneayLQxbVE098FfedTyMwxvZQoDD9LrvZc3MadA==",
       "type": "package",
@@ -2308,9 +2342,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2324,6 +2361,7 @@
         "mono.texttemplating.nuspec"
       ]
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 37ea866 (Intializing  logging)
@@ -2421,6 +2459,8 @@
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
       ]
     },
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "Serilog/4.0.0": {
       "sha512": "2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
       "type": "package",
@@ -2490,8 +2530,6 @@
         "serilog-sink-nuget.png",
         "serilog.sinks.file.6.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
-=======
->>>>>>> 7071121 (ok)
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -2763,6 +2801,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -2771,6 +2810,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "System.Diagnostics.EventLog/6.0.0": {
       "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
       "type": "package",
@@ -2805,6 +2846,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
@@ -2819,6 +2861,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "System.IO.Pipelines/6.0.3": {
       "sha512": "ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "type": "package",
@@ -2985,6 +3029,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.10",
 =======
@@ -2997,25 +3042,17 @@
       "Serilog.Extensions.Logging >= 8.0.0",
       "Serilog.Sinks.File >= 6.0.0"
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
->>>>>>> 7071121 (ok)
-      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10"
->>>>>>> ff3fccc (La til test user for å teste like funksjonen)
-=======
-=======
->>>>>>> 5d12ca7 (accountprofile)
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Serilog.Extensions.Logging >= 8.0.0",
       "Serilog.Sinks.File >= 6.0.0"
->>>>>>> d6afb7a (Lagt til DAL, Fikset Like og Kommentar funksjon)
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3086,10 +3123,14 @@
     "/Users/ahmadfaryabi/.nuget/packages/": {}
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+    "/Users/ahmadfaryabi/.nuget/packages/": {}
+>>>>>>> d0be505 (fikset på sidene)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3155,17 +3196,17 @@
       "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
 >>>>>>> 7cf30d2 (fiksing)
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
       "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
->>>>>>> fa8e010 (fikset)
       "projectName": "Aplzz",
       "projectPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
       "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
       "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+<<<<<<< HEAD
 >>>>>>> 76f5fcb (logg inn funksjoon)
 <<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
@@ -3232,6 +3273,8 @@
         "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+>>>>>>> d0be505 (fikset på sidene)
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3270,6 +3313,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -3278,10 +3322,13 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
           "Microsoft.EntityFrameworkCore.Proxies": {
             "target": "Package",
             "version": "[8.0.10, )"
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3299,6 +3346,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.10, )"
@@ -3331,7 +3380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

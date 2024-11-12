@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
 =======
 =======
@@ -78,8 +79,9 @@
     "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
 >>>>>>> 7cf30d2 (fiksing)
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
     "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
->>>>>>> fa8e010 (fikset)
   },
   "projects": {
     "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {
@@ -92,9 +94,8 @@
         "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+<<<<<<< HEAD
 >>>>>>> 76f5fcb (logg inn funksjoon)
 <<<<<<< HEAD
 >>>>>>> 5847ef8 (logg inn funksjoon)
@@ -179,6 +180,8 @@
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+>>>>>>> d0be505 (fikset på sidene)
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -217,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
@@ -225,10 +229,13 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +253,8 @@
 =======
 >>>>>>> 5d12ca7 (accountprofile)
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> d0be505 (fikset på sidene)
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -278,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

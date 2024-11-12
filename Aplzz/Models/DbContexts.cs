@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,22 +17,24 @@ using Aplzz.Models;
 namespace Aplzz.DAL 
 >>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
 =======
-using Aplzz.Models;
-
-namespace Aplzz.DAL 
 =======
-
+>>>>>>> d0be505 (fikset på sidene)
+using Aplzz.Models;
+using Aplzz.DAL;
 namespace Aplzz.Models 
+<<<<<<< HEAD
 >>>>>>> 3748811 (ok)
 >>>>>>> 36b1ce8 (ok)
+=======
+>>>>>>> d0be505 (fikset på sidene)
 {
     public class DbContexts : DbContext 
     {
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
         {
-<<<<<<< HEAD
             //Database.EnsureCreated();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         public DbSet<User> Users { get; set; } 
 <<<<<<< HEAD
@@ -54,17 +55,21 @@ namespace Aplzz.Models
 =======
         public DbSet<User>git Users { get; set; } 
 >>>>>>> ab8fc79 (ook)
+=======
+        public DbSet<User> Users { get; set; } 
+>>>>>>> d0be505 (fikset på sidene)
         // needed tables for soocial media managements
         public DbSet<Post> Posts { get; set; } 
         public DbSet<Comment> Comments { get; set; } 
         public DbSet<Like> Likes { get; set; }
-        public DbSet<User> Users { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLazyLoadingProxies();
         }
     }
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -126,3 +131,6 @@ namespace Aplzz.Models
 }
 >>>>>>> 834f36d (feil fiksing)
 >>>>>>> 6f13df7 (feil fiksing)
+=======
+}
+>>>>>>> d0be505 (fikset på sidene)

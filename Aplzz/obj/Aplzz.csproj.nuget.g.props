@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/libansulub/.nuget/packages/</NuGetPackageFolders>
 =======
@@ -85,10 +86,15 @@
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageFolders>
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/ahmadfaryabi/.nuget/packages/</NuGetPackageFolders>
+>>>>>>> d0be505 (fikset på sidene)
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,19 +167,13 @@
 =======
 =======
 >>>>>>> f6cecd9 (fikse feil)
+=======
+>>>>>>> d0be505 (fikset på sidene)
     <SourceRoot Include="/Users/ahmadfaryabi/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.10/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.10/build/net8.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/8.0.10/build/net8.0/Microsoft.EntityFrameworkCore.Design.props')" />
->>>>>>> fa8e010 (fikset)
-=======
-    <SourceRoot Include="C:\Users\yaha-\.nuget\packages\" />
-  </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
-<<<<<<< HEAD
->>>>>>> 9848c75 (AccountProfile update)
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
@@ -183,6 +183,7 @@
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/ahmadfaryabi/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5b112ef (committing)
@@ -215,5 +216,7 @@
 =======
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+>>>>>>> d0be505 (fikset på sidene)
   </PropertyGroup>
 </Project>

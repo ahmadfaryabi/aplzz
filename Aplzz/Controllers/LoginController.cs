@@ -27,7 +27,9 @@ public class LoginController : Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
   private readonly PostDbContext _userDB;
+  private readonly ILogger<LoginController> _logger;
 
+<<<<<<< HEAD
   public LoginController(PostDbContext userDb) 
 =======
 namespace Ahmadside.Controllers;
@@ -51,8 +53,12 @@ public class LoginController : Controller
 
   public LoginController(PostDbContext userDb) 
 >>>>>>> ab71774 (fikset sql lite feil. :))
+=======
+  public LoginController(PostDbContext userDb, ILogger<LoginController> logger) 
+>>>>>>> d0be505 (fikset på sidene)
   {
     _userDB = userDb;
+    _logger = logger;
   }
 
   public IActionResult Index() 
@@ -178,6 +184,7 @@ public class LoginController : Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 =======
@@ -213,3 +220,6 @@ public class LoginController : Controller
 }
 >>>>>>> 834f36d (feil fiksing)
 >>>>>>> 6f13df7 (feil fiksing)
+=======
+}
+>>>>>>> d0be505 (fikset på sidene)

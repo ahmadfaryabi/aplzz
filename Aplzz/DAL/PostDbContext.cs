@@ -4,6 +4,7 @@ using Aplzz.Models;
 namespace Aplzz.DAL 
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public class DbContexts : DbContext 
     {
         public DbContexts(DbContextOptions<DbContexts> options) : base(options)
@@ -21,6 +22,8 @@ namespace Aplzz.DAL
         public DbSet<User> Users { get; set; } 
         // needed tables for soocial media managements
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
     public class PostDbContext : DbContext 
     {
         public PostDbContext(DbContextOptions<PostDbContext> options) : base(options)
@@ -28,7 +31,6 @@ namespace Aplzz.DAL
             //Database.EnsureCreated();
         }
 
->>>>>>> 7071121 (ok)
         public DbSet<Post> Posts { get; set; } 
         public DbSet<Comment> Comments { get; set; } 
         public DbSet<Like> Likes { get; set; }

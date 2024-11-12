@@ -20,6 +20,7 @@ build_property.RootNamespace = Aplzz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/libansulub/Documents/GitHub/aplzz/Aplzz/
 =======
 build_property.ProjectDir = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/
@@ -97,11 +98,15 @@ build_property.ProjectDir = C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\
 build_property.ProjectDir = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+build_property.ProjectDir = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/
+>>>>>>> d0be505 (fikset på sidene)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +421,9 @@ build_property.MSBuildProjectDirectory = C:\Users\yaha-\OneDrive\Dokumenter\Weba
 =======
 build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz
 >>>>>>> f6cecd9 (fikse feil)
+=======
+build_property.MSBuildProjectDirectory = /Users/ahmadfaryabi/Desktop/aplzz/Aplzz
+>>>>>>> d0be505 (fikset på sidene)
 build_property._RazorSourceGeneratorDebug = 
 
 [/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
@@ -430,6 +438,7 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudFByb2ZpbGUvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 [C:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5kZXguY3NodG1s
@@ -489,6 +498,8 @@ build_metadata.AdditionalFiles.CssScope = b-slhz5x6pun
 >>>>>>> 8109aa9 (accountprofile)
 =======
 =======
+=======
+>>>>>>> d0be505 (fikset på sidene)
 [/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -536,5 +547,8 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q2k0rc4hot
+<<<<<<< HEAD
 >>>>>>> f6cecd9 (fikse feil)
 >>>>>>> 1628de3 (fikse feil)
+=======
+>>>>>>> d0be505 (fikset på sidene)
