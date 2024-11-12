@@ -1,18 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "s2HVpMz4x+85o7rzJzuCxT2fn2HbGQA2Y7boosh/Jkg=",
-=======
-<<<<<<< HEAD
-  "Hash": "0bFcfWMEGeFfs76mzCd4oJyDETLP7S52EyCsbNgEpk4=",
-=======
-<<<<<<< HEAD
-  "Hash": "TaAFEs4xASoaewq91/l4JWoWUfA1Fmu+T5tmvqkeZ9Y=",
-=======
-  "Hash": "iejHWrjk0/HtCRMOq7HynRWvX+jguDTQFfmkCj3F9eo=",
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -22,39 +10,17 @@
     {
       "Name": "Aplzz/wwwroot",
       "Source": "Aplzz",
-<<<<<<< HEAD
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.styles.css",
       "AssetKind": "All",
@@ -67,31 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/bundle/Aplzz.styles.css"
-=======
-<<<<<<< HEAD
-      "OriginalItemSpec": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
-    },
-    {
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Aplzz.styles.css"
->>>>>>> origin/Zaka_R
     },
     {
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css",
       "SourceId": "Aplzz",
       "SourceType": "Computed",
-<<<<<<< HEAD
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/",
-=======
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "Aplzz.bundle.scp.css",
       "AssetKind": "All",
@@ -104,31 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css"
-=======
-<<<<<<< HEAD
-      "OriginalItemSpec": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
-    },
-    {
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Aplzz.bundle.scp.css"
->>>>>>> origin/Zaka_R
     },
     {
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/css/site.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -144,24 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/favicon.ico",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\favicon.ico",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -177,24 +93,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\chickenleg.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -210,24 +112,10 @@
       "OriginalItemSpec": "wwwroot/images/chickenleg.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/cider.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\cider.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -243,24 +131,10 @@
       "OriginalItemSpec": "wwwroot/images/cider.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/coke.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\coke.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\coke.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -276,24 +150,10 @@
       "OriginalItemSpec": "wwwroot/images/coke.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/data1100.jpeg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
-=======
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\data1100.jpeg",
-=======
-      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/fishandchips.jpg",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -306,7 +166,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/images/data1100.jpeg"
     },
     {
@@ -314,15 +173,6 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
-    },
-    {
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\fishandchips.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/fishandchips.jpg",
       "AssetKind": "All",
@@ -335,7 +185,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/images/fishandchips.jpg"
     },
     {
@@ -343,15 +192,6 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\images\\fishandchips.jpg"
-    },
-    {
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\frenchfries.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/frenchfries.jpg",
       "AssetKind": "All",
@@ -364,7 +204,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/images/frenchfries.jpg"
     },
     {
@@ -410,23 +249,6 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
-    },
-    {
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/data1100.jpeg",
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/pexels.jpg",
       "AssetKind": "All",
@@ -439,7 +261,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/images/pexels.jpg"
     },
     {
@@ -447,25 +268,6 @@
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "OriginalItemSpec": "wwwroot\\images\\pexels.jpg"
-    },
-    {
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pizza.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
@@ -481,24 +283,10 @@
       "OriginalItemSpec": "wwwroot/images/pizza.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/ribs.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\ribs.jpg",
-=======
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
-=======
-      "Identity": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/ribs.jpg",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/ribs.jpg",
       "AssetKind": "All",
@@ -511,20 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ribs.jpg"
+      "OriginalItemSpec": "wwwroot/images/ribs.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/scott.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\scott.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/scott.jpg",
       "AssetKind": "All",
@@ -537,28 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\scott.jpg"
+      "OriginalItemSpec": "wwwroot/images/scott.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/tacos.jpg",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/wwwroot/images/tacos.jpg",
->>>>>>> d99f336fee5261038d837b2c088847523dcbe697
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -574,24 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/tacos.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\bootstrap.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -607,24 +359,10 @@
       "OriginalItemSpec": "wwwroot/js/bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\jquery.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\jquery.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -640,24 +378,10 @@
       "OriginalItemSpec": "wwwroot/js/jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/js/site.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\js\\site.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\js\\site.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -673,24 +397,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -706,24 +416,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -739,24 +435,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -772,24 +454,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -805,24 +473,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -838,24 +492,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -871,24 +511,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -904,24 +530,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -937,24 +549,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -970,24 +568,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1003,24 +587,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1036,24 +606,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1069,24 +625,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1102,24 +644,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1135,24 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1168,24 +682,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1201,24 +701,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1234,24 +720,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1267,24 +739,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1300,24 +758,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1333,24 +777,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1366,24 +796,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1399,24 +815,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1432,24 +834,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1465,24 +853,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1498,24 +872,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1531,24 +891,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1564,24 +910,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1597,24 +929,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1630,24 +948,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1663,24 +967,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1696,24 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1729,24 +1005,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1762,24 +1024,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1795,24 +1043,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1828,24 +1062,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1861,24 +1081,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1894,24 +1100,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1927,24 +1119,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1960,24 +1138,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1993,24 +1157,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2026,24 +1176,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2059,24 +1195,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2092,24 +1214,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2125,24 +1233,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2158,24 +1252,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2191,24 +1271,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2224,24 +1290,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2257,24 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2290,24 +1328,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2323,24 +1347,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2356,24 +1366,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2389,24 +1385,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2422,24 +1404,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2455,24 +1423,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2488,24 +1442,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2521,24 +1461,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-=======
-<<<<<<< HEAD
-      "Identity": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
->>>>>>> origin/Zaka_R
       "BasePath": "_content/Aplzz",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
