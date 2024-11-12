@@ -197,19 +197,18 @@ namespace Aplzz.Controllers
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found for PostId{PostId:0000}", id);
+                return NotFound("Post not found");
             }
 
-            try 
+            bool result = await _postRepository.Delete(id);
+            if (!result)
             {
-                await _postRepository.Delete(id);
-                return RedirectToAction(nameof(Index));
+                _logger.LogError("[PostController] Post deletion failed for the PostId{PostId:0000}", id);
+                return BadRequest("Post deletion failed");
             }
-            catch (Exception e)
-            {
-                _logger.LogError("[PostController] Failed to delete post: {e}", e.Message);
-                return View("Error");
-            }
+
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpPost]
