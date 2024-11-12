@@ -43,6 +43,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb6bdf35fdc0bbd3b18537fead3c5e5bc8f78f0")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2f92c6328edd3a0f9efae3ef7bd939fd4e7dee")]
@@ -122,6 +123,8 @@ using System.Reflection;
 >>>>>>> 7e147f9 (connect)
 =======
 >>>>>>> 1628de3 (fikse feil)
+=======
+>>>>>>> 6f13df7 (feil fiksing)
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea908cc2caf9cd9acd1347015e3258dff095ba6a")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4ab8f9e31a6f97052aac30c454f8741b71bd7bc")]
@@ -264,7 +267,13 @@ using System.Reflection;
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d8c76ec1263c5d57d63a92b4e5ece374e15eb2")]
 >>>>>>> f6cecd9 (fikse feil)
+<<<<<<< HEAD
 >>>>>>> 1628de3 (fikse feil)
+=======
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6cecd9afb96acbbfb4a5413e566e3db72c62da5")]
+>>>>>>> 834f36d (feil fiksing)
+>>>>>>> 6f13df7 (feil fiksing)
 [assembly: System.Reflection.AssemblyProductAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

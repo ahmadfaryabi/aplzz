@@ -177,10 +177,13 @@ public class LoginController : Controller
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 =======
 >>>>>>> 8109aa9 (accountprofile)
+=======
+>>>>>>> 6f13df7 (feil fiksing)
 
 <<<<<<< HEAD
   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -203,4 +206,10 @@ public class LoginController : Controller
 =======
 }
 >>>>>>> 5d12ca7 (accountprofile)
+<<<<<<< HEAD
 >>>>>>> 8109aa9 (accountprofile)
+=======
+=======
+}
+>>>>>>> 834f36d (feil fiksing)
+>>>>>>> 6f13df7 (feil fiksing)

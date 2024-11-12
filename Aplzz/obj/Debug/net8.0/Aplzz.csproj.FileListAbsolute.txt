@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
@@ -147,6 +148,8 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 >>>>>>> 8109aa9 (accountprofile)
 =======
 >>>>>>> a3b8ecd (account)
+=======
+>>>>>>> 6f13df7 (feil fiksing)
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
@@ -1049,6 +1052,8 @@ C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Mi
 >>>>>>> ab71774 (fikset sql lite feil. :))
 =======
 =======
+=======
+>>>>>>> 834f36d (feil fiksing)
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Castle.Core.dll
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Humanizer.dll
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -1261,6 +1266,7 @@ C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/zh-Hant/Mi
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
 >>>>>>> fa8e010 (fikset)
 <<<<<<< HEAD
 >>>>>>> 7a60692 (fikset)
@@ -1499,4 +1505,9 @@ C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 =======
 =======
 >>>>>>> 5d12ca7 (accountprofile)
+<<<<<<< HEAD
 >>>>>>> 8109aa9 (accountprofile)
+=======
+=======
+>>>>>>> 834f36d (feil fiksing)
+>>>>>>> 6f13df7 (feil fiksing)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,4 +102,27 @@ namespace Aplzz.Models
 //     }
 // }
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+<<<<<<< HEAD
 >>>>>>> ab71774 (fikset sql lite feil. :))
+=======
+=======
+using Microsoft.EntityFrameworkCore;
+
+
+namespace Aplzz.Models 
+{
+    public class DbContexts : DbContext 
+    {
+        public DbContexts(DbContextOptions<DbContexts> options) : base(options)
+        {
+            Database.EnsureCreated();
+        }
+        public DbSet<User> Users { get; set; } 
+        public DbSet<Like> Likes { get; set; } 
+        // needed tables for soocial media managements
+        public DbSet<Post> Posts { get; set; } 
+        public DbSet<Comment> Comments { get; set; } 
+    }
+}
+>>>>>>> 834f36d (feil fiksing)
+>>>>>>> 6f13df7 (feil fiksing)

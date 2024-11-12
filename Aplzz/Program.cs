@@ -95,11 +95,14 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
 // Add DbContext for Posts
+<<<<<<< HEAD
 >>>>>>> f6cecd9 (fikse feil)
 builder.Services.AddDbContext<DbContexts>(options =>
 {
 >>>>>>> 4fa072a (account)
     options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
+=======
+>>>>>>> 834f36d (feil fiksing)
 });
 
 // Add DbContext for Account Profiles
