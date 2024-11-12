@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Aplzz.dll", // Endre denne banen til den riktige .dll-filen
+            "program": "${workspaceFolder}/bin/Debug/net8.0/Aplzz.dll", // Endre denne banen til den riktige .dll-filen
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,

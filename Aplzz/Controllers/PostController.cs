@@ -1,46 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq; // Legg til for LINQ
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Aplzz.DAL;
 using Aplzz.Models;
 using Aplzz.ViewModels;
-using System;
+using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Aplzz.DAL;
 
 namespace Aplzz.Controllers
 {
+    
     public class PostController : Controller
     {
-        private readonly PostDbContext _context; // Legg til en privat felt for konteksten
-        private readonly ILogger<PostController> _logger;
-        private readonly IPostRepository _postRepository;
+        private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
+        private readonly ILogger<PostController> _logger; // Legg til logger
 
         // Injiser PostDbContext via konstruktøren
         public PostController(IPostRepository postRepository, ILogger<PostController> logger)
         {
             _postRepository = postRepository;
-            _logger = logger;
+            _logger = logger; // Initialiser logger
         }
 
-        public async Task<IActionResult> Index()
-        {
-            try
-            {
-                var posts = await _postRepository.GetAll();
-                var viewModel = new PostViewModel(posts, "Aplzz Feed");
-                return View(viewModel);
-            }
-            catch (Exception e)
-            {
-                _logger.LogError("[PostController] Failed to fetch posts: {e}", e.Message);
-                return BadRequest("Failed to fetch posts");
-            }
-        }
+       // Handling to display the list of posts
+       public async Task<IActionResult> Index()
+       {
+           var posts = await _postRepository.GetAll();
+           if(posts == null) {
+              _logger.LogError("[PostController] Post List not found while executing _postRepository.GetAll()");
+               return NotFound("Post not found");
+           }
+                
+               
+           var viewModel = new PostViewModel(posts, "Aplzz Feed");
+           return View(viewModel);
+       }
 
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+        return View();
         }
 
         [HttpPost]
@@ -52,12 +55,14 @@ namespace Aplzz.Controllers
                 {
                     try
                     {
+                        // Lagre bildet på serveren
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
                         using (var stream = new FileStream(filePath, FileMode.Create))
                         {
                             await imageFile.CopyToAsync(stream);
                         }
-                        post.ImageUrl = $"/images/{imageFile.FileName}";
+                        post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+                } 
                     }
                     catch (Exception e)
                     {
@@ -65,7 +70,7 @@ namespace Aplzz.Controllers
                     }
                 }
 
-                post.CreatedAt = DateTime.Now;
+                post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
                 try
                 {
                     await _postRepository.Create(post);
@@ -75,13 +80,18 @@ namespace Aplzz.Controllers
                 {
                     _logger.LogError("[PostController] Failed to create post: {e}", e.Message);
                 }
-            }
+                _logger.LogWarning("[PostController] post creation has failed {@post}",post);
             return View(post);
-        }
+            }
+            
+        
+ 
 
         [HttpPost]
         public async Task<IActionResult> AddComment(int postId, string commentText)
         {
+            _logger.LogInformation("Legger til kommentar: {CommentText} til postId: {PostId}", commentText, postId);
+
             if (!string.IsNullOrEmpty(commentText))
             {
                 var comment = new Comment
@@ -91,85 +101,107 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
-                var result = await _postRepository.AddComment(comment);
-                if (!result)
-                {
-                    return BadRequest(new { error = "Kunne ikke legge til kommentar" });
-                }
-                return Json(new { 
-                    text = comment.Text,
-                    commentedAt = comment.CommentedAt.ToString("dd.MM.yyyy HH:mm")
-                });
+                await _postRepository.AddComment(comment);
+                _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
             }
-            return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
+            else
+            {
+                _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
+            }
+
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
-        public async Task<IActionResult> Update(int id)
+        public IActionResult Update(int id)
         {
-            var post = await _postRepository.GetPostById(id);
+            var post = _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found when updating the postId{postId:0000}",id);
+                return NotFound("Post not found for the postId");
             }
-            return View(post);
+
+            }
+            return View(post); 
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(Post post, IFormFile? imageFile)
+        public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
         {
-            if (ModelState.IsValid)
+            var existingPost = await _postRepository.GetPostById(post.PostId); // Hent eksisterende innlegg
+            if (existingPost == null)
             {
-                if (imageFile != null && imageFile.Length > 0)
-                {
-                    try
-                    {
-                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await imageFile.CopyToAsync(stream);
-                        }
-                        post.ImageUrl = $"/images/{imageFile.FileName}";
-                    }
-                    catch (Exception e)
-                    {
-                        _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
-                    }
-                }
-                    post.CreatedAt = DateTime.Now;
-                try
-                {
-                    await _postRepository.Update(post);
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (Exception e)
-                {
-                    _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
-                }
+                _logger.LogError("[PostController] Post List not found while executing _postRepository.GetAll()");
+                return NotFound(); // Returner 404 hvis innlegget ikke finnes
             }
-            return View(post);
+
+            // Oppdater feltene i eksisterende innlegg
+            existingPost.Content = post.Content; // Oppdater innhold
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                try{
+
+                // Lagre bildet på serveren
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageFile.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                existingPost.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
+
+                } catch (Exception e)
+            {
+                _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
+            }
+
+                
+            }
+
+            existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt 
+            try{
+                await _postRepository.Update(existingPost);; 
+                return RedirectToAction(nameof(Index)); 
+            }  catch (Exception e)
+        {
+            _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
         }
+        
+  
+        
+        }
+            
 
         [HttpGet]
-        public async Task<IActionResult> Delete(int id)
+        public IActionResult Delete(int id)
         {
-            var post = await _postRepository.GetPostById(id);
+            var post = _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                logger.LogError("[PostController] Post not found for  PostId{PostId:0000}",id);
+                return NotFound("Post not found for the PostId");
             }
-            return View(post);
+            return View(post); 
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id) 
         {
-            var result = await _postRepository.Delete(id);
+            var post = await _postRepository.GetPostById(id); 
+            if (post == null)
+            {
+                logger.LogError("[PostController] Post not found for PostId{PostId:0000}",id);
+                 return NotFound("Post not found");
+            }
+            bool result = await _postRepository.Delete(id);
             if (!result)
             {
-                return NotFound();
+             _logger.LogError("[PostController] Post deletion failed for the PostId{PostId:0000}",id);
+             return BadRequest("Post deletion failed");
             }
-            return RedirectToAction(nameof(Index));
+ 
+            return RedirectToAction(nameof(Index)); 
         }
 
         [HttpPost]
@@ -200,4 +232,10 @@ namespace Aplzz.Controllers
             }
         }
     }
-}
+
+
+
+        
+    
+
+

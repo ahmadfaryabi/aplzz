@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/libansulub/.nuget/NuGet/NuGet.Config"
+=======
+    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
+  },
+  "projects": {
+    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
+        "projectName": "Aplzz",
+        "projectPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
+        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
+        "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
+>>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
         ],
         "originalTargetFrameworks": [
           "net8.0"
