@@ -181,9 +181,12 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))</OriginalItemSpec>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ff3fccc (La til test user for å teste like funksjonen)
 =======
 >>>>>>> c4e2647 (fikset sql lite feil. :))
+=======
+>>>>>>> b47bdbb (kode fiks)
     </StaticWebAsset>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,8 +256,11 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\katt.jpg))</OriginalItemSpec>
+<<<<<<< HEAD
 =======
 >>>>>>> 5d12ca7 (accountprofile)
+=======
+>>>>>>> b47bdbb (kode fiks)
     </StaticWebAsset>
 <<<<<<< HEAD
 =======

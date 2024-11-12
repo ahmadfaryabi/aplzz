@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css",
 =======
       "Id": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css",
@@ -31,6 +32,10 @@
 >>>>>>> 8109aa9 (accountprofile)
 =======
 >>>>>>> a3b8ecd (account)
+=======
+=======
+>>>>>>> b47bdbb (kode fiks)
+>>>>>>> 0e95269 (kode fiks)
       "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/scopedcss/projectbundle/Aplzz.bundle.scp.css",
       "PackagePath": "staticwebassets/Aplzz.bundle.scp.css"
 >>>>>>> 7a60692 (fikset)
@@ -78,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
       "PackagePath": "staticwebassets/images/chickenleg.jpg"
 <<<<<<< HEAD
@@ -104,6 +110,8 @@
 >>>>>>> ab71774 (fikset sql lite feil. :))
 =======
 =======
+=======
+>>>>>>> b47bdbb (kode fiks)
       "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/IMG_1404.PNG",
       "PackagePath": "staticwebassets/images/IMG_1404.PNG"
 >>>>>>> 7a60692 (fikset)
@@ -873,6 +881,7 @@
 >>>>>>> 4ad0b03 (AccountProfile update)
     },
     {
+<<<<<<< HEAD
       "Id": "c:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -1170,6 +1179,9 @@
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props",
+=======
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Aplzz.Microsoft.AspNetCore.StaticWebAssets.props",
+>>>>>>> b47bdbb (kode fiks)
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {

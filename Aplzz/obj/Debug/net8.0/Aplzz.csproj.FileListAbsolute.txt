@@ -2,6 +2,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0e95269 (kode fiks)
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/appsettings.json
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/bin/Debug/net8.0/package-lock.json
@@ -144,12 +148,16 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8109aa9 (accountprofile)
 =======
 >>>>>>> a3b8ecd (account)
 =======
 >>>>>>> 6f13df7 (feil fiksing)
+=======
+>>>>>>> b47bdbb (kode fiks)
+>>>>>>> 0e95269 (kode fiks)
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json
@@ -296,6 +304,7 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
 =======
 >>>>>>> 5504f1b (database endringer)
@@ -303,6 +312,10 @@ c:/Users/yaha-/OneDrive/Dokumenter/Webapplikasjoner/Wepapplikasjoner_App/aplzz/A
 >>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
 =======
 >>>>>>> 4ad0b03 (AccountProfile update)
+=======
+=======
+>>>>>>> b47bdbb (kode fiks)
+>>>>>>> 0e95269 (kode fiks)
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.csproj.AssemblyReference.cache
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/Debug/net8.0/Aplzz.AssemblyInfoInputs.cache
@@ -448,6 +461,7 @@ C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/obj/Debug/net8.0/refint/Apl
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -891,6 +905,8 @@ C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\obj\Debug\net8.0\ref\Aplzz.
 =======
 >>>>>>> 7a60692 (fikset)
 =======
+>>>>>>> 0e95269 (kode fiks)
+=======
 <<<<<<< HEAD
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Humanizer.dll
 /Users/libansulub/Documents/GitHub/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -1054,6 +1070,9 @@ C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\bin\Debug\net8.0\zh-Hant\Mi
 =======
 =======
 >>>>>>> 834f36d (feil fiksing)
+=======
+>>>>>>> d99f336fee5261038d837b2c088847523dcbe697
+>>>>>>> b47bdbb (kode fiks)
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Castle.Core.dll
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Humanizer.dll
 C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -1266,6 +1285,7 @@ C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/bin/Debug/net8.0/zh-Hant/Mi
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.pdb
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/Aplzz.genruntimeconfig.cache
 /Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/Debug/net8.0/ref/Aplzz.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa8e010 (fikset)
 <<<<<<< HEAD
@@ -1510,4 +1530,11 @@ C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Wepapplikasjoner_App\aplzz\A
 =======
 =======
 >>>>>>> 834f36d (feil fiksing)
+<<<<<<< HEAD
 >>>>>>> 6f13df7 (feil fiksing)
+=======
+=======
+>>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
+>>>>>>> origin/Zaka_R
+>>>>>>> b47bdbb (kode fiks)
+>>>>>>> 0e95269 (kode fiks)
