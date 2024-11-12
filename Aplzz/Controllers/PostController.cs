@@ -62,8 +62,7 @@ namespace Aplzz.Controllers
                             await imageFile.CopyToAsync(stream);
                         }
                         post.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
-                } 
-                    }
+                }
                     catch (Exception e)
                     {
                         _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
@@ -81,8 +80,9 @@ namespace Aplzz.Controllers
                     _logger.LogError("[PostController] Failed to create post: {e}", e.Message);
                 }
                 _logger.LogWarning("[PostController] post creation has failed {@post}",post);
-            return View(post);
             }
+            return View(post);
+        }
             
         
  
@@ -101,29 +101,37 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
-                await _postRepository.AddComment(comment);
-                _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
+                try 
+                {
+                    await _postRepository.AddComment(comment);
+                    _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
+                    
+                    return Json(new { 
+                        text = comment.Text,
+                        commentedAt = comment.CommentedAt.ToString("dd.MM.yyyy HH:mm")
+                    });
+                }
+                catch (Exception e)
+                {
+                    _logger.LogError("[PostController] Failed to add comment: {e}", e.Message);
+                    return BadRequest(new { error = "Kunne ikke legge til kommentar" });
+                }
             }
-            else
-            {
-                _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
-            }
-
-            return RedirectToAction(nameof(Index));
+            
+            _logger.LogWarning("Kommentartekst er tom for postId: {PostId}", postId);
+            return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
         }
 
         [HttpGet]
-        public IActionResult Update(int id)
+        public async Task<IActionResult> Update(int id)
         {
-            var post = _postRepository.GetPostById(id);
+            var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                _logger.LogError("[PostController] Post not found when updating the postId{postId:0000}",id);
+                _logger.LogError("[PostController] Post not found when updating the postId{postId:0000}", id);
                 return NotFound("Post not found for the postId");
             }
-
-            }
-            return View(post); 
+            return View(post);
         }
 
         [HttpPost]
@@ -167,41 +175,41 @@ namespace Aplzz.Controllers
         {
             _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
         }
-        
-  
-        
+            return View(post);
         }
             
 
         [HttpGet]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var post = _postRepository.GetPostById(id);
+            var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                logger.LogError("[PostController] Post not found for  PostId{PostId:0000}",id);
+                _logger.LogError("[PostController] Post not found for PostId{PostId:0000}", id);
                 return NotFound("Post not found for the PostId");
             }
-            return View(post); 
+            return View(post);
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmed(int id) 
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var post = await _postRepository.GetPostById(id); 
+            var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                logger.LogError("[PostController] Post not found for PostId{PostId:0000}",id);
-                 return NotFound("Post not found");
+                return NotFound();
             }
-            bool result = await _postRepository.Delete(id);
-            if (!result)
+
+            try 
             {
-             _logger.LogError("[PostController] Post deletion failed for the PostId{PostId:0000}",id);
-             return BadRequest("Post deletion failed");
+                await _postRepository.Delete(id);
+                return RedirectToAction(nameof(Index));
             }
- 
-            return RedirectToAction(nameof(Index)); 
+            catch (Exception e)
+            {
+                _logger.LogError("[PostController] Failed to delete post: {e}", e.Message);
+                return View("Error");
+            }
         }
 
         [HttpPost]
@@ -232,6 +240,7 @@ namespace Aplzz.Controllers
             }
         }
     }
+}
 
 
 
