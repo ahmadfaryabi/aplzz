@@ -6,7 +6,7 @@ namespace Aplzz.controllers
     public class HomeController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+         public IActionResult Index()
         {
             return View();
         }

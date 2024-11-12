@@ -12,6 +12,8 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -27,12 +29,67 @@ body {
   padding:20px;
 }
 
+.title_center {
+  color: #828282;
+}
+
+.title_center.header {
+  text-align: center;
+  font-size: 21px;
+  margin:5px;
+}
+
 .register {
   border-radius: 5px;
   box-shadow: 1px 5px 20px #828282;
   padding:20px 10px;
+  max-width: 500px;
+  margin: auto;
 }
 
 .form-group_ {
   margin:10px;
+}
+
+.like-button {
+  transition: all 0.3s ease;
+}
+.like-button.liked {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+.like-button:active {
+  transform: scale(0.95);
+}
+.like-error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  display: none;
+}
+
+.aplzz_btn {
+  border-radius: 4px;
+  border:none;
+  padding:10px 15px;
+}
+
+.aplzz_btn.btn_login {
+  width:100%;
+  color:#fff;
+  background-color: #0056b3;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.aplzz_btn.btn_register {
+  width:100%;
+  color:#fff;
+  background-color: #1c825e;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.aplzz_div_flex {
+  
 }

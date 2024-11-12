@@ -4,6 +4,7 @@ using System.Linq; // Legg til for LINQ
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Aplzz.Models;
+using Aplzz.DAL;
 using Aplzz.ViewModels;
 using System.Globalization;
 using System.IO;
@@ -15,11 +16,21 @@ namespace Aplzz.Controllers
     
     public class PostController : Controller
     {
+
         private readonly DbContexts _context; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger; // Legg til logger
 
         // Injiser PostDbContext via konstruktøren
         public PostController(DbContexts context, ILogger<PostController> logger)
+
+        private readonly PostDbContext _context; // Legg til en privat felt for konteksten
+
+        private readonly ILogger<PostController> _logger;
+        private readonly IPostRepository _postRepository;
+
+        // Injiser PostDbContext via konstruktøren
+        public PostController(IPostRepository postRepository, ILogger<PostController> logger)
+
         {
             _context = context;
             _logger = logger; // Initialiser logger
