@@ -113,14 +113,4 @@ public class LoginController : Controller
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");
   }
-<<<<<<< HEAD
 }
-=======
-
-//   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-//     public IActionResult Error()
-//     {
-//         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-//     }
-}
->>>>>>> c951a1d1beb8e4cef695f35a3a216086839a0545
