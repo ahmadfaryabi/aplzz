@@ -1,55 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj": {}
-=======
-=======
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
->>>>>>> 82a25f3 (ok)
-=======
->>>>>>> 5b112ef (committing)
-=======
->>>>>>> 2b5b12d (fiksing)
-=======
->>>>>>> 7a60692 (fikset)
-=======
->>>>>>> 4ad0b03 (AccountProfile update)
-=======
->>>>>>> 8109aa9 (accountprofile)
-=======
->>>>>>> a3b8ecd (account)
-=======
->>>>>>> 1628de3 (fikse feil)
-    "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {}
->>>>>>> 37ea866 (Intializing  logging)
-  },
-  "projects": {
-    "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vansa\\aplzz\\Aplzz\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-<<<<<<< HEAD
-          "/Users/libansulub/.nuget/NuGet/NuGet.Config"
-=======
     "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
   },
   "projects": {
@@ -64,124 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
->>>>>>> 1bf96753de9b2808667e2008d815d05aec16c73a
-=======
-          "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
-<<<<<<< HEAD
->>>>>>> 37ea866 (Intializing  logging)
-=======
-=======
-    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {}
-=======
-    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
->>>>>>> a051670 (ok)
-=======
-    "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
->>>>>>> 7cf30d2 (fiksing)
-=======
-=======
->>>>>>> d0be505 (fikset på sidene)
-    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
-  },
-  "projects": {
-    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj",
-        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
-        "outputPath": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
-<<<<<<< HEAD
->>>>>>> 76f5fcb (logg inn funksjoon)
-<<<<<<< HEAD
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
-=======
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> a051670 (ok)
-<<<<<<< HEAD
->>>>>>> 82a25f3 (ok)
-=======
-=======
-    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {}
-  },
-  "projects": {
-    "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/Aplzz.csproj",
-        "packagesPath": "/Users/ahmadfaryabi/.nuget/packages/",
-        "outputPath": "/Users/ahmadfaryabi/Documents/nettside kos/Aplzz/Aplzz/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
->>>>>>> c329a7e (committing)
-<<<<<<< HEAD
->>>>>>> 5b112ef (committing)
-=======
-=======
-          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
->>>>>>> fa8e010 (fikset)
-<<<<<<< HEAD
->>>>>>> 7a60692 (fikset)
-=======
-=======
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 9848c75 (AccountProfile update)
-<<<<<<< HEAD
->>>>>>> 4ad0b03 (AccountProfile update)
-=======
-=======
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\aplzz\\Aplzz.csproj": {}
-=======
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {}
->>>>>>> 4fa072a (account)
-=======
-    "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/Aplzz.csproj": {}
->>>>>>> f6cecd9 (fikse feil)
-  },
-  "projects": {
-    "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Wepapplikasjoner_App\\aplzz\\Aplzz\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 5d12ca7 (accountprofile)
-<<<<<<< HEAD
->>>>>>> 8109aa9 (accountprofile)
-=======
-=======
-          "/Users/ahmadfaryabi/.nuget/NuGet/NuGet.Config"
->>>>>>> f6cecd9 (fikse feil)
->>>>>>> 1628de3 (fikse feil)
-=======
->>>>>>> d0be505 (fikset på sidene)
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -216,45 +49,10 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
-=======
->>>>>>> 6322eac (ok)
-=======
-=======
->>>>>>> 5d12ca7 (accountprofile)
->>>>>>> 8109aa9 (accountprofile)
-=======
->>>>>>> d0be505 (fikset på sidene)
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
-=======
->>>>>>> 5b23c9a (Lagt til DAL, Fikset Like og Kommentar funksjon)
-=======
-=======
->>>>>>> 7071121 (ok)
->>>>>>> 6322eac (ok)
-=======
-=======
->>>>>>> 7071121 (ok)
-=======
->>>>>>> 5d12ca7 (accountprofile)
->>>>>>> 8109aa9 (accountprofile)
-=======
->>>>>>> d0be505 (fikset på sidene)
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"

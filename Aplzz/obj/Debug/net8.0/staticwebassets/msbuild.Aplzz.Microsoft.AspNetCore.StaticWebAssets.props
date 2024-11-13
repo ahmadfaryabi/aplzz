@@ -144,43 +144,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>Aplzz</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Aplzz</BasePath>
-      <RelativePath>images/fishandchips.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fishandchips.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>Aplzz</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Aplzz</BasePath>
-      <RelativePath>images/frenchfries.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\frenchfries.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-=======
->>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\IMG_1404.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
@@ -229,11 +192,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\losning.png))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
-=======
->>>>>>> b70eb87 (Endret DbInit)
-=======
->>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\pexels.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
@@ -250,11 +208,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\pexels.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
-=======
->>>>>>> 86d362f (login system endring)
-=======
->>>>>>> b70eb87 (Endret DbInit)
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\pizza.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
@@ -287,10 +240,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ribs.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b70eb87 (Endret DbInit)
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\scott.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>
@@ -307,30 +256,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\scott.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
-=======
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Skjermbilde 2024-11-04 kl. 14.12.15.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Aplzz</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Aplzz</BasePath>
-      <RelativePath>images/Skjermbilde 2024-11-04 kl. 14.12.15.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Skjermbilde 2024-11-04 kl. 14.12.15.png))</OriginalItemSpec>
-    </StaticWebAsset>
->>>>>>> b70eb87 (Endret DbInit)
-=======
->>>>>>> ab71774 (fikset sql lite feil. :))
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\tacos.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Aplzz</SourceId>

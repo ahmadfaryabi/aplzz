@@ -1,82 +1,27 @@
 using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
-<<<<<<< HEAD
 using Aplzz.Models;
-=======
-using Ahmadside.Models;
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
-using Aplzz.Models;
->>>>>>> 5504f1b (database endringer)
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Http.Connections;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab71774 (fikset sql lite feil. :))
 using Aplzz.DAL;
 namespace Aplzz.Controllers;
 
 public class LoginController : Controller 
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  private readonly PostDbContext _userDB;
-  private readonly ILogger<LoginController> _logger;
-
-<<<<<<< HEAD
-  public LoginController(PostDbContext userDb) 
-=======
-namespace Ahmadside.Controllers;
-=======
-namespace Aplzz.Controllers;
->>>>>>> 5504f1b (database endringer)
-
-public class LoginController : Controller 
-{
-  private readonly UserDbContext _userDB;
-
-  public LoginController(UserDbContext userDb) 
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
-  private readonly DbContexts _userDB;
-
-  public LoginController(DbContexts userDb) 
->>>>>>> 86d362f (login system endring)
-=======
   private readonly PostDbContext _userDB;
 
   public LoginController(PostDbContext userDb) 
->>>>>>> ab71774 (fikset sql lite feil. :))
-=======
-  public LoginController(PostDbContext userDb, ILogger<LoginController> logger) 
->>>>>>> d0be505 (fikset på sidene)
   {
     _userDB = userDb;
-    _logger = logger;
   }
 
   public IActionResult Index() 
   {
     if(HttpContext.Session.GetString("username") != null) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       return RedirectToAction("Index", "Post");
-=======
-      return RedirectToAction("Index", "Home");
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
-      return RedirectToAction("Post", "Index");
->>>>>>> 5504f1b (database endringer)
-=======
-      return RedirectToAction("Index", "Post");
->>>>>>> d202e60 (endring på stil)
     } else {
       return View();
     }
@@ -97,22 +42,9 @@ public class LoginController : Controller
         HttpContext.Session.SetString("firstname", res.Firstname.ToString());
         HttpContext.Session.SetString("aftername", res.Aftername.ToString());
         HttpContext.Session.SetString("email", res.Email.ToString());
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a3b8ecd (account)
-       // HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
-      }
-      return RedirectToAction("Index", "Post");
-=======
         HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
       }
-<<<<<<< HEAD
-      return RedirectToAction("Index", "Home");
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
       return RedirectToAction("Index", "Post");
->>>>>>> 86d362f (login system endring)
     } else {
       TempData["ErrorMessage"] = "E-mail or password is incorrect or account does not exist!";
     }
@@ -181,45 +113,4 @@ public class LoginController : Controller
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-=======
->>>>>>> 8109aa9 (accountprofile)
-=======
->>>>>>> 6f13df7 (feil fiksing)
-
-<<<<<<< HEAD
-  [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
-}
->>>>>>> 5847ef8 (logg inn funksjoon)
-=======
-//   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-//     public IActionResult Error()
-//     {
-//         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-//     }
-}
-<<<<<<< HEAD
->>>>>>> 2b5b12d (fiksing)
-=======
-=======
-}
->>>>>>> 5d12ca7 (accountprofile)
-<<<<<<< HEAD
->>>>>>> 8109aa9 (accountprofile)
-=======
-=======
-}
->>>>>>> 834f36d (feil fiksing)
->>>>>>> 6f13df7 (feil fiksing)
-=======
-}
->>>>>>> d0be505 (fikset på sidene)

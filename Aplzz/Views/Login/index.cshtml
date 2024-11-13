@@ -3,20 +3,9 @@
 }
 @model LoginModel
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 <div class="register">
     <div class="title_center header">@ViewBag.Title</div>
-=======
-<h1>@ViewBag.Title</h1>
-<div class="register">
->>>>>>> 96fa80c (flere filer laget for innlogging)
-=======
-
-<div class="register">
-    <div class="title_center header">@ViewBag.Title</div>
->>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
     @if(TempData["SuccessMsg"] != null) {
         <div class="alert alert-success">@TempData["SuccessMsg"]</div>
     } 
@@ -25,8 +14,6 @@
     } 
      <form asp-action="">
         <div class="form-group_">
-<<<<<<< HEAD
-<<<<<<< HEAD
             <input type="text" asp-for="Email" id="" class="form-control" placeholder="E-post"/>
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
@@ -37,26 +24,6 @@
         <div class="form-group_">
             <input type="submit" value="Logg inn" class="aplzz_btn btn_login" /> 
             <p></p>eller <a asp-controller="Login" asp-action="Register">Registrer deg</a>
-=======
-            <label asp-for="Email" class="control-label">E-post (*)</label>
-            <input type="text" asp-for="Email" id="" class="form-control" />
-=======
-            <input type="text" asp-for="Email" id="" class="form-control" placeholder="E-post"/>
->>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
-            <span asp-validation-for="Email" class="text-danger"></span>
-        </div>
-        <div class="form-group_">
-            <input type="password" asp-for="Password" class="form-control" id="" placeholder="Passord"/>
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-        <div class="form-group_">
-<<<<<<< HEAD
-            <input type="submit" value="Logg inn" class="btn btn-primary" /> eller <a asp-controller="Login" asp-action="Register">Registrer deg</a>
->>>>>>> 96fa80c (flere filer laget for innlogging)
-=======
-            <input type="submit" value="Logg inn" class="aplzz_btn btn_login" /> 
-            <p></p>eller <a asp-controller="Login" asp-action="Register">Registrer deg</a>
->>>>>>> fd4c2ae (fikset på stiling vedr. login/registrering)
         </div>
     </form>
 </div>

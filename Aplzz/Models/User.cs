@@ -1,15 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
-<<<<<<< HEAD
-<<<<<<< HEAD
 namespace Aplzz.Models
-=======
-namespace Ahmadside.Models
->>>>>>> 96fa80c (flere filer laget for innlogging)
-=======
-namespace Aplzz.Models
->>>>>>> 5504f1b (database endringer)
 {
     public class User
         {
@@ -36,34 +28,4 @@ namespace Aplzz.Models
             [RegularExpression(@"([^\s]+(\.(?i)(jpe?g|png|gif|bmp))$)", ErrorMessage ="Please choose a picture (.jpeg, jpg, png file etc.)")]
             public string? ProfilePicture {get;set;}
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 96fa80c (flere filer laget for innlogging)
-=======
-}
-<<<<<<< HEAD
-=======
-using System.ComponentModel.DataAnnotations;
-
-namespace Aplzz.Models
-{
-    public class User
-    {
-        public int UserId { get; set; }
-
-        [Required(ErrorMessage = "Brukernavn er påkrevd.")]
-        public required string Username { get; set; }
-
-        [Required(ErrorMessage = "E-post er påkrevd.")]
-        public required string Email { get; set; }
-
-        public virtual List<Like> Likes { get; set; } = new List<Like>();
-    }
-}
->>>>>>> ff3fccc (La til test user for å teste like funksjonen)
->>>>>>> 7ae0213 (La til test user for å teste like funksjonen)
-=======
->>>>>>> d0be505 (fikset på sidene)
