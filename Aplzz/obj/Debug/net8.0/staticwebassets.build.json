@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FN+Lsw38LcTmp1A2OJ52g/sxaIDuBWynZgRGHMlN1Jc=",
+  "Hash": "Z2q8TRvkjrhfay8PZFf/FyQWQA8sHVIg+fam5DrsWKs=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/bilde_oppgave.webp",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/bilde_oppgave.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/bilde_oppgave.webp"
     },
     {
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",

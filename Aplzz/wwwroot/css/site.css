@@ -48,11 +48,30 @@ body {
   margin: auto;
 }
 
+.divbox {
+  border-radius: 5px;
+  box-shadow: 1px 5px 20px #828282;
+  padding:20px 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.navbar_header {
+  position:fixed;
+  top:0;left:0;right:0;
+  height:60px;
+  margin-bottom:20px;
+  box-shadow: 1px 5px 20px #828282;
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+}
+
 .sideNavBar {
   background-color: #fff;
   border:1px #828282 solid right;
   position:fixed;
-  top:0;bottom:0;width:300px;
+  top:60px;bottom:0;width:300px;
   padding:10px;
   display: flex;
   flex-direction: column;
@@ -63,7 +82,7 @@ body {
   padding:5px 10px;
 }
 
-.sideNavBar.divBtn:hover {
+.sideNavBar .divBtn:hover {
   background-color: #828282;
 }
 
@@ -109,6 +128,8 @@ body {
   font-weight: bolder;
   font-size: 20px;
 }
+
+
 
 .aplzz_div_flex {
 }
