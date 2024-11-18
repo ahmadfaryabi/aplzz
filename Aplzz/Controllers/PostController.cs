@@ -39,6 +39,10 @@ namespace Aplzz.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            if(HttpContext.Session.GetString("username") == null) {
+                // logg inn først for å entre siden
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
 
@@ -75,6 +79,10 @@ namespace Aplzz.Controllers
                     _logger.LogError("[PostController] Failed to create post: {e}", e.Message);
                 }
             }
+            if(HttpContext.Session.GetString("username") == null) {
+                // logg inn først for å entre siden
+                return RedirectToAction("Index", "Login");
+            }
             return View(post);
         }
 
@@ -110,6 +118,10 @@ namespace Aplzz.Controllers
             if (post == null)
             {
                 return NotFound();
+            }
+            if(HttpContext.Session.GetString("username") == null) {
+                // logg inn først for å entre siden
+                return RedirectToAction("Index", "Login");
             }
             return View(post);
         }
@@ -157,6 +169,10 @@ namespace Aplzz.Controllers
             {
                 return NotFound();
             }
+            if(HttpContext.Session.GetString("username") == null) {
+                // logg inn først for å entre siden
+                return RedirectToAction("Index", "Login");
+            }
             return View(post);
         }
 
@@ -174,9 +190,13 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> LikePost(int postId)
         {
+            if(HttpContext.Session.GetInt32("id") == null) {
+                // logg inn først for å entre siden
+                return RedirectToAction("Index", "Login");
+            }
             try
             {
-                int userId = 1; // Hardkodet bruker-ID
+                int userId = (int)HttpContext.Session.GetInt32("id"); // Hardkodet bruker-ID
                 var isLiked = await _postRepository.HasUserLikedPost(postId, userId);
 
                 if (isLiked)

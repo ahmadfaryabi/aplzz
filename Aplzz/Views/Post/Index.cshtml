@@ -1,8 +1,8 @@
 ﻿@model Aplzz.ViewModels.PostViewModel
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
 @{
     ViewData["Title"] = "Feed";
 }
-    <div class="container mt-4">
         <div class="mb-4 text-center">
             <a asp-controller="Post" asp-action="Create" class="btn btn-primary">Opprett nytt innlegg</a>
         </div>
@@ -14,7 +14,7 @@
                 @foreach (var post in Model.Posts)
                 {
                     <div class="col-md-6 mb-4">
-                        <div class="card">
+                        <div class="divbox">
                             @if (!string.IsNullOrEmpty(post.ImageUrl))
                             {
                                 <img src="@post.ImageUrl" class="card-img-top" alt="Post bilde">
@@ -25,7 +25,7 @@
 
                                 <!-- Like Button with AJAX -->
                                 @{
-                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == 1);
+                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == HttpContextAccessor.HttpContext.Session.GetInt32("id"));
                                 }
                                 <button 
                                     class="btn btn-primary btn-sm like-button @(isLiked ? "liked" : "")" 
