@@ -12,9 +12,10 @@ namespace Aplzz.Controllers;
 public class LoginController : Controller 
 {
   private readonly PostDbContext _userDB;
-
-  public LoginController(PostDbContext userDb) 
+  private readonly ILogger<LoginController> _logger;
+  public LoginController(PostDbContext userDb, ILogger<LoginController> logger) 
   {
+    _logger = logger;
     _userDB = userDb;
   }
 
