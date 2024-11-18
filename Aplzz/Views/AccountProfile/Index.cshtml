@@ -1,0 +1,37 @@
+@model Aplzz.ViewModels.AccountProfileViewModel
+
+@{
+    ViewData["Title"] = Model.CurrentViewName;
+}
+
+<h2>@Model.CurrentViewName</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Bio</th>
+            <th>Profile Picture</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profile in Model.Profiles)
+        {
+            <tr>
+                <td>@profile.Username</td>
+                <td>@profile.Bio</td>
+                <td><img src="@profile.ProfilePicture" alt="Profile Picture" width="50"/></td>
+                <td>@profile.CreatedAt.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@profile.AccountId" class="btn btn-info">View</a>
+                    <a asp-action="Update" asp-route-id="@profile.AccountId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@profile.AccountId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Add New Profile</a>

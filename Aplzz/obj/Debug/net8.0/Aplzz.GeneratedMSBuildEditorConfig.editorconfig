@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/AccountProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY291bnRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]

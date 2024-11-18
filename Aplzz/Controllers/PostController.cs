@@ -11,8 +11,8 @@ namespace Aplzz.Controllers
 {
     public class PostController : Controller
     {
+        private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger;
-        private readonly IPostRepository _postRepository;
 
         // Injiser PostDbContext via konstruktøren
         public PostController(IPostRepository postRepository, ILogger<PostController> logger)

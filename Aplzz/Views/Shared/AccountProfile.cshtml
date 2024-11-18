@@ -1,0 +1,30 @@
+@model Aplzz.ViewModels.AccountProfileViewModel
+
+@{
+    ViewData["Title"] = "Account Profile";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="account-profile">
+    <h3>@Model.Username's Profile</h3>
+    <img src="@Model.ProfilePicture" alt="Profile Picture" class="img-thumbnail" />
+    
+    <div>
+        <strong>Bio:</strong>
+        <p>@Model.Bio</p>
+    </div>
+    
+    <div>
+        <strong>Account Created:</strong>
+        <p>@Model.CreatedAt.ToString("MMMM dd, yyyy")</p>
+    </div>
+
+    <div>
+        <strong>Last Updated:</strong>
+        <p>@Model.UpdatedAt.ToString("MMMM dd, yyyy")</p>
+    </div>
+
+    <a asp-action="Update" asp-controller="AccountProfile" asp-route-id="@Model.AccountId" class="btn btn-primary">Edit Profile</a>
+    <a asp-action="Delete" asp-controller="AccountProfile" asp-route-id="@Model.AccountId" class="btn btn-danger">Delete Profile</a>
+</div>
