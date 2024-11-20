@@ -14,12 +14,12 @@
 <body>
     <header> 
         <nav class="navbar_header">
-            <div class="divContent" style="width:300px; margin-left:30px">APLZZ - logo</div>
-            <div class="divContent" style="width:600px; margin-left:30px">Søke felt</div>
+            <div class="divContent" style="width:30%; margin-left:30px"><a asp-controller="Post" asp-action="Index" >APLZZ - logo</a></div>
+            <div class="divContent" style="width:40%; margin-left:30px">Søke felt</div>
             @if (HttpContextAccessor.HttpContext.Session.GetString("username") == null) {
-                <div class="divContent" style="padding-right: 20px;">Logg inn</div>
+                <div class="divContent" style="width:30%;padding-right:30px"> <a asp-controller="Login" asp-action="Index"><button class="aplzz_btn menuBtnLogin" style="float:right">Logg inn</button></a> </div>
             } else {
-                <div class="divContent" style="padding-right: 20px;">@HttpContextAccessor.HttpContext.Session.GetString("firstname")</div>
+                <div class="divContent" style="width:30%;padding-right:30px"><div class="aplzz_btn menuTopBtn">@HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</div></div>
             }
         </nav>
     </header>

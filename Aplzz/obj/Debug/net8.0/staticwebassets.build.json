@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "Fn+ZJOHtmmRQ/sNsYUA6UkrbNBR1PSnos3LjcimrrVk=",
-=======
-  "Hash": "NvBrdIMKkOCZNZ1XoxG/mZSeiCqF4YQF7DFEQb4lyhk=",
->>>>>>> 0eadcb59fe9142187f1d6c477eb8979fec23ad45
+  "Hash": "t7qGMuAlCb/ceuK9aNRNCTJaYeV6W7FfppVYMU+5AMU=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -230,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
     },
     {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\G.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/G.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\G.png"
+    },
+    {
       "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\IMG_1404.PNG",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -287,30 +302,7 @@
       "OriginalItemSpec": "wwwroot\\images\\losning.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\losning2.png",
-=======
-      "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/losning2.png",
-      "SourceId": "Aplzz",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
-      "BasePath": "_content/Aplzz",
-      "RelativePath": "images/losning2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/losning2.png"
-    },
-    {
-      "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/pexels.jpg",
->>>>>>> 0eadcb59fe9142187f1d6c477eb8979fec23ad45
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",

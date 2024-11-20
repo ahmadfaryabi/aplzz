@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\G.png",
+      "PackagePath": "staticwebassets\\images\\G.png"
+    },
+    {
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\IMG_1404.PNG",
       "PackagePath": "staticwebassets\\images\\IMG_1404.PNG"
     },
@@ -53,17 +57,8 @@
       "PackagePath": "staticwebassets\\images\\losning.png"
     },
     {
-<<<<<<< HEAD
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\losning2.png",
       "PackagePath": "staticwebassets\\images\\losning2.png"
-=======
-      "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/losning2.png",
-      "PackagePath": "staticwebassets/images/losning2.png"
-    },
-    {
-      "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/pexels.jpg",
-      "PackagePath": "staticwebassets/images/pexels.jpg"
->>>>>>> 0eadcb59fe9142187f1d6c477eb8979fec23ad45
     },
     {
       "Id": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\pexels.jpg",
