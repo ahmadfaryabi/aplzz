@@ -225,7 +225,7 @@ namespace Aplzz.Controllers
                 }
                 else
                 {
-                    var like = new Like { PostId = postId, UserId = userId };
+                    var like = new Like { PostId = postId, UserId = userId };  // Endret fra IdUser til UserId
                     await _postRepository.AddLike(like);
                 }
 
