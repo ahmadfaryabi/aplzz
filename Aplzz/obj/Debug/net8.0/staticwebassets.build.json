@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t7qGMuAlCb/ceuK9aNRNCTJaYeV6W7FfppVYMU+5AMU=",
+  "Hash": "q2zKepMKy2ZmEZm3TZq5OEoFDhKIUpP97hAeJZhn7pM=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -395,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\scott.jpg"
+    },
+    {
+      "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/Skjermbilde 2023-10-17 150422.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-10-17 150422.png"
     },
     {
       "Identity": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\tacos.jpg",

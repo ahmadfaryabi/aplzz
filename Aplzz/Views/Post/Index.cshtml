@@ -18,11 +18,11 @@
                             <div class="header">
                                 <div style="width:60%"> <b>Brukernavn</b></div>
                                 <div style="width:40%;justify_item:center"> 
-                                    <div class="dropDownMenu" style="width:100%" tabindex="0">
-                                        <button style="float:right" class="aplzz_btn postMoreBtn" tabindex="0"><i style="font-size:24px" class="fa">&#xf141;</i></button>
+                                    <div class="dropDownMenu" style="width:100%">
+                                        <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
                                     <div class="dropDownMenuContent" style="margin-top:50px;margin-left: 57px;">
-                                        <a asp-controller="Post" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
-                                        <a asp-controller="Post" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
+                                        <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
+                                        <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
                                         <a><div class="link">Rapporter</div></a>
                                     </div>
                                     </div>

@@ -8,6 +8,39 @@
 //     var ddBtn = document.getElementById("ddBtn");
 
 // }
+
+function openMoreBtn() {
+    var navbarDD = document.getElementsByClassName("fixed_dropDownMenu_navbar")[0]
+    if(navbarDD.style.display == "none" || navbarDD.style.display == "") {
+        navbarDD.style.display = "flex"
+    } else {
+        navbarDD.style.display = "none"
+    }
+}
+
+function openDDPostMenu(countNr) {
+    var DDPostMenu = document.getElementsByClassName("dropDownMenuContent");
+    if(DDPostMenu[countNr].style.display == "none" || DDPostMenu[countNr].style.display == "") {
+        DDPostMenu[countNr].style.display = "flex"
+    } else {
+        DDPostMenu[countNr].style.display = "none"
+    }
+}
+
+window.onclick = function(e) {
+    var DDPostMenu = document.getElementsByClassName("dropDownMenuContent");
+    var btnIdDD = document.getElementById("btnIdDD");
+    if(e.target != document.getElementsByClassName("fixed_dropDownMenu_navbar")[0] && e.target != document.getElementById("functionClick")) {
+        document.getElementsByClassName("fixed_dropDownMenu_navbar")[0].style.display = "none";
+    }
+    for (i = 0; i < DDPostMenu.length; i++) {
+        if(e.target != DDPostMenu[i] && e.target != btnIdDD[i]) {
+            DDPostMenu[i].style.display = "none";
+        }
+    }
+}
+
+
 $(document).ready(function() {
     // Like button click event
     $(".like-button").click(function(e) {

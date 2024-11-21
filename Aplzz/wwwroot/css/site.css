@@ -198,13 +198,38 @@ body {
 .aplzz_btn.menuTopBtn {
   float:right;
   color:#000;
-  background-color: inherit;
+  background-color: #fff;
   cursor: pointer;
 }
 
-.aplzz_btn.menuTopBtn:focus, .aplzz_btn.postMoreBtn:hover {
-  background-color: #dcd3d3;
+.aplzz_btn.menuTopBtn:hover, .aplzz_btn.menuTopBtn:focus {
+  background-color: #cccccc;
 }
+
+.fixed_dropDownMenu_navbar {
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 1px 5px 10px #828282;
+  border-radius: 6px;
+  right:25px;top:60px;
+  display: none;
+  flex-direction: column;
+}
+/**alternatives from navbar*/
+.fixed_dropDownMenu_navbar .alts {
+  font-size: 16px;
+  padding:10px 20px;
+}
+
+.fixed_dropDownMenu_navbar .alts a {
+  text-decoration: none;
+  color:#353535;
+}
+
+
+
+
 
 
 

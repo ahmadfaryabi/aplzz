@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Aplzz.styles.css" asp-append-version="true" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header> 
@@ -19,7 +19,13 @@
             @if (HttpContextAccessor.HttpContext.Session.GetString("username") == null) {
                 <div class="divContent" style="width:30%;padding-right:30px"> <a asp-controller="Login" asp-action="Index"><button class="aplzz_btn menuBtnLogin" style="float:right">Logg inn</button></a> </div>
             } else {
-                <div class="divContent" style="width:30%;padding-right:30px"><div class="aplzz_btn menuTopBtn">@HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</div></div>
+                <div class="divContent" style="width:30%;padding-right:30px">
+                    <div class="aplzz_btn menuTopBtn" id="functionClick" onclick="openMoreBtn()">@HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</div>
+                    <div class="fixed_dropDownMenu_navbar">
+                        <div class="alts"> <a asp-controller="Login" asp-action="Logout"> <i class="fa fa-sign-out"></i> Logg av</a> </div>
+                        <div class="alts"> <a asp-controller="AccountProfile" asp-action="Index">Profil</a> </div>
+                    </div>
+                </div>
             }
         </nav>
     </header>
