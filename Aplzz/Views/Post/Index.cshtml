@@ -1,8 +1,8 @@
 ﻿@model Aplzz.ViewModels.PostViewModel
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
 @{
     ViewData["Title"] = "Feed";
 }
-    <div class="container mt-4">
         <div class="mb-4 text-center">
             <a asp-controller="Post" asp-action="Create" class="btn btn-primary">Opprett nytt innlegg</a>
         </div>
@@ -10,11 +10,24 @@
 
         @if (Model.Posts != null && Model.Posts.Any())
         {
-            <div class="d-flex flex-column align-items-center">
+                int count = -1;
                 @foreach (var post in Model.Posts)
                 {
-                    <div class="col-md-6 mb-4">
-                        <div class="card">
+                    count++;
+                        <div class="divboxPost">
+                            <div class="header">
+                                <div style="width:60%"> <b>Brukernavn</b></div>
+                                <div style="width:40%;justify_item:center"> 
+                                    <div class="dropDownMenu" style="width:100%">
+                                        <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
+                                    <div class="dropDownMenuContent" style="margin-top:50px;margin-left: 57px;">
+                                        <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
+                                        <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
+                                        <a><div class="link">Rapporter</div></a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                             @if (!string.IsNullOrEmpty(post.ImageUrl))
                             {
                                 <img src="@post.ImageUrl" class="card-img-top" alt="Post bilde">
@@ -25,7 +38,7 @@
 
                                 <!-- Like Button with AJAX -->
                                 @{
-                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == 1);
+                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == HttpContextAccessor.HttpContext.Session.GetInt32("id"));
                                 }
                                 <button 
                                     class="btn btn-primary btn-sm like-button @(isLiked ? "liked" : "")" 
@@ -68,109 +81,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-end">
-                                <a asp-action="Update" asp-route-id="@post.PostId" class="btn btn-info btn-sm">Rediger</a>
-                                <a asp-action="Delete" asp-route-id="@post.PostId" class="btn btn-danger btn-sm ms-1">Slett</a>
-                            </div>
                         </div>
-                    </div>
                 }
-            </div>
         }
         else
         {
             <p class="text-center">Ingen innlegg å vise.</p>
         }
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Like button click event
-            $(".like-button").click(function(e) {
-                e.preventDefault();
-                const button = $(this);
-                const errorDiv = button.siblings('.like-error');
-                const postId = button.data("post-id");
-                
-                button.prop('disabled', true);
-                
-                $.ajax({
-                    url: "/Post/LikePost",
-                    method: "POST",
-                    headers: {
-                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
-                    },
-                    data: { postId: postId },
-                    success: function(response) {
-                        button.find(".like-count").text(response.likesCount);
-                        button.toggleClass('liked', response.isLiked);
-                        
-                        const likeText = response.isLiked ? "Likt" : "Lik";
-                        button.find(".like-text").text(likeText);
-                        
-                        button.animate({ scale: 1.2 }, 100)
-                             .animate({ scale: 1.0 }, 100);
-                        
-                        errorDiv.hide();
-                    },
-                    error: function(xhr) {
-                        errorDiv.text("Kunne ikke prosessere like. Prøv igjen senere.").show();
-                    },
-                    complete: function() {
-                        button.prop('disabled', false);
-                    }
-                });
-            });
-
-            // Comment form submission
-            $(".comment-form").submit(function(e) {
-                e.preventDefault();
-                const form = $(this);
-                const postId = form.data("post-id");
-                const input = form.find(".comment-input");
-                const button = form.find("button");
-                const spinner = button.find(".spinner-border");
-                const errorDiv = form.siblings(".comment-error");
-                const commentsContainer = form.closest(".card-body").find(".comments-container");
-
-                const commentText = input.val().trim();
-                if (!commentText) return;
-
-                // Disable form and show loading state
-                button.prop("disabled", true);
-                spinner.removeClass("d-none");
-                errorDiv.hide();
-
-                $.ajax({
-                    url: "/Post/AddComment",
-                    method: "POST",
-                    headers: {
-                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
-                    },
-                    data: { postId: postId, commentText: commentText },
-                    success: function(response) {
-                        // Add new comment to UI
-                        const newComment = `
-                            <div class="border-top pt-2">
-                                <p>${response.text}</p>
-                                <small class="text-muted">${response.commentedAt}</small>
-                            </div>
-                        `;
-                        commentsContainer.prepend(newComment);
-                        
-                        // Clear input and reset form
-                        input.val("");
-                        form.closest(".collapse").collapse("hide");
-                    },
-                    error: function(xhr) {
-                        const error = xhr.responseJSON?.error || "Kunne ikke legge til kommentar. Prøv igjen senere.";
-                        errorDiv.text(error).show();
-                    },
-                    complete: function() {
-                        button.prop("disabled", false);
-                        spinner.addClass("d-none");
-                    }
-                });
-            });
-        });
-    </script>

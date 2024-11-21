@@ -25,7 +25,8 @@ namespace Aplzz.Controllers
         public async Task<IActionResult> Index()
         {
             var profiles = await _context.AccountProfiles.ToListAsync();
-            var viewModel = new AccountProfileViewModel
+             var viewModel = new AccountProfileViewModel
+            //var views = new AccountProfile
             {
                 Profiles = profiles,
                 CurrentViewName = "User Profiles"
@@ -44,7 +45,7 @@ namespace Aplzz.Controllers
                 return NotFound();
             }
 
-            var viewModel = new AccountProfileViewModel
+            var viewModel = new AccountProfile
             {
                 
                 AccountId = profile.AccountId,
@@ -61,21 +62,21 @@ namespace Aplzz.Controllers
         // GET: Show form for creating a new profile
         public IActionResult Create()
         {
-            return View(new AccountProfileViewModel());
+            return View(new AccountProfile());
         }
 
         // POST: Create a new profile
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(AccountProfileViewModel viewModel)
+        public async Task<IActionResult> Create(AccountProfile views)
         {
             if (ModelState.IsValid)
             {
                 var profile = new AccountProfile
                 {
-                    Username = viewModel.Username,
-                    Bio = viewModel.Bio,
-                    ProfilePicture = viewModel.ProfilePicture,
+                    Username = views.Username,
+                    Bio = views.Bio,
+                    ProfilePicture = views.ProfilePicture,
                     CreatedAt = DateTime.Now,
                     UpdatedAt = DateTime.Now
                 };
@@ -85,7 +86,7 @@ namespace Aplzz.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(viewModel);
+            return View(views);
         }
 
         // GET: Show form for editing an existing profile by ID
@@ -97,7 +98,7 @@ namespace Aplzz.Controllers
                 return NotFound();
             }
 
-            var viewModel = new AccountProfileViewModel
+            var viewModel = new AccountProfile
             {
                 AccountId = profile.AccountId,
                 Username = profile.Username ?? string.Empty,
@@ -111,7 +112,7 @@ namespace Aplzz.Controllers
         // POST: Update an existing profile
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int id, AccountProfileViewModel viewModel)
+        public async Task<IActionResult> Update(int id, AccountProfile viewModel)
         {
             if (id != viewModel.AccountId)
             {
@@ -148,7 +149,7 @@ namespace Aplzz.Controllers
                 return NotFound();
             }
 
-            var viewModel = new AccountProfileViewModel
+            var viewModel = new AccountProfile
             {
                 AccountId = profile.AccountId,
                 Username = profile.Username ?? string.Empty,

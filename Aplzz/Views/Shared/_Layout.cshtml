@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,38 +8,41 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Aplzz.styles.css" asp-append-version="true" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header> 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Post" asp-action="Index">Aplzz</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Post" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="AccountProfile" asp-action="Index">Profiles</a>
-                        <li>
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Logg inn</a>
-                        </li>
-                    </ul>
+        <nav class="navbar_header">
+            <div class="divContent" style="width:30%; margin-left:30px"><a asp-controller="Post" asp-action="Index" >APLZZ - logo</a></div>
+            <div class="divContent" style="width:40%; margin-left:30px">Søke felt</div>
+            @if (HttpContextAccessor.HttpContext.Session.GetString("username") == null) {
+                <div class="divContent" style="width:30%;padding-right:30px"> <a asp-controller="Login" asp-action="Index"><button class="aplzz_btn menuBtnLogin" style="float:right">Logg inn</button></a> </div>
+            } else {
+                <div class="divContent" style="width:30%;padding-right:30px">
+                    <div class="aplzz_btn menuTopBtn" id="functionClick" onclick="openMoreBtn()">@HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</div>
+                    <div class="fixed_dropDownMenu_navbar">
+                        <div class="alts"> <a asp-controller="Login" asp-action="Logout"> <i class="fa fa-sign-out"></i> Logg av</a> </div>
+                        <div class="alts"> <a asp-controller="AccountProfile" asp-action="Index">Profil</a> </div>
+                    </div>
                 </div>
-            </div>
+            }
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="sideNavBar">
+        <div class="sideNavBarHeader">
+
+        </div>
+        <div class="divBtn"><a class="nav-link text-dark" asp-area="" asp-controller="Post" asp-action="Index">Home</a></div>
+        @if (HttpContextAccessor.HttpContext.Session.GetString("username") == null) {
+            <div class="divBtn"><a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Logg inn</a></div>
+        } else {
+            <div class="divBtn"><a class="nav-link text-dark" asp-area="" asp-controller="AccountProfile" asp-action="Index">Profil</a></div>
+            <div class="divBtn"><a class="nav-link text-dark" asp-area="" asp-controller="Post" asp-action="Message">Meldinger</a></div>
+        }
+    </div>
+    <div class="aplzzContainer">
             @RenderBody()
-        </main>
     </div>
     
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

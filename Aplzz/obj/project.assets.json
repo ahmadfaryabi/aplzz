@@ -2630,19 +2630,31 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/libansulub/.nuget/packages/": {}
+=======
+    "C:\\Users\\ahmad\\.nuget\\packages\\": {}
+>>>>>>> 7cb77a7bd27c6214bf463f37660a314f45fe5261
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
+=======
+      "projectUniqueName": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+>>>>>>> 7cb77a7bd27c6214bf463f37660a314f45fe5261
       "projectName": "Aplzz",
-      "projectPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Aplzz.csproj",
-      "packagesPath": "/Users/libansulub/.nuget/packages/",
-      "outputPath": "/Users/libansulub/Documents/GitHub/aplzz/Aplzz/obj/",
+      "projectPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+      "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+      "outputPath": "C:\\users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/libansulub/.nuget/NuGet/NuGet.Config"
+=======
+        "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 7cb77a7bd27c6214bf463f37660a314f45fe5261
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2713,7 +2725,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
