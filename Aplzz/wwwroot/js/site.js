@@ -1,15 +1,4 @@
-﻿// function openDropDown(idPost) {
-//     var posts = document.getElementsByClassName("dropDownMenuContent");
-//     posts[idPost].style.display = "flex"
-// }
-
-// window.onclick = function(e) {
-//     var posts = document.getElementsByClassName("dropDownMenuContent");
-//     var ddBtn = document.getElementById("ddBtn");
-
-// }
-
-function openMoreBtn() {
+﻿function openMoreBtn() {
     var navbarDD = document.getElementsByClassName("fixed_dropDownMenu_navbar")[0]
     if(navbarDD.style.display == "none" || navbarDD.style.display == "") {
         navbarDD.style.display = "flex"
@@ -19,27 +8,28 @@ function openMoreBtn() {
 }
 
 function openDDPostMenu(countNr) {
-    var DDPostMenu = document.getElementsByClassName("dropDownMenuContent");
-    if(DDPostMenu[countNr].style.display == "none" || DDPostMenu[countNr].style.display == "") {
-        DDPostMenu[countNr].style.display = "flex"
+    var dropdownContent = document.getElementById(`ddContent-${countNr}`);
+    if (!dropdownContent) return;
+    
+    if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+        dropdownContent.style.display = "flex";
     } else {
-        DDPostMenu[countNr].style.display = "none"
+        dropdownContent.style.display = "none";
     }
 }
 
 window.onclick = function(e) {
-    var DDPostMenu = document.getElementsByClassName("dropDownMenuContent");
-    var btnIdDD = document.getElementById("btnIdDD");
-    if(e.target != document.getElementsByClassName("fixed_dropDownMenu_navbar")[0] && e.target != document.getElementById("functionClick")) {
-        document.getElementsByClassName("fixed_dropDownMenu_navbar")[0].style.display = "none";
-    }
-    for (i = 0; i < DDPostMenu.length; i++) {
-        if(e.target != DDPostMenu[i] && e.target != btnIdDD[i]) {
-            DDPostMenu[i].style.display = "none";
+    var dropdowns = document.getElementsByClassName("dropDownMenuContent");
+    for (var i = 0; i < dropdowns.length; i++) {
+        if (!e.target.closest('.dropDownMenu')) {
+            dropdowns[i].style.display = "none";
         }
     }
+    
+    if (!e.target.closest('.fixed_dropDownMenu_navbar') && !e.target.matches('#functionClick')) {
+        document.getElementsByClassName("fixed_dropDownMenu_navbar")[0].style.display = "none";
+    }
 }
-
 
 $(document).ready(function() {
     // Like button click event
