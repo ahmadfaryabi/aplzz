@@ -17,29 +17,41 @@ namespace Aplzz.Controllers
     public class AccountProfileController : Controller
     {
         private readonly IAccountRepository _accountRepository;
+        private readonly IPostRepository _postRepository;
         private readonly ILogger<AccountProfileController> _logger;
 
 
-        public AccountProfileController(IAccountRepository accountRepository, ILogger<AccountProfileController> logger)
+        public AccountProfileController(IAccountRepository accountRepository, 
+        IPostRepository postRepository ,ILogger<AccountProfileController> logger)
         {
             _accountRepository = accountRepository;
             _logger = logger;
+            _postRepository = postRepository;
         }
 
         // GET: Display the profile
         [Route("AccountProfile/{username}")]
         public async Task<IActionResult> Index(string username)
         {
-            if(username == "") {
+            if(username == "" || username == null) {
                 return View("NotFound", username);
             }
             var user = await _accountRepository.GetUserInfo(username);
             if(user == null) {
                 return View("NotFound", user);
             }
-            return View(user);
+
+            var posts = await _postRepository.GellPostByUserId(user.IdUser);
+
+            var model = new AccountViewModel {
+                GetUserInfo = user,
+                Posts = posts
+            };
+
+            return View(model);
         }
     }
+
 }
             
 //         // GET: Display details of a profile by ID

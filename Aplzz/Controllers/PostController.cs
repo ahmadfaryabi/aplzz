@@ -129,10 +129,20 @@ namespace Aplzz.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(Post post, IFormFile? imageFile)
+        public async Task<IActionResult> Update(int id, Post post, IFormFile? imageFile)
         {
             if (ModelState.IsValid)
             {
+                var originalPost = await _postRepository.GetPostById(id);
+                if (originalPost == null)
+                {
+                    return NotFound();
+                }
+
+                // Update only the necessary properties
+                originalPost.Content = post.Content;
+                
+                // Only update image if a new one is provided
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     try
@@ -142,22 +152,23 @@ namespace Aplzz.Controllers
                         {
                             await imageFile.CopyToAsync(stream);
                         }
-                        post.ImageUrl = $"/images/{imageFile.FileName}";
+                        originalPost.ImageUrl = $"/images/{imageFile.FileName}";
                     }
                     catch (Exception e)
                     {
                         _logger.LogError("[PostController] Image upload failed: {e}", e.Message);
                     }
                 }
-                    post.CreatedAt = DateTime.Now;
+
                 try
                 {
-                    await _postRepository.Update(post);
+                    await _postRepository.Update(originalPost);
                     return RedirectToAction(nameof(Index));
                 }
                 catch (Exception e)
                 {
                     _logger.LogError("[PostController] Failed to update post: {e}", e.Message);
+                    ModelState.AddModelError("", "Failed to update post");
                 }
             }
             return View(post);

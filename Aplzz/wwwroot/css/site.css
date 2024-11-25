@@ -283,7 +283,6 @@ body {
 }
 
 .profileHeader .profileInfo {
-  height: 500px;
   width:500px;
   padding:10px;
   display: flex;

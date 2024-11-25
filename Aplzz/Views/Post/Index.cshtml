@@ -11,15 +11,16 @@
         @if (Model.Posts != null && Model.Posts.Any())
         {
                 int count = -1;
+                var currentUsername = HttpContextAccessor.HttpContext.Session.GetString("username");
                 @foreach (var post in Model.Posts)
                 {
                     count++;
                         <div class="divboxPost">
                             <div class="header">
-                                <div style="padding:5px"> <img src="images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg" alt="Testbilde" 
+                                <div style="padding:5px"> <img src="@post.GetUser.ProfilePicture" alt="Testbilde" 
                                 style="width:30px;height:30px;border-radius: 100%;"> </div>
                                 <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
-                                <div style="width:60%;justify_item:center"> 
+                                <div style="width:40%;justify_item:center"> 
                                     <div class="dropDownMenu" style="width:100%">
                                         <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
                                     <div class="dropDownMenuContent" style="margin-top:50px;">

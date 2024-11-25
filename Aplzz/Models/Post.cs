@@ -1,3 +1,4 @@
+
 namespace Aplzz.Models;
 
 public class Post
@@ -16,4 +17,9 @@ public class Post
     public DateTime CreatedAt { get; set; }
     public virtual List<Comment>? Comments { get; set; }
     public virtual List<Like> Likes { get; set; }
+
+    public static implicit operator Post(Task<IEnumerable<Post>> v)
+    {
+        throw new NotImplementedException();
+    }
 }
