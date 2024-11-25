@@ -43,7 +43,7 @@ window.onclick = function(e) {
 
 $(document).ready(function() {
     // Like button click event
-    $(".like-button").click(function(e) {
+    $(".aplzz_btn.LikeBtn").click(function(e) {
         e.preventDefault();
         const button = $(this);
         const errorDiv = button.siblings('.like-error');
@@ -59,7 +59,7 @@ $(document).ready(function() {
             },
             data: { postId: postId },
             success: function(response) {
-                button.find(".like-count").text(response.likesCount);
+                $(".like-count").text(response.likesCount);
                 button.toggleClass('liked', response.isLiked);
                 
                 const likeText = response.isLiked ? "Likt" : "Lik";

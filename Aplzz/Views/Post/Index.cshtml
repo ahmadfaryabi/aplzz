@@ -16,11 +16,13 @@
                     count++;
                         <div class="divboxPost">
                             <div class="header">
-                                <div style="width:60%"> <b>Brukernavn</b></div>
-                                <div style="width:40%;justify_item:center"> 
+                                <div style="padding:5px"> <img src="images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg" alt="Testbilde" 
+                                style="width:30px;height:30px;border-radius: 100%;"> </div>
+                                <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
+                                <div style="width:60%;justify_item:center"> 
                                     <div class="dropDownMenu" style="width:100%">
                                         <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
-                                    <div class="dropDownMenuContent" style="margin-top:50px;margin-left: 57px;">
+                                    <div class="dropDownMenuContent" style="margin-top:50px;">
                                         <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
                                         <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
                                         <a><div class="link">Rapporter</div></a>
@@ -38,32 +40,35 @@
 
                                 <!-- Like Button with AJAX -->
                                 @{
-                                    var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == HttpContextAccessor.HttpContext.Session.GetInt32("id"));
-                                }
-                                <button 
-                                    class="btn btn-primary btn-sm like-button @(isLiked ? "liked" : "")" 
-                                    data-post-id="@post.PostId" 
-                                    data-liked="@isLiked">
-                                    <i class="fas fa-thumbs-up"></i>
-                                    <span class="like-text">@(isLiked ? "Likt" : "Lik")</span>
-                                    (<span class="like-count">@(post.Likes?.Count ?? 0)</span>)
-                                </button>
-                                <div class="like-error"></div>
-
-                                <button class="btn btn-secondary btn-sm" data-bs-toggle="collapse" data-bs-target="#commentForm-@post.PostId">Kommenter</button>
-
-                                <div class="collapse" id="commentForm-@post.PostId">
-                                    <form class="comment-form" data-post-id="@post.PostId">
-                                        <div class="mb-2">
-                                            <input type="text" class="form-control comment-input" placeholder="Skriv en kommentar..." required />
-                                        </div>
-                                        <button type="submit" class="btn btn-success">
-                                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
-                                            Legg til kommentar
+                                    if(HttpContextAccessor.HttpContext.Session.GetString("id") != null) {
+                                        var isLiked = post.Likes != null && post.Likes.Any(l => l.UserId == int.Parse(HttpContextAccessor.HttpContext.Session.GetString("id")));                                        
+                                        <button 
+                                            class="aplzz_btn LikeBtn @(isLiked ? "liked" : "")" 
+                                            data-post-id="@post.PostId" 
+                                            data-liked="@isLiked">
+                                            <i class="fa fa-heart"></i>
                                         </button>
-                                    </form>
-                                    <div class="comment-error text-danger mt-2" style="display: none;"></div>
-                                </div>
+                                        <span class="like-count">@(post.Likes?.Count ?? 0)</span>
+                                        <div class="like-error"></div>
+
+                                        <button class="aplzz_btn CommentBtn" data-bs-toggle="collapse" data-bs-target="#commentForm-@post.PostId"> <i class="fa fa-comment"></i></button>
+
+                                        <div class="collapse" id="commentForm-@post.PostId">
+                                            <form class="comment-form" data-post-id="@post.PostId">
+                                                <div class="mb-2">
+                                                    <input type="text" class="form-control comment-input" placeholder="Skriv en kommentar..." required />
+                                                </div>
+                                                <button type="submit" class="btn btn-success">
+                                                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                    Legg til kommentar
+                                                </button>
+                                            </form>
+                                            <div class="comment-error text-danger mt-2" style="display: none;"></div>
+                                        </div>
+                                    } else {
+                                        <p>Du må logge inn for å reagere eller kommentare innlegg!</p>
+                                    }
+                                }
 
                                 <div class="mt-3">
                                     <h6>Kommentarer:</h6>

@@ -21,6 +21,7 @@ public class PostRepository : IPostRepository
             return await _db.Posts
                 .Include(p => p.Comments)
                 .Include(p => p.Likes)
+                .Include(p => p.GetUser)
                 .OrderByDescending(p => p.CreatedAt)
                 .ToListAsync();
         }

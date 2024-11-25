@@ -9,140 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aplzz
 build_property.RootNamespace = Aplzz
-<<<<<<< HEAD
-build_property.ProjectDir = /Users/libansulub/Documents/GitHub/aplzz/Aplzz/
-=======
-build_property.ProjectDir = C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\
->>>>>>> 7cb77a7bd27c6214bf463f37660a314f45fe5261
+build_property.ProjectDir = C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
-build_property.MSBuildProjectDirectory = /Users/libansulub/Documents/GitHub/aplzz/Aplzz
+build_property.MSBuildProjectDirectory = C:\Users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudFByb2ZpbGUvRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/AccountProfile/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudFByb2ZpbGUvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/AccountProfile/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudFByb2ZpbGUvVXBkYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Login/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vaW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Login/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vUmVnaXN0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Post/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9VcGRhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/AccountProfile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FjY291bnRQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0Q29udGVudC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/libansulub/Documents/GitHub/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-q2k0rc4hot
-=======
-build_property.MSBuildProjectDirectory = C:\users\ahmad\OneDrive\Skrivebord\aplzz\aplzz\Aplzz
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Index.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Update.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/AccountProfile/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Login/index.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Login/Register.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Create.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Delete.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Index.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Update.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Post/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/AccountProfile.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/AccountProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY291bnRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_PostContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0Q29udGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/_ViewImports.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/_ViewStart.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
+[C:/Users/ahmad/OneDrive/Skrivebord/aplzz/aplzz/Aplzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-slhz5x6pun
->>>>>>> 7cb77a7bd27c6214bf463f37660a314f45fe5261
