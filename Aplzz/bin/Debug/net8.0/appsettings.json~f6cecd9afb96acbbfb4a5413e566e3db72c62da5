@@ -1,0 +1,17 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+<<<<<<< HEAD
+    "DatabaseConnection": "Data Source=AplzzDatabase.db"
+=======
+    "PostDbContextConnection": "Data Source=PostDatabase.db",
+   "AccountDbContextConnection": "Data Source=accounts.db" 
+>>>>>>> origin/Zaka_R
+  }
+}

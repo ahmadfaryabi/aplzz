@@ -1,6 +1,7 @@
 # Ignore all .log files
-*.log
-**obj
-**bin
+#*.log
+#**obj
+
+#**bin
 # But track a specific log file
-!path/to/specific_file.log
+##!path/to/specific_file.log
