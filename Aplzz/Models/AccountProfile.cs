@@ -7,6 +7,10 @@ namespace Aplzz.Models
     {
         [Key]
         public int AccountId { get; set; }
+        public Account? Account { get; set; }
+
+        public int AccountProfileAccountId { get; set; }
+        // Other properties
 
         [Required]
         [MaxLength(100)]
@@ -24,8 +28,20 @@ namespace Aplzz.Models
         [DataType(DataType.Date)]
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public List<AccountProfile>? Profiles { get; set; }
+        public List<AccountProfile>? Profiles { get; set; } 
         public string? CurrentViewName { get; set; }
 
     }
+
+    public class Account
+{
+    public int AccountId { get; set; }
+    public string? Name { get; set; }
+    // other properties
+
+    // Navigation Property
+    public ICollection<AccountProfile>? AccountProfiles { get; set; }
+
+}
+
 }

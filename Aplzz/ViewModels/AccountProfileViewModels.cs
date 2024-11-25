@@ -29,7 +29,7 @@ namespace Aplzz.ViewModels
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow; // Set default to current date/time
 
         // New properties added for Index view
-        public IEnumerable<AccountProfile>? Profiles { get; set; }  //new List<AccountProfile>(); // Initialize with an empty list
+        public IEnumerable<AccountProfile>? Profiles { get; set; } //  new List<AccountProfile>(); // Initialize with an empty list
 
         public string CurrentViewName { get; set; } = string.Empty; // Initialize with a default non-null value
     }

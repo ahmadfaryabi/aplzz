@@ -1,3 +1,4 @@
+
 @model Aplzz.ViewModels.AccountProfileViewModel
 
 @{
@@ -17,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var profile in Model.Profiles)
+        @foreach (var profile in Model.Profiles ?? Enumerable.Empty<AccountProfile>() )
         {
             <tr>
                 <td>@profile.Username</td>

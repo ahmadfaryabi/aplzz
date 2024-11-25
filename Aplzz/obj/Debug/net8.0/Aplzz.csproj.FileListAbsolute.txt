@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 =======
+>>>>>>> 8fb2b527ed41d81239e2e79e2d3fcb58b6d3e441
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.Development.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/appsettings.json
 /Users/libansulub/Desktop/Aplzz/bin/Debug/net8.0/Aplzz.staticwebassets.runtime.json

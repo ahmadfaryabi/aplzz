@@ -11,41 +11,31 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
+
 namespace Aplzz.Controllers
 {
     
     public class PostController : Controller
     {
+        private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
 
         private readonly DbContexts _context; // Legg til en privat felt for konteksten
         private readonly ILogger<PostController> _logger; // Legg til logger
 
         // Injiser PostDbContext via konstruktøren
-        public PostController(DbContexts context, ILogger<PostController> logger)
-
-        private readonly PostDbContext _context; // Legg til en privat felt for konteksten
-
-        private readonly ILogger<PostController> _logger;
-        private readonly IPostRepository _postRepository;
-
-        // Injiser PostDbContext via konstruktøren
         public PostController(IPostRepository postRepository, ILogger<PostController> logger)
-
         {
-            _context = context;
+            _postRepository = postRepository;
             _logger = logger; // Initialiser logger
         }
 
-        // Handling to display the list of posts
-      //  public async Task<IActionResult> Index()
-       // {
-       //     var posts = await _context.Posts
-        //        .Where(p => p.PostId > 0) // or another condition involving PostId
-        //        .ToListAsync();
-
-        //    var viewModel = new PostViewModel(posts, "Aplzz Feed");
-        //    return View(viewModel);
-       // }
+       // Handling to display the list of posts
+       public async Task<IActionResult> Index()
+       {
+           var posts = await _postRepository.GetAll();
+           var viewModel = new PostViewModel(posts, "Aplzz Feed");
+           return View(viewModel);
+       }
 
         [HttpGet]
         public IActionResult Create()
@@ -70,8 +60,7 @@ namespace Aplzz.Controllers
                 }
 
                 post.CreatedAt = DateTime.Now; // Sett CreatedAt til nåværende dato og tid
-                _context.Posts.Add(post);
-                await _context.SaveChangesAsync();
+                await _postRepository.Create(post);
                 return RedirectToAction(nameof(Index));
             }
             return View(post);
@@ -91,8 +80,7 @@ namespace Aplzz.Controllers
                     PostId = postId
                 };
 
-                _context.Comments.Add(comment);
-                await _context.SaveChangesAsync();
+                await _postRepository.AddComment(comment);
                 _logger.LogInformation("Kommentar lagt til: {CommentId} for postId: {PostId}", comment.CommentId, postId);
             }
             else
@@ -106,7 +94,7 @@ namespace Aplzz.Controllers
         [HttpGet]
         public IActionResult Update(int id)
         {
-            var post = _context.Posts.Find(id); 
+            var post = _postRepository.GetPostById(id);
             if (post == null)
             {
                 return NotFound();
@@ -117,7 +105,7 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(Post post, IFormFile imageFile) 
         {
-            var existingPost = await _context.Posts.FindAsync(post.PostId); // Hent eksisterende innlegg
+            var existingPost = await _postRepository.GetPostById(post.PostId); // Hent eksisterende innlegg
             if (existingPost == null)
             {
                 return NotFound(); // Returner 404 hvis innlegget ikke finnes
@@ -137,16 +125,15 @@ namespace Aplzz.Controllers
                 existingPost.ImageUrl = $"/images/{imageFile.FileName}"; // Sett filbanen i modellen
             }
 
-            existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt
-            _context.Posts.Update(existingPost); 
-            await _context.SaveChangesAsync(); 
+            existingPost.CreatedAt = DateTime.Now; // Oppdater CreatedAt 
+            await _postRepository.Update(existingPost);; 
             return RedirectToAction(nameof(Index)); 
         }
 
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var post = _context.Posts.Find(id);
+            var post = _postRepository.GetPostById(id);
             if (post == null)
             {
                 return NotFound();
@@ -157,70 +144,51 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id) 
         {
-            var post = await _context.Posts.FindAsync(id); 
+            var post = await _postRepository.GetPostById(id); 
             if (post == null)
             {
                 return NotFound();
             }
-            _context.Posts.Remove(post);
-            await _context.SaveChangesAsync(); 
+            await _postRepository.Delete(id); 
             return RedirectToAction(nameof(Index)); 
         }
 
         [HttpPost]
-public async Task<IActionResult> LikePost(int postId)
-{
-    int userId = 1; // Hardkode userId for testbrukeren "testuser"
-    _logger.LogInformation("Bruker {IdUser} liker postId: {PostId}", userId, postId);
-
-    var postExists = await _context.Posts.AnyAsync(p => p.PostId == postId);
-    if (!postExists)
-    {
-        _logger.LogWarning("Post med postId: {PostId} eksisterer ikke.", postId);
-        return NotFound();
-    }
-
-    var existingLike = await _context.Likes
-        .FirstOrDefaultAsync(l => l.PostId == postId && l.UserId == userId);
-
-    if (existingLike != null)
-    {
-        // Hvis det allerede finnes en like fra denne brukeren, fjern den
-        _context.Likes.Remove(existingLike);
-        _logger.LogInformation("Fjerner like for postId: {PostId} av bruker {IdUser}", postId, userId);
-    }
-    else
-    {
-        // Hvis ingen like finnes, legg til en ny
-        var like = new Like
+        public async Task<IActionResult> LikePost(int postId)
         {
-            PostId = postId,
-            UserId = userId
-        };
-        _context.Likes.Add(like);
-        _logger.LogInformation("Legger til like for postId: {PostId} av bruker {UserId}", postId, userId);
-    }
+            int userId = 1; // Hardkode userId for testbrukeren "testuser"
+            _logger.LogInformation("Bruker {IdUser} liker postId: {PostId}", userId, postId);
 
-    await _context.SaveChangesAsync();
-
-    // Returner oppdatert like-telling
-    var likeCount = await _context.Likes.CountAsync(l => l.PostId == postId);
-    return Json(new { likesCount = likeCount });
-}
-
-        [HttpPost]
-        public async Task<IActionResult> CreateTestUser()
-        {
-            var testUser = new User
+            var postExists = await _postRepository.GetPostById(postId);
+            if (postExists == null)
             {
-                Username = "testuser",
-                Email = "testuser@example.com"
-            };
+                _logger.LogWarning("Post med postId: {PostId} eksisterer ikke.", postId);
+                return NotFound();
+            }
 
-            _context.Users.Add(testUser);
-            await _context.SaveChangesAsync();
+            var existingLike = await _postRepository.GetLikeCount(postId);
 
-            return RedirectToAction(nameof(Index));
+            if (existingLike != null)
+            {
+                // Hvis det allerede finnes en like fra denne brukeren, fjern den
+                await _postRepository.RemoveLike(userId, postId);
+                _logger.LogInformation("Fjerner like for postId: {PostId} av bruker {IdUser}", postId, userId);
+            }
+            else
+            {
+                // Hvis ingen like finnes, legg til en ny
+                var like = new Like
+                {
+                    PostId = postId,
+                    UserId = userId
+                };
+                await _postRepository.AddLike(like);
+                _logger.LogInformation("Legger til like for postId: {PostId} av bruker {UserId}", postId, userId);
+            }
+
+            // Returner oppdatert like-telling
+            var likeCount = await _postRepository.GetLikeCount(postId);
+            return Json(new { likesCount = likeCount });
         }
     }
 }

@@ -18,9 +18,6 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddSession(options => {
     options.Cookie.Name = ".Applz.Session";
 // Add DbContext for Posts
-builder.Services.AddDbContext<DbContexts>(options =>
-{
-    options.UseSqlite(builder.Configuration["ConnectionStrings:PostDbContextConnection"]);
 });
 
 // Add DbContext for Account Profiles
@@ -68,3 +65,4 @@ app.MapControllerRoute(
     pattern: "{controller=Post}/{action=Index}/{id?}");
 
 app.Run();
+
