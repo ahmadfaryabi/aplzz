@@ -17,17 +17,17 @@
                     count++;
                         <div class="divboxPost">
                             <div class="header">
-                                <div style="padding:5px"> <img src="images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg" alt="Testbilde" 
+                                <div style="padding:5px"> <img src="images/Blank.jpeg" alt="Testbilde" 
                                 style="width:30px;height:30px;border-radius: 100%;"> </div>
                                 <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
                                 <div style="width:60%;justify_item:center"> 
                                     @if (post.GetUser.Username == currentUsername)
                                     {
-                                        <div class="dropDownMenu" style="width:100%">
+                                        <div class="dropDownMenu" style="width:100%; position: relative;">
                                             <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD-@count" onclick="openDDPostMenu(@count)">
                                                 <i style="font-size:24px" class="fa">&#xf141;</i>
                                             </button>
-                                            <div class="dropDownMenuContent" id="ddContent-@count" style="margin-top:50px; display: none;">
+                                            <div class="dropDownMenuContent" id="ddContent-@count" style="position: absolute; right: 0; top: 100%; display: none;">
                                                 <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
                                                 <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
                                                 <a><div class="link">Rapporter</div></a>
