@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
     },
     {
+      "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/Blank.jpeg",
+      "PackagePath": "staticwebassets/images/Blank.jpeg"
+    },
+    {
       "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/G.png",
       "PackagePath": "staticwebassets/images/G.png"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/ai.jpg",
       "PackagePath": "staticwebassets/images/ai.jpg"
+    },
+    {
+      "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/aplzz.png",
+      "PackagePath": "staticwebassets/images/aplzz.png"
     },
     {
       "Id": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/bilde_oppgave.webp",

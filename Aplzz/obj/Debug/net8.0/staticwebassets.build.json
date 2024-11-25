@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EgyvT5XIOeJOnnyFNseW48Afc/zxS5cO9L7c9Wd0TBo=",
+  "Hash": "ki58m1FJFB0baA5aWX/62Ek6kSWchFYFmzvWDkp3ggM=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot/images/ai.jpg"
     },
     {
+      "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/aplzz.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/aplzz.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/aplzz.png"
+    },
+    {
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/bilde_oppgave.webp",
       "SourceId": "Aplzz",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/bilde_oppgave.webp"
+    },
+    {
+      "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/Blank.jpeg",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/Blank.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Blank.jpeg"
     },
     {
       "Identity": "/Users/ahmadfaryabi/Desktop/aplzz/Aplzz/wwwroot/images/chickenleg.jpg",
