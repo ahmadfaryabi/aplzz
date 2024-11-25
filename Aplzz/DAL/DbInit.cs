@@ -15,11 +15,14 @@ namespace Aplzz.DAL
                 context.Database.EnsureCreated();
             }
 
-            // Seed Users først
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
+
             if (!context.Users.Any())
             {
                 var users = new List<User>
                 {
+
                     new User {IdUser = 1, Firstname = "Ahmad", Aftername="Faryabi",Username="ahmad", Password="1234", Phone="12345678", Email="email@email.com",
                     ProfilePicture="images/profile.jpeg"}
                 };
@@ -27,7 +30,6 @@ namespace Aplzz.DAL
                 context.SaveChanges();
             }
 
-            // Seed Posts og lagre PostId-ene
             List<int> postIds = new List<int>();
             if (!context.Posts.Any())
             {
@@ -48,6 +50,7 @@ namespace Aplzz.DAL
                 };
                 context.Posts.AddRange(posts);
                 context.SaveChanges();
+
                 postIds = posts.Select(p => p.PostId).ToList();
             }
             else
@@ -66,6 +69,9 @@ namespace Aplzz.DAL
                 context.Comments.AddRange(comments);
                 context.SaveChanges();
             }
+
+            // Seed Likes
+            if (!context.Likes.Any())
 
             // Seed Likes kun hvis vi har gyldige innlegg og brukere
             if (!context.Likes.Any() && postIds.Any() && context.Users.Any())

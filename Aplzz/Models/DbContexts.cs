@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-
-
-namespace Aplzz.Models 
+using Aplzz.Models;
+namespace Aplzz.Models
 {
     public class DbContexts : DbContext 
     {

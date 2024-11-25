@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Aplzz/bin/Debug/net8.0/appsettings.json~f6cecd9afb96acbbfb4a5413e566e3db72c62da5
 {
   "Logging": {
     "LogLevel": {
@@ -15,3 +16,18 @@
 >>>>>>> origin/Zaka_R
   }
 }
+=======
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DatabaseConnection": "Data Source=AplzzDatabase.db",
+   "AccountDbContextConnection": "Data Source=accounts.db" 
+  }
+}
+>>>>>>> e0ab70dce443cee7d160cf4d0b6d9fa1abee8b65:Aplzz/bin/Debug/net8.0/appsettings.json

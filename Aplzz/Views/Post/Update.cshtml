@@ -1,5 +1,5 @@
 @model Aplzz.Models.Post
-
+<div class="divbox">
 <h2>Oppdater Innlegg</h2>
 
 <form asp-action="Update" method="post" enctype="multipart/form-data">
@@ -20,7 +20,7 @@
     <button type="submit" class="btn btn-success">Lagre Endringer</button>
     <a asp-action="Index" class="btn btn-secondary">Avbryt</a>
 </form>
-
+</div>
 <script>
     document.getElementById('imageFile').addEventListener('change', function(event) {
         const file = event.target.files[0]; // Get the selected file

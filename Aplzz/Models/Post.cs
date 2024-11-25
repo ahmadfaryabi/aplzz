@@ -11,6 +11,8 @@ public class Post
     public required string Content { get; set; }
 
     public string? ImageUrl { get; set; }
+    public int UserId { get; set; }
+    public virtual User? GetUser {get;set;}
     public DateTime CreatedAt { get; set; }
     public virtual List<Comment>? Comments { get; set; }
     public virtual List<Like> Likes { get; set; }
