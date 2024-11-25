@@ -7,7 +7,7 @@ namespace Aplzz.DAL
     {
         public PostDbContext(DbContextOptions<PostDbContext> options) : base(options)
         {
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         public DbSet<Post> Posts { get; set; } 

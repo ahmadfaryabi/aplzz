@@ -71,6 +71,7 @@ namespace Aplzz.Controllers
                 post.CreatedAt = DateTime.Now;
                 try
                 {
+                    post.UserId = int.Parse(HttpContext.Session.GetString("id"));
                     await _postRepository.Create(post);
                     return RedirectToAction(nameof(Index));
                 }
@@ -95,7 +96,8 @@ namespace Aplzz.Controllers
                 {
                     Text = commentText,
                     CommentedAt = DateTime.Now,
-                    PostId = postId
+                    PostId = postId,
+                    UserId = int.Parse(HttpContext.Session.GetString("id"))
                 };
 
                 var result = await _postRepository.AddComment(comment);
@@ -190,13 +192,13 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> LikePost(int postId)
         {
-            if(HttpContext.Session.GetInt32("id") == null) {
+            if(HttpContext.Session.GetString("username") == null) {
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
             try
             {
-                int userId = (int)HttpContext.Session.GetInt32("id"); // Hardkodet bruker-ID
+                int userId = int.Parse(HttpContext.Session.GetString("id")); // Hardkodet bruker-ID
                 var isLiked = await _postRepository.HasUserLikedPost(postId, userId);
 
                 if (isLiked)
@@ -205,7 +207,7 @@ namespace Aplzz.Controllers
                 }
                 else
                 {
-                    var like = new Like { PostId = postId, UserId = userId };
+                    var like = new Like {PostId = postId, UserId = userId};
                     await _postRepository.AddLike(like);
                 }
 

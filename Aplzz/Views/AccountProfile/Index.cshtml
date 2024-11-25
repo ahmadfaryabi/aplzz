@@ -1,37 +1,35 @@
-@model Aplzz.ViewModels.AccountProfileViewModel
+@model Aplzz.Models.User
 
 @{
-    ViewData["Title"] = Model.CurrentViewName;
+    ViewData["Title"] = @Model.Username;
 }
 
-<h2>@Model.CurrentViewName</h2>
+<div class="profileHeader">
+    <div class="profilePicture">
+        <img src="/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg" alt="Profilbildet" style="width:150px;height:150px;border-radius: 50%;">
+    </div>
+    <div class="profileInfo" style="">
+        <div class="names" style="margin-bottom:10px"><b>@Model.Firstname @Model.Aftername -- @Model.Username</b></div>
+        <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Rediger</button> </div>
+        <div class="followInfo" style="margin-bottom:10px">
+            <div class="counterDivProfiles">
+                <p>0 <em>Følger</em></p>
+            </div>
+            <div class="counterDivProfiles">
+                <p>0 <em>Følgere</em></p>
+            </div>
+            <div class="counterDivProfiles">
+                <p>0 <em>Innlegg</em> </p>
+            </div>
+        </div>
+        <div class="bio"> <b>Bio:</b> <p>Her skriver brukeren biografi</p> </div>
+    </div>
+</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Username</th>
-            <th>Bio</th>
-            <th>Profile Picture</th>
-            <th>Date Created</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var profile in Model.Profiles)
-        {
-            <tr>
-                <td>@profile.Username</td>
-                <td>@profile.Bio</td>
-                <td><img src="@profile.ProfilePicture" alt="Profile Picture" width="50"/></td>
-                <td>@profile.CreatedAt.ToString("yyyy-MM-dd")</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@profile.AccountId" class="btn btn-info">View</a>
-                    <a asp-action="Update" asp-route-id="@profile.AccountId" class="btn btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@profile.AccountId" class="btn btn-danger">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="profileBody">
+    <h1>Her kommer innleggene til brukeren og kanskje flere andre kule funksjoner!</h1>
+</div>
 
-<a asp-action="Create" class="btn btn-primary">Add New Profile</a>
+
+
+
