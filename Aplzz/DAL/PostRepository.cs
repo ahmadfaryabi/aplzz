@@ -31,6 +31,25 @@ public class PostRepository : IPostRepository
             throw;
         }
     }
+    // lag en spørring hvor du henter ut ifra brukerens id
+        public async Task<IEnumerable<Post>> GellPostByUserId(int userId)
+    {
+        try
+        {
+            return await _db.Posts
+                .Include(p => p.Comments)
+                .Include(p => p.Likes)
+                .Include(p => p.GetUser)
+                .Where(p => p.UserId == userId)
+                .OrderByDescending(p => p.CreatedAt)
+                .ToListAsync();
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[PostRepository] Failed to get all posts by user: {e}", e.Message);
+            throw;
+        }
+    }
 
     public async Task<Post?> GetPostById(int id)
     {

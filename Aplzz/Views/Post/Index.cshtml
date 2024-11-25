@@ -17,6 +17,7 @@
                     count++;
                         <div class="divboxPost">
                             <div class="header">
+<<<<<<< HEAD
                                 <div style="padding:5px"> <img src="images/Blank.jpeg" alt="Testbilde" 
                                 style="width:30px;height:30px;border-radius: 100%;"> </div>
                                 <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
@@ -34,6 +35,20 @@
                                             </div>
                                         </div>
                                     }
+=======
+                                <div style="padding:5px"> <img src="@post.GetUser.ProfilePicture" alt="Testbilde" 
+                                style="width:30px;height:30px;border-radius: 100%;"> </div>
+                                <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
+                                <div style="width:40%;justify_item:center"> 
+                                    <div class="dropDownMenu" style="width:100%">
+                                        <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
+                                    <div class="dropDownMenuContent" style="margin-top:50px;">
+                                        <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
+                                        <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
+                                        <a><div class="link">Rapporter</div></a>
+                                    </div>
+                                    </div>
+>>>>>>> 7450fdc (ok)
                                 </div>
                             </div>
                             @if (!string.IsNullOrEmpty(post.ImageUrl))

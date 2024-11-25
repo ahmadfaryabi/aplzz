@@ -1,16 +1,21 @@
-@model Aplzz.Models.User
-
+@model Aplzz.ViewModels.AccountViewModel;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
 @{
-    ViewData["Title"] = @Model.Username;
+    ViewData["Title"] = @Model.GetUserInfo.Username;
 }
 
 <div class="profileHeader">
     <div class="profilePicture">
-        <img src="/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg" alt="Profilbildet" style="width:150px;height:150px;border-radius: 50%;">
+        <img src="@Model.GetUserInfo.ProfilePicture" alt="Profilbildet" style="width:150px;height:150px;border-radius: 50%;">
     </div>
     <div class="profileInfo" style="">
-        <div class="names" style="margin-bottom:10px"><b>@Model.Firstname @Model.Aftername -- @Model.Username</b></div>
-        <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Rediger</button> </div>
+        <div class="names" style="margin-bottom:10px"><b>@Model.GetUserInfo.Firstname @Model.GetUserInfo.Aftername -- @Model.GetUserInfo.Username</b></div>
+        @if(HttpContextAccessor.HttpContext.Session.GetString("username") == Model.GetUserInfo.Username 
+        && HttpContextAccessor.HttpContext.Session.GetString("id") != null) {
+            <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Rediger</button> </div>
+        } else {
+            <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Følg</button> </div>
+        }
         <div class="followInfo" style="margin-bottom:10px">
             <div class="counterDivProfiles">
                 <p>0 <em>Følger</em></p>
@@ -27,7 +32,12 @@
 </div>
 
 <div class="profileBody">
-    <h1>Her kommer innleggene til brukeren og kanskje flere andre kule funksjoner!</h1>
+    @if (Model.Posts != null && Model.Posts.Any())
+    {
+        
+    } else {
+        <p>Brukeren har ikke legget ut noe! Følg brukeren og få oppdateringer</p>
+    }
 </div>
 
 

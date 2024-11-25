@@ -5,6 +5,7 @@ namespace Aplzz.DAL;
 public interface IPostRepository
 {
     Task<IEnumerable<Post>> GetAll();
+    Task<IEnumerable<Post>> GellPostByUserId(int userId);
     Task<Post?> GetPostById(int id);
     Task Create(Post post);
     Task Update(Post post);
