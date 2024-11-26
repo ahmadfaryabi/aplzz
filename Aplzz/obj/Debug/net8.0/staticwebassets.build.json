@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y09PD5pdY6WBXql6Mih5VwevoDcgrRjJNLJRkc7Wwn4=",
+  "Hash": "hEw2FGUNzIoBvwhEEqwMOkvCwNmR8bMbnzOWph/A81U=",
   "Source": "Aplzz",
   "BasePath": "_content/Aplzz",
   "Mode": "Default",
@@ -528,6 +528,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Security-meme.png"
+    },
+    {
+      "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\Skjermbilde 2023-03-14 225329.png",
+      "SourceId": "Aplzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\",
+      "BasePath": "_content/Aplzz",
+      "RelativePath": "images/Skjermbilde 2023-03-14 225329.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-03-14 225329.png"
     },
     {
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",

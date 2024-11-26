@@ -96,7 +96,18 @@ body {
   background-color: #dcd3d3;
 }
 
+.warningMessage {
+  background-color: #e0d9d9;
+  color:#757272;
+  border-radius: 4px;
+  padding:5px 10px;
+}
 
+.warningMessage a {
+  color:#2865a7;
+  font-weight: bolder;
+  text-decoration: none;
+}
 
 .navbar_header {
   position:fixed;
@@ -119,7 +130,7 @@ body {
 .sideNavBar {
   background-color: #fff;
   position:fixed;
-  top:70px;bottom:0;width:200px;
+  top:60px;bottom:0;width:200px;
   display: flex;
   flex-direction: column;
 }
@@ -130,7 +141,7 @@ body {
 }
 
 .sideNavBar .divBtn:hover {
-  background-color: #828282;
+  background-color: #cdc9c9;
 }
 
 .form-group_ {
@@ -247,6 +258,7 @@ body {
 
 .fixed_dropDownMenu_navbar {
   position: fixed;
+  width: 200px;
   z-index: 999;
   background-color: #fff;
   box-shadow: 1px 5px 10px #828282;
@@ -264,6 +276,11 @@ body {
 .fixed_dropDownMenu_navbar .alts a {
   text-decoration: none;
   color:#353535;
+}
+
+.fixed_dropDownMenu_navbar .header {
+  padding:10px 20px;
+  border-bottom: 1px solid #d7cfcf;
 }
 
 .profileHeader {
@@ -299,10 +316,6 @@ body {
 }
 
 
-
-
-
-
 .aplzz_btn.postMoreBtn:focus .dropDownMenuContent {
   display: flex;
 }
@@ -310,8 +323,42 @@ body {
 .aplzz_div_flex {
 }
 
+.divContent.menuSideBarBtn {
+  display: none;
+}
+
+.menuProfilImg {
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  float: right;
+  cursor: pointer;
+}
+.menuProfilImg:hover {
+  background-color: #000;
+  opacity: 0.3;
+}
+
 @media screen and (max-width: 1100px){
   .sideNavBar {
     display: none;
+    box-shadow: 1px 2px 10px #a2a0a0;
+  }
+  .divContent.menuSideBarBtn {
+    padding-left:10px;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  .divContent.menuSideBarBtn:hover {
+    background-color: #cccccc;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .dropDownMenuContent {
+    width: 100%;
+    border-radius: 0px;
+    position: absolute;
   }
 }

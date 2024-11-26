@@ -17,6 +17,9 @@
 <body>
     <header> 
         <nav class="navbar_header">
+            <div class="divContent menuSideBarBtn" id="menuBtn">
+                <i class="fa fa-bars"></i>
+            </div>
             <div class="divContent" style="width:30%; margin-left:30px">
                 <a asp-controller="Post" asp-action="Index">
                     <img src="/images/aplzz.png" alt="APLZZ Logo" style="height: 40px;" />
@@ -24,11 +27,13 @@
             </div>
             <div class="divContent" style="width:40%; margin-left:30px">Søke felt</div>
             @if (HttpContextAccessor.HttpContext.Session.GetString("username") == null) {
-                <div class="divContent" style="width:30%;padding-right:30px"> <a asp-controller="Login" asp-action="Index"><button class="aplzz_btn menuBtnLogin" style="float:right">Logg inn</button></a> </div>
+                <div class="divContent" style="width:35%;padding-right:30px"> <a asp-controller="Login" asp-action="Index"><button class="aplzz_btn menuBtnLogin" style="float:right">Logg inn</button></a> </div>
             } else {
-                <div class="divContent" style="width:30%;padding-right:30px">
-                    <div class="aplzz_btn menuTopBtn" id="functionClick" onclick="openMoreBtn()">@HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</div>
+                <div class="divContent" style="width:25%;padding-right:30px">
+                 <img src="@HttpContextAccessor.HttpContext.Session.GetString("profilePicture")" class="menuProfilImg"
+                 id="functionClick" onclick="openMoreBtn()">
                     <div class="fixed_dropDownMenu_navbar">
+                        <div class="header"><b>Hei, @HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</b></div>
                         <div class="alts"> <a asp-controller="Login" asp-action="Logout"> <i class="fa fa-sign-out"></i> Logg av</a> </div>
                         <div class="alts"> <a asp-controller="AccountProfile" asp-action="Index">Profil</a> </div>
                     </div>
@@ -51,10 +56,137 @@
     <div class="aplzzContainer">
             @RenderBody()
     </div>
-    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function openMoreBtn() {
+            var navbarDD = document.getElementsByClassName("fixed_dropDownMenu_navbar")[0]
+            if(navbarDD.style.display == "none" || navbarDD.style.display == "") {
+                navbarDD.style.display = "flex"
+            } else {
+                navbarDD.style.display = "none"
+            }
+        }
+
+        function openDDPostMenu(countNr) {
+            var dropdownContent = document.getElementsByClassName("dropDownMenuContent")[countNr];
+            
+            if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+                dropdownContent.style.display = "flex";
+            } else {
+                dropdownContent.style.display = "none";
+            }
+        }
+
+        window.onclick = function(e) {
+            var dropdowns = document.getElementsByClassName("dropDownMenuContent");
+            for (var i = 0; i < dropdowns.length; i++) {
+                if (!e.target.closest('#btnIdDD')) {
+                    dropdowns[i].style.display = "none";
+                }
+            }
+            
+            if (!e.target.closest('.fixed_dropDownMenu_navbar') && !e.target.matches('#functionClick')) {
+                document.getElementsByClassName("fixed_dropDownMenu_navbar")[0].style.display = "none";
+            }
+        }
+
+        $(document).ready(function() {
+
+            $("#menuBtn").click(function(e) {
+                e.preventDefault();
+                $(".sideNavBar").toggle(500);
+            })
+            // Like button click event
+            $(".aplzz_btn.LikeBtn").click(function(e) {
+                e.preventDefault();
+                const button = $(this);
+                const errorDiv = button.siblings('.like-error');
+                const postId = button.data("post-id");
+                
+                button.prop('disabled', true);
+                
+                $.ajax({
+                    url: "/Post/LikePost",
+                    method: "POST",
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    data: { postId: postId },
+                    success: function(response) {
+                        $(".like-count").text(response.likesCount);
+                        button.toggleClass('liked', response.isLiked);
+                        
+                        const likeText = response.isLiked ? "Likt" : "Lik";
+                        button.find(".like-text").text(likeText);
+                        
+                        button.animate({ scale: 1.2 }, 100)
+                            .animate({ scale: 1.0 }, 100);
+                        
+                        errorDiv.hide();
+                    },
+                    error: function(xhr) {
+                        errorDiv.text("Kunne ikke prosessere like. Prøv igjen senere.").show();
+                    },
+                    complete: function() {
+                        button.prop('disabled', false);
+                    }
+                });
+            });
+
+            // Comment form submission
+            $(".comment-form").submit(function(e) {
+                e.preventDefault();
+                const form = $(this);
+                const postId = form.data("post-id");
+                const input = form.find(".comment-input");
+                const button = form.find("button");
+                const spinner = button.find(".spinner-border");
+                const errorDiv = form.siblings(".comment-error");
+                const commentsContainer = form.closest(".card-body").find(".comments-container");
+
+                const commentText = input.val().trim();
+                if (!commentText) return;
+
+                // Disable form and show loading state
+                button.prop("disabled", true);
+                spinner.removeClass("d-none");
+                errorDiv.hide();
+
+                $.ajax({
+                    url: "/Post/AddComment",
+                    method: "POST",
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    data: { postId: postId, commentText: commentText },
+                    success: function(response) {
+                        // Add new comment to UI
+                        const newComment = `
+                            <div class="border-top pt-2">
+                                <p>${response.text}</p>
+                                <small class="text-muted">${response.commentedAt}</small>
+                            </div>
+                        `;
+                        commentsContainer.prepend(newComment);
+                        
+                        // Clear input and reset form
+                        input.val("");
+                        form.closest(".collapse").collapse("hide");
+                    },
+                    error: function(xhr) {
+                        const error = xhr.responseJSON?.error || "Kunne ikke legge til kommentar. Prøv igjen senere.";
+                        errorDiv.text(error).show();
+                    },
+                    complete: function() {
+                        button.prop("disabled", false);
+                        spinner.addClass("d-none");
+                    }
+                });
+            });
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

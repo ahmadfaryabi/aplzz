@@ -19,13 +19,17 @@
                             <div class="header">
                                 <div style="padding:5px"> <img src="@post.GetUser.ProfilePicture" alt="Testbilde" 
                                 style="width:30px;height:30px;border-radius: 100%;"> </div>
-                                <div style="width:40%;padding:5px"> <b>@post.GetUser.Username</b></div>
-                                <div style="width:40%;justify_item:center"> 
+                                <div style="width:65%;padding:5px"> <b><a asp-controller="AccountProfile" asp-action="Index"
+                                asp-route-username="@post.GetUser.Username" style="color:#000; text-decoration: none;">@post.GetUser.Username</a></b>
+                                <br>
+                                <span class="text-muted" style="font-size:12px">@post.CreatedAt.ToString("dd.MM.yyyy HH:mm")</span>
+                                </div>
+                                <div style="width:35%;justify_item:center"> 
                                     <div class="dropDownMenu" style="width:100%">
                                         <button style="float:right" class="aplzz_btn postMoreBtn" id="btnIdDD" onclick="openDDPostMenu(@count)"><i style="font-size:24px" class="fa">&#xf141;</i></button>
                                     <div class="dropDownMenuContent" style="margin-top:50px;">
-                                        <a asp-route-id="@post.PostId" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
-                                        <a asp-route-id="@post.PostId" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
+                                        <a asp-route-id="@post.PostId" asp-controller="Post" asp-action="Update"><div class="link"><i class="fa fa-edit"></i> Rediger</div></a>
+                                        <a asp-route-id="@post.PostId" asp-controller="Post" asp-action="Delete"><div class="link" style="color:red"><i class="fa fa-trash"></i> Slett</div></a>
                                         <a><div class="link">Rapporter</div></a>
                                     </div>
                                     </div>
@@ -36,8 +40,8 @@
                                 <img src="@post.ImageUrl" class="card-img-top" alt="Post bilde">
                             }
                             <div class="card-body">
-                                <h5 class="card-title">@post.Content</h5>
-                                <p class="text-muted">Postet: @post.CreatedAt.ToString("dd.MM.yyyy HH:mm")</p>
+                                <span style="font-size: 17px;">@post.Content</span>
+                                <p></p>
 
                                 <!-- Like Button with AJAX -->
                                 @{
@@ -67,7 +71,7 @@
                                             <div class="comment-error text-danger mt-2" style="display: none;"></div>
                                         </div>
                                     } else {
-                                        <p>Du må logge inn for å reagere eller kommentare innlegg!</p>
+                                        <div class="warningMessage"><i class="fa fa-info-circle"></i> Du må <a asp-controller="Login" asp-action="Index">logge inn</a> for å reagere eller kommentare innlegg!</div>
                                     }
                                 }
 

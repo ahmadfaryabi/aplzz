@@ -125,6 +125,11 @@ namespace Aplzz.Controllers
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
+            // only people with same id will delete/edit their own posts!
+            if(int.Parse(HttpContext.Session.GetString("id")) != post.UserId) {
+                return View("NoAccess", post);
+            }
+
             return View(post);
         }
 
@@ -186,6 +191,12 @@ namespace Aplzz.Controllers
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
+
+            // only people with same id will delete/edit their own posts!
+            if(int.Parse(HttpContext.Session.GetString("id")) != post.UserId) {
+                return View("NoAccess", post);
+            }
+
             return View(post);
         }
 
