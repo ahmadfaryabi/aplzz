@@ -6,6 +6,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 
 namespace Aplzz.Controllers
 {
@@ -90,27 +91,25 @@ namespace Aplzz.Controllers
         [HttpPost]
         public async Task<IActionResult> AddComment(int postId, string commentText)
         {
-            if (!string.IsNullOrEmpty(commentText))
+            if (string.IsNullOrWhiteSpace(commentText))
             {
-                var comment = new Comment
-                {
-                    Text = commentText,
-                    CommentedAt = DateTime.Now,
-                    PostId = postId,
-                    UserId = int.Parse(HttpContext.Session.GetString("id"))
-                };
-
-                var result = await _postRepository.AddComment(comment);
-                if (!result)
-                {
-                    return BadRequest(new { error = "Kunne ikke legge til kommentar" });
-                }
-                return Json(new { 
-                    text = comment.Text,
-                    commentedAt = comment.CommentedAt.ToString("dd.MM.yyyy HH:mm")
-                });
+                return BadRequest(new Dictionary<string, string> { { "error", "Kommentartekst kan ikke være tom" } });
             }
-            return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
+
+            var comment = new Comment
+            {
+                PostId = postId,
+                Text = commentText,
+                CommentedAt = DateTime.Now
+            };
+
+            var success = await _postRepository.AddComment(comment);
+            if (!success)
+            {
+                return BadRequest(new Dictionary<string, string> { { "error", "Kunne ikke legge til kommentar" } });
+            }
+
+            return Json(new { text = commentText, commentedAt = comment.CommentedAt });
         }
 
         [HttpGet]
