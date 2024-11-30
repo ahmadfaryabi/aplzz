@@ -91,7 +91,7 @@ public class LoginController : Controller
       // check username exist
       if(checkName == true) {
         TempData["ErrorUserName"] = "Username exist already choose another one";
-        _logger.LogWarning("[LoginController] Register failed,Username already exists for userr");
+        _logger.LogWarning("[LoginController] Register failed,Username already exists for userr.");
       }
 
       if(userr.ProfilePicture == null) {
