@@ -35,7 +35,7 @@
                     <div class="fixed_dropDownMenu_navbar">
                         <div class="header"><b>Hei, @HttpContextAccessor.HttpContext.Session.GetString("firstname") @HttpContextAccessor.HttpContext.Session.GetString("aftername")</b></div>
                         <div class="alts"> <a asp-controller="Login" asp-action="Logout"> <i class="fa fa-sign-out"></i> Logg av</a> </div>
-                        <div class="alts"> <a asp-controller="AccountProfile" asp-action="Index">Profil</a> </div>
+                        <div class="alts"> <a asp-area="" asp-controller="AccountProfile" asp-action="Index" asp-route-username="@username">Profil</a> </div>
                     </div>
                 </div>
             }
@@ -55,6 +55,9 @@
     </div>
     <div class="aplzzContainer">
             @RenderBody()
+    </div>
+    <div class="modalWebsite" id="modalWebsite">
+        <div class="modalContent"></div>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -92,12 +95,17 @@
             }
         }
 
+        function openUserModal(brukernavn) {
+                document.getElementById("modalWebsite").style.display ="block"
+                $(".modalContent").load("/AccountProfile/Update/"+brukernavn+" body");       
+        }
+
         $(document).ready(function() {
 
             $("#menuBtn").click(function(e) {
                 e.preventDefault();
                 $(".sideNavBar").toggle(500);
-            })
+            });
             // Like button click event
             $(".aplzz_btn.LikeBtn").click(function(e) {
                 e.preventDefault();

@@ -56,7 +56,18 @@ namespace Aplzz.Controllers
 
             return View(model);
         }
+        [Route("AccountProfile/Update/{username}")]
+        public async Task<IActionResult> Update(string username) {
+            var user = await _accountRepository.GetUserInfo(username);
+            if(user == null) {
+                return View("NotFound", user);
+            }
+
+            return View(user);
+        }
     }
+
+
 
 }
             

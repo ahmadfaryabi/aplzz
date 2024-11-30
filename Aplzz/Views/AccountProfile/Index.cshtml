@@ -12,7 +12,7 @@
         <div class="names" style="margin-bottom:10px"><b>@Model.GetUserInfo.Firstname @Model.GetUserInfo.Aftername -- @Model.GetUserInfo.Username</b></div>
         @if(HttpContextAccessor.HttpContext.Session.GetString("username") == Model.GetUserInfo.Username 
         && HttpContextAccessor.HttpContext.Session.GetString("id") != null) {
-            <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Rediger</button> </div>
+            <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton" id="editBtn_user" onclick="openUserModal('@Model.GetUserInfo.Username')">Rediger</button> </div>
         } else {
             <div class="settings" style="margin-bottom:10px"> <button class="aplzz_btn primaryButton">Følg</button> </div>
         }

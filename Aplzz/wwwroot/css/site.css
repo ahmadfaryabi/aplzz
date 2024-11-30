@@ -148,6 +148,53 @@ body {
   margin:10px;
 }
 
+.modalWebsite {
+  background-color: #000;
+  background-color: rgb(0,0,0, 0.4);
+  position: fixed;
+  display: none;
+  top:0;left: 0;right: 0;bottom: 0;
+  z-index: 1000;
+}
+
+.modalWebsite .modalContent {
+  margin: auto;
+  margin-top: 5%;
+  max-width: 800px;
+  background-color: #fff;
+}
+
+.modalWebsite .modalContent .header {
+  padding: 15px 20px;
+  border-bottom: #b9afaf;
+  display: flex;
+  flex-direction: row;
+}
+
+.modalWebsite .modalContent .body {
+  padding:10px 15px;
+}
+
+.modalWebsite .modalContent .body .contentBody {
+  padding:10px 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #cccccc;
+}
+
+.modalWebsite .modalContent .footer {
+  padding:10px 15px;
+}
+
+input {
+  padding:5px 10px;
+  border-radius: 5px;
+  border:1px solid #c1bfbf;
+  font-size: 15px;
+  width: 100%;
+}
+
+
 .like-button {
   transition: all 0.3s ease;
 }

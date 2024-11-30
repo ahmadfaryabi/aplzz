@@ -1,36 +1,46 @@
-@model Aplzz.Models.AccountProfile
+@model Aplzz.Models.User
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
 
 @{
     ViewData["Title"] = "Edit Profile";
 }
-
-<h2>Edit Profile</h2>
-
-<form asp-action="Update" method="post">
-    <input type="hidden" asp-for="AccountId" />
-
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Bio"></label>
-        <textarea asp-for="Bio" class="form-control"></textarea>
-        <span asp-validation-for="Bio" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="ProfilePicture"></label>
-        <input asp-for="ProfilePicture" class="form-control" />
-        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Save Changes</button>
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-</form>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+        <div class="modalContent">
+            <div class="header">
+                <div style="width:80%">
+                    <span style="font-size: 20px;font-weight: bolder;">Endre profil</span>
+                </div>
+                <div style="width:20%"> Lukk </div>
+            </div>
+            <div class="body">
+                <div class="contentBody">
+                    <div style="width:50%">
+                        <span>Profilbildet</span>
+                    </div>
+                    <div style="width:50%;align-self: center;display:flex;
+                        align-items:center;justify-content: center;">
+                        <img src="@Model.ProfilePicture" alt="" style="width:100px;height:100px">
+                    </div>                    
+                </div>
+                  <div class="contentBody">
+                    <div style="width:50%">
+                        <span>Brukernavn</span>
+                    </div>
+                    <div style="width:50%;align-items: center;">
+                        <input type="text" value="@Model.Username" disabled>
+                    </div>                    
+                </div>
+                  <div class="contentBody">
+                    <div style="width:50%">
+                        <span>Fornavn og Etternavn</span>
+                    </div>
+                    <div style="width:50%">
+                        <input type="text" value="@Model.Firstname" placeholder="Fornavn">
+                        <p></p>
+                        <input type="text" value="@Model.Aftername" placeholder="Etternavn">
+                    </div>                    
+                </div>            
+            </div>
+            <div class="footer">
+                <button class="aplzz_btn primaryButton">Lagre</button>
+            </div>
+        </div>
