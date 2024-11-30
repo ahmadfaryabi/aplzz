@@ -33,15 +33,21 @@ namespace Aplzz.Controllers
         [Route("AccountProfile/{username}")]
         public async Task<IActionResult> Index(string username)
         {
-            if(username == "" || username == null) {
+            if(string.IsNullOrEmpty(username)) {
+                _logger.LogError("[AccountProfileController] username is null or empty");
                 return View("NotFound", username);
             }
             var user = await _accountRepository.GetUserInfo(username);
             if(user == null) {
+                _logger.LogError("[AccountProfileController] user not found");
+
                 return View("NotFound", user);
             }
 
             var posts = await _postRepository.GellPostByUserId(user.IdUser);
+             if(posts==null){
+                _logger.LogError("[AccountProfileController] posts not found for UserId :{UserId}",user.IdUser);
+             }
 
             var model = new AccountViewModel {
                 GetUserInfo = user,

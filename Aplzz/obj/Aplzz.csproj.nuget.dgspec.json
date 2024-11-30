@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {}
+    "C:\\Users\\vansa\\Desktop\\ITPE3200\\Aplzz\\Aplzz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj": {
+    "C:\\Users\\vansa\\Desktop\\ITPE3200\\Aplzz\\Aplzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
+        "projectUniqueName": "C:\\Users\\vansa\\Desktop\\ITPE3200\\Aplzz\\Aplzz.csproj",
         "projectName": "Aplzz",
-        "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\Aplzz.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\aplzz\\aplzz\\Aplzz\\obj\\",
+        "projectPath": "C:\\Users\\vansa\\Desktop\\ITPE3200\\Aplzz\\Aplzz.csproj",
+        "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vansa\\Desktop\\ITPE3200\\Aplzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
