@@ -8,11 +8,12 @@ namespace Aplzz.Models
         [Key]
         public int AccountId { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string? Username { get; set; }
+        [Required(ErrorMessage ="Username required")]
+        [RegularExpression(@"^[0-9a-zA-ZæøåÆØÅ.\-]{2,100}$",
+           ErrorMessage ="Username must only contain letters or numbers,and be  between 2 to 100 characters.")]
+         public string? Username { get; set; }
 
-        [MaxLength(500)]
+        [MaxLength(200)]
         public string? Bio { get; set; }
 
         [MaxLength(250)]

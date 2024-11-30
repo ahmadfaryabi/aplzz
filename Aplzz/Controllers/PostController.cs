@@ -32,7 +32,7 @@ namespace Aplzz.Controllers
             }
             catch (Exception e)
             {
-                _logger.LogError("[PostController] Failed to fetch posts: {e}", e.Message);
+                _logger.LogError(e,"[PostController] Failed to fetch posts: {e}", e.Message);
                 return BadRequest("Failed to fetch posts");
             }
         }
@@ -41,9 +41,11 @@ namespace Aplzz.Controllers
         public IActionResult Create()
         {
             if(HttpContext.Session.GetString("username") == null) {
+                _logger.LogWarning("[PostController] access not authorised to create. ");
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
+            
             return View();
         }
 
@@ -82,14 +84,16 @@ namespace Aplzz.Controllers
                 }
             }
             if(HttpContext.Session.GetString("username") == null) {
+                _logger.LogWarning("[PostController] unauthorzed attempt to create post");
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
+            _logger.LogWarning("[PostController] post creation has failed {@post}",post);
             return View(post);
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddComment(int postId, string commentText)
+         public async Task<IActionResult> AddComment(int postId, string commentText)
         {
             if (string.IsNullOrWhiteSpace(commentText))
             {
@@ -111,21 +115,25 @@ namespace Aplzz.Controllers
 
             return Json(new { text = commentText, commentedAt = comment.CommentedAt });
         }
-
+        
+        
         [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] Post not found when updating the postId {postId:0000}",id);
+                return NotFound("post not found");
             }
             if(HttpContext.Session.GetString("username") == null) {
+                _logger.LogWarning("[PostController] Unauthorised attemp to update postId {postId:0000}",id);
                 // logg inn først for å entre siden
                 return RedirectToAction("Index", "Login");
             }
             // only people with same id will delete/edit their own posts!
             if(int.Parse(HttpContext.Session.GetString("id")) != post.UserId) {
+                _logger.LogWarning("[PostController] Unauthorised attemp to update postId {postId:0000}",id);
                 return View("NoAccess", post);
             }
 
@@ -140,7 +148,8 @@ namespace Aplzz.Controllers
                 var originalPost = await _postRepository.GetPostById(id);
                 if (originalPost == null)
                 {
-                    return NotFound();
+                    _logger.LogError("[PostController] Post not found for update id {id:0000}.",id);
+                    return NotFound("post not foungd");
                 }
 
                 // Update only the necessary properties
@@ -184,7 +193,8 @@ namespace Aplzz.Controllers
             var post = await _postRepository.GetPostById(id);
             if (post == null)
             {
-                return NotFound();
+                _logger.LogError("[PostController] post not found for postId {postId:0000}",id);
+                return NotFound("post not found");
             }
             if(HttpContext.Session.GetString("username") == null) {
                 // logg inn først for å entre siden
@@ -205,7 +215,8 @@ namespace Aplzz.Controllers
             var result = await _postRepository.Delete(id);
             if (!result)
             {
-                return NotFound();
+                _logger.LogError("[PostController] deleting post failed for postId {postId:0000}",id);
+                return BadRequest("post deletion failed");
             }
             return RedirectToAction(nameof(Index));
         }

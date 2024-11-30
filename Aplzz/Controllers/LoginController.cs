@@ -21,11 +21,19 @@ public class LoginController : Controller
 
   public IActionResult Index() 
   {
-    if(HttpContext.Session.GetString("username") != null) {
-      return RedirectToAction("Index", "Post");
-    } else {
-      return View();
+    try{
+
+      if(HttpContext.Session.GetString("username") != null) {
+          return RedirectToAction("Index", "Post");
+    } 
+       return View();
+
+    }catch(Exception e){
+      _logger.LogError(e,"[LoginController] login page failed.");
+       return BadRequest("Failure!please try again later.");
+
     }
+    
   }
 
  [HttpPost]
@@ -47,9 +55,11 @@ public class LoginController : Controller
       }
       return RedirectToAction("Index", "Post");
     } else {
+      _logger.LogWarning("[LoginController] invalid login for password :{Password} and email :{Email}",loginModel.Email,loginModel.Password);
       TempData["ErrorMessage"] = "E-mail or password is incorrect or account does not exist!";
     }
   }
+  _logger.LogWarning("[LoginController] Invalid login model.");
   return View();
  } 
 
@@ -81,6 +91,7 @@ public class LoginController : Controller
       // check username exist
       if(checkName == true) {
         TempData["ErrorUserName"] = "Username exist already choose another one";
+        _logger.LogWarning("[LoginController] Register failed,Username already exists for userr");
       }
 
       if(userr.ProfilePicture == null) {
@@ -89,6 +100,7 @@ public class LoginController : Controller
 
       if(checkEmail == true) {
         TempData["ErrorEmail"] = "Email exist already choose another one";
+        _logger.LogWarning("[LoginController] Register failed,Email already exists for userr");
       }
       if(checkName == false && checkEmail == false) {
         _userDB.Users.Add(userr);
@@ -96,7 +108,8 @@ public class LoginController : Controller
         TempData["SuccessMsg"] = "Account successfully added. Login now!";
       }
     }
-    return View();
+   _logger.LogWarning("[LoginController] User registration failed for userModel {@userModel}",userModel);
+    return View(userModel);
   }
 
   public bool CheckUserName(string Username) {
@@ -111,6 +124,7 @@ public class LoginController : Controller
   }
 
   public IActionResult Logout() {
+
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");
   }
