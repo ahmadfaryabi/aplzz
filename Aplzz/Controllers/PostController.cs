@@ -97,6 +97,8 @@ namespace Aplzz.Controllers
         {
             if (string.IsNullOrWhiteSpace(commentText))
             {
+                _logger.LogWarning("[PostController] commenttext empty for postId {postId}",postId);
+
                 return BadRequest(new Dictionary<string, string> { { "error", "Kommentartekst kan ikke være tom" } });
             }
 
@@ -110,6 +112,7 @@ namespace Aplzz.Controllers
             var success = await _postRepository.AddComment(comment);
             if (!success)
             {
+                _logger.LogWarning("[PostController] adding comment failed for postId {postId}",postId);
                 return BadRequest(new Dictionary<string, string> { { "error", "Kunne ikke legge til kommentar" } });
             }
 
